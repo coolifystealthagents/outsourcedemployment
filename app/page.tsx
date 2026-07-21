@@ -1,30 +1,163 @@
 import * as data from './data';
 import { Header, Footer, JsonLd } from './components';
-const d=data as any;
-const site=d.site||{};
-const services=(d.services||d.roles||d.industries||[]).slice(0,4);
-const posts=(d.blogPosts||[]).slice(0,3);
-const stats=(d.stats||[]).slice(0,3);
-const offer=d.staffingOffer||{};
-const pretty=(v:any)=>String(v||'virtual assistant support').replace(/\b\w/g,(m)=>m.toUpperCase());
-const title=(x:any)=>typeof x==='string'?x:(x.title||x.name||x.label||x.question||'Assistant role');
-const text=(x:any)=>typeof x==='string'?x:(x.desc||x.excerpt||x.note||x.body||(x.bestFor?`Best for ${x.bestFor.join(', ')}`:'Clear tasks, safe access, and review rules.'));
-const slug=(x:any)=>(x.slug||title(x).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,''));
-const primary=site.primary||site.brand||'virtual assistant support';
-const rolePhrase=String(primary).toLowerCase()
-  .replace(/^best\s+/,'')
-  .replace(/(company|companies|services|service|provider|providers)/g,'')
-  .replace(/(outsource|outsourced|outsourcing|offshore|overseas)/g,'')
-  .replace(/\s+/g,' ')
-  .trim() || 'business support';
-const roleLabel=pretty(rolePhrase.includes('assistant')?rolePhrase:`${rolePhrase} support`).replace(/\bVa\b/g,'VA');
-const domain=site.domain||site.brand||'Staffing Guide';
-const heroImage=site.heroImage||site.serviceImage||'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80';
-const tagline=site.angle||site.audience||'managed hiring support with clear scope, safe access, onboarding, and quality checks';
-export default function Home(){const schema={'@context':'https://schema.org','@type':'WebSite',name:site.brand,url:`https://${domain}`};return <><Header/><main className="belay"><JsonLd data={schema}/>
-<section className="hero"><div className="container hero-grid"><div className="copy"><p className="eyebrow">Premium staffing match</p><h1>Hire managed {roleLabel} without screening alone.</h1><p className="lead">Get clear communicators, business-hour coverage, and a managed launch plan for {tagline}.</p><div className="actions"><a className="btn primary" href="/contact">Request staffing plan</a><a className="btn secondary" href="#tasks">Get task ideas</a></div><p className="risk">No public rate card. Share the role first, then get a practical scope.</p></div><div className="match-card"><div className="portrait-wrap"><img src={heroImage} alt={site.alt||`${site.brand||roleLabel} managed staffing visual`}/><span className="badge">Top-fit match</span></div><div className="task-note note-a"><b>Daily handoff</b><span>clear owner brief</span></div><div className="task-note note-b"><b>Quality checks</b><span>work reviewed weekly</span></div><div className="task-note note-c"><b>21-day launch</b><span>scope → shadow → live QA</span></div></div></div><div className="container proof-bar"><span>Right role before right hire</span>{stats.length?stats.map((s:any,i:number)=><b key={i}>{s.value||s.label}</b>):['Scope first','7-21 days','5-10 tasks'].map((x,i)=><b key={i}>{x}</b>)}</div></section>
-<section className="container section" id="tasks"><div className="split-head"><div><p className="eyebrow">Task ideas</p><h2>Start with work that repeats every week.</h2></div><p>Inspired by premium VA and outsourcing competitors: make the hire feel human, specific, and low risk before the contact form.</p></div><div className="task-grid">{services.map((s:any,i:number)=><a key={i} href={`/services/${slug(s)}`}><span>{String(i+1).padStart(2,'0')}</span><h3>{title(s)}</h3><p>{text(s)}</p><b>See handoff →</b></a>)}</div></section>
-<section className="relationship"><div className="container rel-grid"><div><p className="eyebrow">Managed, not marketplace</p><h2>Your staffing plan should come with backup, onboarding, and quality checks.</h2></div><div className="rel-list">{(offer.included||['role planning call','candidate matching','onboarding guidance','managed support']).slice(0,4).map((x:string,i:number)=><article key={i}><span>✓</span><p>{x}</p></article>)}</div></div></section>
-<section className="container section guide-row"><div><p className="eyebrow">Before you hire</p><h2>Short guides for safer staffing decisions.</h2></div>{posts.map((p:any,i:number)=><a href={`/blog/${p.slug}`} key={i}><span>{p.minutes||7} min</span><strong>{title(p)}</strong><p>{text(p)}</p></a>)}</section>
-<section className="container final"><h2>Request the staffing plan before you interview.</h2><a className="btn primary" href="/contact">Request staffing plan</a></section>
-</main><Footer/></>}
+
+const services = data.services.slice(0, 4);
+const posts = data.blogPosts.slice(0, 3);
+
+const models = [
+  {
+    number: '01',
+    title: 'Employer of record',
+    fit: 'Hiring an employee in a country where you do not have an entity.',
+    watch: 'Ask who owns the local entity, handles payroll, and responds when employment rules change.',
+  },
+  {
+    number: '02',
+    title: 'Offshore staffing',
+    fit: 'Building a dedicated remote role with recruiting and ongoing support from a staffing provider.',
+    watch: 'Check who manages attendance, coaching, equipment, replacement, and day-to-day quality.',
+  },
+  {
+    number: '03',
+    title: 'Contractor support',
+    fit: 'Bringing in independent help for work with a clear scope and limited direction.',
+    watch: 'A contract label does not settle worker classification. Get advice for your location and setup.',
+  },
+];
+
+const serviceText = (service: (typeof services)[number]) => service.desc.replace(/\.$/, '');
+
+export default function Home() {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: data.site.brand,
+    url: `https://${data.site.domain}`,
+    description: 'Independent guides to outsourced employment models, role planning, provider questions, and onboarding.',
+  };
+
+  return (
+    <>
+      <Header />
+      <main className="field-guide" data-design="employment-field-guide-2026-07">
+        <JsonLd data={schema} />
+
+        <section className="oe-hero">
+          <div className="oe-shell oe-hero-grid">
+            <div className="oe-hero-copy">
+              <p className="oe-kicker"><span /> Independent employment guide</p>
+              <h1>Build the role before you choose the hiring model.</h1>
+              <p className="oe-intro">
+                Employer of record, offshore staffing, contractor support: the names blur together fast. Start with the work, the country, and the level of control you need. Then compare providers on the same brief.
+              </p>
+              <div className="oe-actions">
+                <a className="oe-button oe-button-primary" href="/contact">Request a staffing plan</a>
+                <a className="oe-text-link" href="#models">Compare the models <span aria-hidden="true">↘</span></a>
+              </div>
+              <p className="oe-disclosure">This is an independent information site. We may route your request to a staffing partner that fits the brief.</p>
+            </div>
+
+            <div className="oe-hero-visual">
+              <div className="oe-photo-frame">
+                <img src="/remote-team-planning.jpg" alt="Remote colleagues discussing a role plan together" />
+              </div>
+              <aside className="oe-brief-card" aria-label="Example role brief">
+                <p>Role brief / 001</p>
+                <h2>Customer operations</h2>
+                <dl>
+                  <div><dt>Owns</dt><dd>Inbox triage and CRM notes</dd></div>
+                  <div><dt>Escalates</dt><dd>Refunds and policy exceptions</dd></div>
+                  <div><dt>Review</dt><dd>Daily samples for week one</dd></div>
+                </dl>
+                <span className="oe-brief-status">Ready to compare</span>
+              </aside>
+              <div className="oe-stamp" aria-hidden="true">Scope first<br />hire second</div>
+            </div>
+          </div>
+        </section>
+
+        <section className="oe-models" id="models">
+          <div className="oe-shell">
+            <div className="oe-section-head">
+              <p className="oe-kicker"><span /> Pick the arrangement</p>
+              <div>
+                <h2>Similar sales pitch. Different relationship.</h2>
+                <p>Before asking for candidates, find out who employs the worker, who directs the work, and who handles the messy parts when something changes.</p>
+              </div>
+            </div>
+            <div className="oe-model-grid">
+              {models.map((model) => (
+                <article className="oe-model-card" key={model.number}>
+                  <span className="oe-model-number">{model.number}</span>
+                  <h3>{model.title}</h3>
+                  <p className="oe-fit-label">A sensible fit when</p>
+                  <p>{model.fit}</p>
+                  <div className="oe-watch"><strong>What to pin down</strong><p>{model.watch}</p></div>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="oe-work" id="work">
+          <div className="oe-shell oe-work-grid">
+            <div className="oe-work-intro">
+              <p className="oe-kicker oe-kicker-light"><span /> Define the work</p>
+              <h2>A useful brief sounds like a Tuesday, not a job ad.</h2>
+              <p>List the recurring work, the decisions that stay with your team, and how someone will check the first outputs. That gives a provider something real to screen for.</p>
+              <a className="oe-button oe-button-light" href="/contact">Request a staffing plan</a>
+            </div>
+            <div className="oe-service-list">
+              {services.map((service, index) => (
+                <a href={`/services/${service.slug}`} className="oe-service-row" key={service.slug}>
+                  <span>{String(index + 1).padStart(2, '0')}</span>
+                  <div><h3>{service.title}</h3><p>{serviceText(service)}.</p></div>
+                  <b aria-hidden="true">↗</b>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="oe-process">
+          <div className="oe-shell">
+            <div className="oe-section-head oe-process-head">
+              <p className="oe-kicker"><span /> A cleaner start</p>
+              <div><h2>Three conversations worth having before the contract.</h2></div>
+            </div>
+            <ol className="oe-process-list">
+              <li><span>01</span><div><h3>Draw the relationship</h3><p>Put your company, the provider, and the worker on one page. Label who signs the agreement, runs payroll, sets priorities, and handles problems.</p></div></li>
+              <li><span>02</span><div><h3>Test the actual work</h3><p>Use a small sample from the role. Agree on what good looks like and who will review it. A generic skills test will not tell you enough.</p></div></li>
+              <li><span>03</span><div><h3>Plan the first week</h3><p>Start with narrow access, named review times, and an escalation list. Add responsibility after the work holds up, not before.</p></div></li>
+            </ol>
+          </div>
+        </section>
+
+        <section className="oe-guides">
+          <div className="oe-shell">
+            <div className="oe-guides-title"><p className="oe-kicker"><span /> Buyer notes</p><h2>Read before the sales call.</h2><a href="/blog">All guides</a></div>
+            <div className="oe-guide-grid">
+              {posts.map((post, index) => (
+                <a href={`/blog/${post.slug}`} key={post.slug}>
+                  <span>Note {String(index + 1).padStart(2, '0')} · {post.minutes} min</span>
+                  <h3>{post.title.replace('Outsourced Employment: ', '')}</h3>
+                  <p>{post.excerpt}</p>
+                  <b>Read note</b>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="oe-final">
+          <div className="oe-shell oe-final-card">
+            <p>Have a task list, even if it is messy?</p>
+            <h2>Turn it into a role a provider can answer properly.</h2>
+            <a className="oe-button oe-button-primary" href="/contact">Request a staffing plan</a>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </>
+  );
+}
