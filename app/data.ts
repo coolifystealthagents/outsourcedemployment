@@ -3,7 +3,7 @@ export const site = {
   "slug": "outsourcedemployment",
   "brand": "Outsourced Employment",
   "primary": "outsourced employment",
-  "audience": "leaders comparing outsourced employment, staffing, and remote team models",
+  "audience": "leaders comparing employment models for Filipino talent",
   "angle": "employment models, compliance questions, role fit, and onboarding plans",
   "style": "Hiring pipeline magazine",
   "dark": "#2e1065",
@@ -19,7 +19,7 @@ export const services = [
   {
     "slug": "operations-support",
     "title": "Operations Support",
-    "desc": "Operations support for teams that need recurring back-office work handled with clear SOPs, weekly review, and measured handoffs.",
+    "desc": "Operations support from Filipino talent for teams that need recurring back-office work handled with clear SOPs, weekly review, and measured handoffs.",
     "bestTasks": [
       "Update task boards, CRM fields, reports, and handoff notes",
       "Prepare recurring spreadsheets, vendor follow-ups, and meeting notes",
@@ -49,7 +49,7 @@ export const services = [
   {
     "slug": "customer-support",
     "title": "Customer Support",
-    "desc": "Customer support staffing for teams that need inbox, chat, ticket, and follow-up help without giving away sensitive decisions too soon.",
+    "desc": "Customer support staffing from the Philippines for teams that need inbox, chat, ticket, and follow-up help without giving away sensitive decisions too soon.",
     "bestTasks": [
       "Answer common tickets with approved macros and examples",
       "Tag issues, update CRM notes, and route edge cases to the owner",
@@ -79,7 +79,7 @@ export const services = [
   {
     "slug": "admin-support",
     "title": "Admin Support",
-    "desc": "Admin support for founders and teams that want email, calendar, document, and follow-up work handled without losing control.",
+    "desc": "Admin support from Filipino talent for founders and teams that want email, calendar, document, and follow-up work handled without losing control.",
     "bestTasks": [
       "Clean inboxes, draft replies, and sort messages by urgency",
       "Book meetings, update calendars, and prepare agendas",
@@ -109,7 +109,7 @@ export const services = [
   {
     "slug": "reporting-and-qa",
     "title": "Reporting and QA",
-    "desc": "Reporting and QA support for teams that need cleaner scorecards, issue tracking, and review notes from outsourced employment roles.",
+    "desc": "Reporting and QA support from the Philippines for teams that need cleaner scorecards, issue tracking, and review notes.",
     "bestTasks": [
       "Prepare weekly scorecards, defect logs, and status reports",
       "Check samples against SOPs and flag missing fields or late work",
@@ -222,7 +222,7 @@ export const blogDetails: Record<string, BlogDetail> = {
         id: 'access-exit',
         title: 'Plan access, problems, and the exit',
         paragraphs: [
-          'Remote staff may need email, files, customer records, or business software. Ask the provider how it supports separate user accounts, multifactor authentication, and access removal. CISA recommends strong passwords and multifactor authentication. NIST\'s Cybersecurity Framework gives businesses a way to discuss risk, protection, detection, response, and recovery. These sources do not approve a provider. They give you a better set of controls to ask about.',
+          'Filipino staff may need email, files, customer records, or business software. Ask the Philippines provider how it supports separate user accounts, multifactor authentication, and access removal. CISA recommends strong passwords and multifactor authentication. NIST\'s Cybersecurity Framework gives businesses a way to discuss risk, protection, detection, response, and recovery. These sources do not approve a provider. They give you a better set of controls to ask about.',
           'Keep the first access list narrow. The worker should receive only the systems and records needed for the first tasks. Name someone on your team who can grant, review, and remove access. Shared passwords and broad admin rights make a staffing change much harder than it needs to be.',
           'Read the exit terms before launch. Ask about notice, final invoices, account removal, file return, and replacement support. If a worker leaves, you need a clear owner for open work and customer messages. A replacement promise is useful only when the contract states the conditions, timing, and possible fees.',
         ],
@@ -295,23 +295,17 @@ export const blogDetails: Record<string, BlogDetail> = {
   },
 };
 
-export const stats = [
-  { label: 'Typical savings target', value: '30-60%', note: 'depends on role, management, and local hiring plan' },
-  { label: 'Best pilot length', value: '14 days', note: 'enough time to test quality before scaling' },
-  { label: 'Start with', value: '5-10 tasks', note: 'clear recurring tasks beat vague job descriptions' }
-] as const;
-
 export const staffingOffer = {
-  partner: 'our staffing team',
-  promise: 'Get a managed offshore staffing plan built around the work you need removed from your plate.',
+  partner: 'a Philippines staffing team',
+  promise: 'Get a Philippines staffing plan built around the work you need removed from your plate.',
   fit: [
-    'business owners who need reliable remote staff but do not want to screen alone',
-    'teams that want trained support, backup coverage, and a clear manager path',
-    'companies that need help with admin, operations, customer support, calls, bookkeeping, development, or marketing work',
+    'business owners who need reliable Filipino talent but do not want to screen alone',
+    'teams that want Philippines-based support, backup coverage, and a clear manager path',
+    'companies building a Philippines team for admin, operations, customer support, calls, bookkeeping, development, or marketing work',
   ],
   included: [
     'role planning call to turn your task list into a clear staffing scope',
-    'candidate matching based on skills, schedule, tools, and communication needs',
+    'Filipino candidate matching based on skills, schedule, tools, and communication needs',
     'onboarding guidance for SOPs, scorecards, reporting, and safe tool access',
     'managed support so quality, attendance, and replacement questions do not sit only on the owner',
   ],
@@ -333,9 +327,9 @@ export const leadQuestions = [
 
 export const staffingProcess = [
   { step: '1', title: 'Map the role', body: 'We turn messy tasks into one clear role with outcomes, tools, limits, and a first-week checklist.' },
-  { step: '2', title: 'Match the staff', body: 'our staffing team can help match remote staff to the work, schedule, communication style, and skill level you need.' },
+  { step: '2', title: 'Match the staff', body: 'A Philippines staffing team can match Filipino talent to the work, schedule, communication style, and skill level you need.' },
   { step: '3', title: 'Launch with control', body: 'Start with SOPs, sample work, limited access, daily review, and a simple scorecard so quality is easy to see.' },
   { step: '4', title: 'Scale what works', body: 'Once the first tasks are stable, add more work, better reporting, and stronger delegation without guessing.' },
 ] as const;
 
-export const staffingFitNote = 'Every staffing plan depends on role scope, schedule, skills, tools, and management needs. Send the role details and our staffing team can guide the best fit.';
+export const staffingFitNote = 'Every plan is for talent recruited and hired in the Philippines. Send the role scope, schedule, tools, and management needs so a Philippines staffing team can assess the fit.';

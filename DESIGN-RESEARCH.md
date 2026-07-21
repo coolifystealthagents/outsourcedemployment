@@ -62,13 +62,15 @@ The new homepage is an independent "employment field guide," not an EOR product 
 
 - ink-blue editorial type on warm parchment;
 - a cobalt action color and sharp coral details instead of Oyster's charcoal and acid yellow;
-- a full-height, locally hosted image of a real remote team conversation;
+- a full-height, locally hosted image of colleagues working together around a shared table;
 - a layered "role brief" card over the image, replacing product dashboard mockups;
 - a model selector laid out like annotated file tabs;
 - an honest three-step path from role definition to provider questions;
 - no pricing cards, customer logos, awards, review counts, savings claims, or invented performance figures.
 
 The composition borrows the winner's warmth, rounded image treatment, and human/product balance. It does not copy Oyster's wording, brand assets, badge wall, map graphics, or exact layout.
+
+The image supports the workflow rather than making a nationality claim. Nearby copy states the operating rule: talent sourcing and hiring are limited to the Philippines.
 
 ## Copy standard
 

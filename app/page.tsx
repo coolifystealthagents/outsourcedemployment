@@ -8,13 +8,13 @@ const models = [
   {
     number: '01',
     title: 'Employer of record',
-    fit: 'Hiring an employee in a country where you do not have an entity.',
-    watch: 'Ask who owns the local entity, handles payroll, and responds when employment rules change.',
+    fit: 'Employing Filipino talent through a Philippine entity you do not own.',
+    watch: 'Ask who owns the Philippine entity, handles local payroll, and responds when employment rules change.',
   },
   {
     number: '02',
-    title: 'Offshore staffing',
-    fit: 'Building a dedicated remote role with recruiting and ongoing support from a staffing provider.',
+    title: 'Philippines staffing',
+    fit: 'Building a dedicated role with Filipino talent, recruiting help, and ongoing provider support.',
     watch: 'Check who manages attendance, coaching, equipment, replacement, and day-to-day quality.',
   },
   {
@@ -33,7 +33,7 @@ export default function Home() {
     '@type': 'WebSite',
     name: data.site.brand,
     url: `https://${data.site.domain}`,
-    description: 'Independent guides to outsourced employment models, role planning, provider questions, and onboarding.',
+    description: 'Independent guides to hiring Filipino talent, planning the role, comparing providers, and onboarding.',
   };
 
   return (
@@ -46,20 +46,20 @@ export default function Home() {
           <div className="oe-shell oe-hero-grid">
             <div className="oe-hero-copy">
               <p className="oe-kicker"><span /> Independent employment guide</p>
-              <h1>Build the role before you choose the hiring model.</h1>
+              <h1>Build the role before you hire Filipino talent.</h1>
               <p className="oe-intro">
-                Employer of record, offshore staffing, contractor support: the names blur together fast. Start with the work, the country, and the level of control you need. Then compare providers on the same brief.
+                Employer of record, Philippines staffing, contractor support: the names blur together fast. Start with the work and the level of control you need. Then compare providers that recruit and hire only in the Philippines.
               </p>
               <div className="oe-actions">
                 <a className="oe-button oe-button-primary" href="/contact">Request a staffing plan</a>
                 <a className="oe-text-link" href="#models">Compare the models <span aria-hidden="true">↘</span></a>
               </div>
-              <p className="oe-disclosure">This is an independent information site. We may route your request to a staffing partner that fits the brief.</p>
+              <p className="oe-disclosure">This is an independent information site. We may route your request to a Philippines staffing partner, and talent sourcing stays in the Philippines.</p>
             </div>
 
             <div className="oe-hero-visual">
               <div className="oe-photo-frame">
-                <img src="/remote-team-planning.jpg" alt="Remote colleagues discussing a role plan together" />
+                <img src="/remote-team-planning.jpg" alt="Colleagues working together around a shared table" />
               </div>
               <aside className="oe-brief-card" aria-label="Example role brief">
                 <p>Role brief / 001</p>
@@ -82,7 +82,7 @@ export default function Home() {
               <p className="oe-kicker"><span /> Pick the arrangement</p>
               <div>
                 <h2>Similar sales pitch. Different relationship.</h2>
-                <p>Before asking for candidates, find out who employs the worker, who directs the work, and who handles the messy parts when something changes.</p>
+                <p>Before asking a Philippines provider for Filipino candidates, find out who employs the worker, who directs the work, and who handles the messy parts when something changes.</p>
               </div>
             </div>
             <div className="oe-model-grid">
@@ -123,7 +123,7 @@ export default function Home() {
           <div className="oe-shell">
             <div className="oe-section-head oe-process-head">
               <p className="oe-kicker"><span /> A cleaner start</p>
-              <div><h2>Three conversations worth having before the contract.</h2></div>
+              <div><h2>Three conversations worth having before a Philippines staffing contract.</h2></div>
             </div>
             <ol className="oe-process-list">
               <li><span>01</span><div><h3>Draw the relationship</h3><p>Put your company, the provider, and the worker on one page. Label who signs the agreement, runs payroll, sets priorities, and handles problems.</p></div></li>
@@ -135,7 +135,7 @@ export default function Home() {
 
         <section className="oe-guides">
           <div className="oe-shell">
-            <div className="oe-guides-title"><p className="oe-kicker"><span /> Buyer notes</p><h2>Read before the sales call.</h2><a href="/blog">All guides</a></div>
+            <div className="oe-guides-title"><p className="oe-kicker"><span /> Buyer notes</p><h2>Read before a Philippines staffing call.</h2><a href="/blog">All guides</a></div>
             <div className="oe-guide-grid">
               {posts.map((post, index) => (
                 <a href={`/blog/${post.slug}`} key={post.slug}>
@@ -152,7 +152,7 @@ export default function Home() {
         <section className="oe-final">
           <div className="oe-shell oe-final-card">
             <p>Have a task list, even if it is messy?</p>
-            <h2>Turn it into a role a provider can answer properly.</h2>
+            <h2>Turn it into a role a Philippines provider can answer properly.</h2>
             <a className="oe-button oe-button-primary" href="/contact">Request a staffing plan</a>
           </div>
         </section>

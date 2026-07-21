@@ -51,7 +51,7 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
       name: `${s.title} outsourced employment support`,
       serviceType: s.title,
       provider: { '@type': 'Organization', name: site.brand, url: baseUrl },
-      areaServed: 'United States',
+      areaServed: 'Philippines',
       description: s.desc,
       url: pageUrl,
     },
@@ -87,12 +87,12 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
           <div className='container two'>
             <div>
               <p className='eyebrow'>{site.brand} service</p>
-              <h1>{s.title} for outsourced employment</h1>
+              <h1>{s.title} with Filipino talent</h1>
               <p className='lead'>{s.desc}</p>
               <a className='btn' href='/contact'>Plan this role</a>
             </div>
             <div className='hero-card'>
-              <img src={site.serviceImage} alt={`${s.title} offshore service team`} />
+              <img src={site.serviceImage} alt={`${s.title} planning for a Philippines staffing role`} />
             </div>
           </div>
         </section>
