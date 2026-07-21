@@ -99,7 +99,7 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
         <section className='section'>
           <div className='container cards'>
             <div className='card' id='best-tasks'>
-              <h2>Best tasks</h2>
+              <h2>Work to start with</h2>
               <ul>{s.bestTasks.map((task) => <li key={task}>{task}</li>)}</ul>
             </div>
             <div className='card'>
@@ -107,7 +107,7 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
               <ul>{s.guardrails.map((item) => <li key={item}>{item}</li>)}</ul>
             </div>
             <div className='card' id='first-week'>
-              <h2>First week launch</h2>
+              <h2>First-week plan</h2>
               <ul>{s.firstWeek.map((item) => <li key={item}>{item}</li>)}</ul>
             </div>
           </div>

@@ -48,7 +48,7 @@ export default function Home() {
               <p className="oe-kicker"><span /> Independent employment guide</p>
               <h1>Build the role before you hire Filipino talent.</h1>
               <p className="oe-intro">
-                Employer of record, Philippines staffing, contractor support: the names blur together fast. Start with the work and the level of control you need. Then compare providers that recruit and hire only in the Philippines.
+                Employer of record, Philippines staffing, and contractor support can sound alike on a sales call. Start with the work and the level of control you need. Then compare providers that recruit and hire only in the Philippines.
               </p>
               <div className="oe-actions">
                 <a className="oe-button oe-button-primary" href="/contact">Request a staffing plan</a>
@@ -81,7 +81,7 @@ export default function Home() {
             <div className="oe-section-head">
               <p className="oe-kicker"><span /> Pick the arrangement</p>
               <div>
-                <h2>Similar sales pitch. Different relationship.</h2>
+                <h2>The contract changes who is responsible.</h2>
                 <p>Before asking a Philippines provider for Filipino candidates, find out who employs the worker, who directs the work, and who handles the messy parts when something changes.</p>
               </div>
             </div>
@@ -103,7 +103,7 @@ export default function Home() {
           <div className="oe-shell oe-work-grid">
             <div className="oe-work-intro">
               <p className="oe-kicker oe-kicker-light"><span /> Define the work</p>
-              <h2>A useful brief sounds like a Tuesday, not a job ad.</h2>
+              <h2>A useful brief describes a Tuesday, not a job ad.</h2>
               <p>List the recurring work, the decisions that stay with your team, and how someone will check the first outputs. That gives a provider something real to screen for.</p>
               <a className="oe-button oe-button-light" href="/contact">Request a staffing plan</a>
             </div>
@@ -123,7 +123,7 @@ export default function Home() {
           <div className="oe-shell">
             <div className="oe-section-head oe-process-head">
               <p className="oe-kicker"><span /> A cleaner start</p>
-              <div><h2>Three conversations worth having before a Philippines staffing contract.</h2></div>
+              <div><h2>Questions to settle before a Philippines staffing contract.</h2></div>
             </div>
             <ol className="oe-process-list">
               <li><span>01</span><div><h3>Draw the relationship</h3><p>Put your company, the provider, and the worker on one page. Label who signs the agreement, runs payroll, sets priorities, and handles problems.</p></div></li>

@@ -153,6 +153,7 @@ form.card input,form.card textarea,form.card select{border:1px solid #aaa69e!imp
 /* Guides */
 .article-wrap{max-width:920px}
 .article-wrap>.lead{margin-bottom:34px}
+.article-wrap>.card p,.article-wrap>.card ul{max-width:65ch}
 .evidence-card,.question-card,.script-card,.source-list{padding:28px;border:1px solid var(--line);background:#fff;box-shadow:0 12px 30px rgba(20,40,61,.05)}
 .evidence-card{margin-bottom:50px;border-left:6px solid var(--blue)}
 .evidence-card li,.question-card li,.article-section p,.faq-item p,.source-list li{color:var(--muted);line-height:1.72}

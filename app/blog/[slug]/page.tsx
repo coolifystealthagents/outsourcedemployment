@@ -1,5 +1,5 @@
 import { Header, Footer, CTA, JsonLd } from '../../components';
-import { blogDetails, blogPosts, site } from '../../data';
+import { blogDetails, blogPosts, guideBasics, site } from '../../data';
 
 const baseUrl = 'https://outsourcedemployment.com';
 
@@ -34,6 +34,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug) || blogPosts[0];
   const details = blogDetails[post.slug];
+  const basics = guideBasics[post.slug];
   const pageUrl = `${baseUrl}/blog/${post.slug}`;
 
   const schema = details
@@ -169,24 +170,23 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
                 </ul>
               </section>
             </>
-          ) : (
+          ) : basics ? (
             <div className='card'>
-              <h2>The short answer</h2>
-              <p>Start with one role, a short task list, and a weekly scorecard. Do not outsource a messy process until examples and rules are clear.</p>
+              <h2>Start with the work as it is now</h2>
+              {basics.overview.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
               <h2>What to prepare</h2>
               <ul>
-                <li>Task examples and sample replies</li>
-                <li>Tool access and permission rules</li>
-                <li>Daily output target</li>
-                <li>Escalation rules for anything sensitive</li>
+                {basics.prepare.map((item) => <li key={item}>{item}</li>)}
               </ul>
-              <h2>Questions to ask</h2>
+              <h2>Questions for the staffing call</h2>
               <ul>
-                <li>Who screens the worker?</li>
-                <li>Who checks quality?</li>
-                <li>What happens if fit is poor?</li>
-                <li>How are passwords and customer data handled?</li>
+                {basics.questions.map((question) => <li key={question}>{question}</li>)}
               </ul>
+            </div>
+          ) : (
+            <div className='card'>
+              <h2>Guide unavailable</h2>
+              <p>This guide is being reviewed. The Philippines staffing guides page lists the material that is ready to use.</p>
             </div>
           )}
         </article>

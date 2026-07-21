@@ -19,7 +19,7 @@ export const services = [
   {
     "slug": "operations-support",
     "title": "Operations Support",
-    "desc": "Operations support from Filipino talent for teams that need recurring back-office work handled with clear SOPs, weekly review, and measured handoffs.",
+    "desc": "Operations support from Filipino talent for recurring back-office work with written steps, a weekly check, and clear owners.",
     "bestTasks": [
       "Update task boards, CRM fields, reports, and handoff notes",
       "Prepare recurring spreadsheets, vendor follow-ups, and meeting notes",
@@ -109,7 +109,7 @@ export const services = [
   {
     "slug": "reporting-and-qa",
     "title": "Reporting and QA",
-    "desc": "Reporting and QA support from the Philippines for teams that need cleaner scorecards, issue tracking, and review notes.",
+    "desc": "Reporting and QA support from the Philippines for scorecards, issue logs, and review notes that managers can use.",
     "bestTasks": [
       "Prepare weekly scorecards, defect logs, and status reports",
       "Check samples against SOPs and flag missing fields or late work",
@@ -141,8 +141,8 @@ export const services = [
 export const blogPosts = [
   {
     "slug": "outsourced-employment-planning",
-    "title": "Outsourced Employment: What does it plan?",
-    "excerpt": "A plain-English guide to staffing details, scope, and hidden planning.",
+    "title": "Outsourced Employment: Plan a Filipino role",
+    "excerpt": "Define the work, decisions, access, and review plan before you compare staffing providers.",
     "minutes": 6
   },
   {
@@ -160,10 +160,76 @@ export const blogPosts = [
   {
     "slug": "outsourced-employment-onboarding-checklist",
     "title": "Outsourced Employment: First week onboarding checklist",
-    "excerpt": "A simple checklist for tools, SOPs, calls, QA, and reporting.",
+    "excerpt": "Set up the tools, examples, review times, and escalation rules for a Filipino staff member's first week.",
     "minutes": 9
   }
 ] as const;
+
+export type GuideBasics = {
+  overview: readonly string[];
+  prepare: readonly string[];
+  questions: readonly string[];
+};
+
+export const guideBasics: Record<string, GuideBasics> = {
+  'outsourced-employment-planning': {
+    overview: [
+      'Write down the work before you choose an employment model. Name the tasks that repeat, the systems involved, and the person who checks the first outputs. This makes it easier to compare a Philippines staffing provider, an employer of record, and contractor support without relying on sales labels.',
+      'Separate routine work from decisions. A Filipino staff member may prepare a report, update a customer record, or draft a reply. Your manager can keep approval over refunds, policy changes, spending, and other calls that carry more risk.',
+      'The role brief should also state the schedule, required overlap, access limits, and what happens when work falls outside the written scope. Providers can then explain who employs the worker, who manages attendance, and what support continues after hiring.',
+    ],
+    prepare: [
+      'Two or three real examples of the work',
+      'A list of tools and the access each task needs',
+      'The decisions that stay with your manager',
+      'A first-week review time and named reviewer',
+    ],
+    questions: [
+      'Who employs the worker in the Philippines?',
+      'Who handles attendance, leave, payroll, and equipment?',
+      'What does our manager need to review each day or week?',
+      'What changes if the role grows beyond the first task list?',
+    ],
+  },
+  'outsourced-employment-tasks-to-outsource': {
+    overview: [
+      'Start with work that already happens often and has a visible right answer. Inbox sorting, CRM updates, report preparation, ticket tagging, and follow-up lists are easier to hand off than work that depends on undocumented judgment.',
+      'Choose a small group of tasks that use similar tools and belong to the same workday. A random list of chores creates a hard role to screen and manage. Keep money movement, legal calls, policy exceptions, and sensitive employee decisions with your own manager.',
+      'Give the Filipino staff member examples of finished work and a clear escalation line. Review a small sample at first. When the results hold up, add the next related task instead of widening the role all at once.',
+    ],
+    prepare: [
+      'A recent example of each starting task',
+      'A short checklist for what counts as complete',
+      'The due time or response window',
+      'Examples that must go back to a manager',
+    ],
+    questions: [
+      'Which tasks can be checked in a few minutes?',
+      'Where does the worker need approval?',
+      'Which systems can begin with limited or read-only access?',
+      'What related task should be added only after the first work is steady?',
+    ],
+  },
+  'outsourced-employment-onboarding-checklist': {
+    overview: [
+      'A first week works better when the new Filipino staff member knows what to do, where to find examples, and when to stop and ask. Send the task list and account setup before the start date so the first call is not spent chasing passwords.',
+      'Begin with sample work or a narrow live queue. Review outputs at a set time each day and write down corrections where the staff member can reuse them. Spoken feedback disappears quickly; a corrected example is easier to follow tomorrow.',
+      'End the week by checking the task list, access, open questions, and missed work. Keep what is working. Fix unclear instructions before adding more responsibility. The provider should know which issues belong with its manager and which belong with yours.',
+    ],
+    prepare: [
+      'Named accounts with only the access needed for week one',
+      'SOPs plus examples of good and poor work',
+      'Daily review times and a backup reviewer',
+      'An escalation list for customers, money, policy, and data',
+    ],
+    questions: [
+      'Who confirms that every account works before day one?',
+      'Where will questions and corrections be recorded?',
+      'Who handles attendance or equipment problems?',
+      'What must be true before the role receives more access?',
+    ],
+  },
+};
 
 export type BlogDetail = {
   takeaways: readonly string[];
