@@ -16,126 +16,18 @@ export const site = {
 } as const;
 
 export const services = [
-  {
-    "slug": "operations-support",
-    "title": "Operations Support",
-    "desc": "Operations support from Filipino talent for recurring back-office work with written steps, a weekly check, and clear owners.",
-    "bestTasks": [
-      "Update task boards, CRM fields, reports, and handoff notes",
-      "Prepare recurring spreadsheets, vendor follow-ups, and meeting notes",
-      "Track open items so owners can make decisions faster"
-    ],
-    "guardrails": [
-      "Owner keeps approval over spend, vendor changes, and policy calls",
-      "Assistant starts with sample work before touching live customer or finance records",
-      "Weekly scorecard checks accuracy, speed, follow-up, and missed items"
-    ],
-    "firstWeek": [
-      "Day 1: give SOPs, sample files, and limited tool access",
-      "Day 2-3: assign two repeat tasks with owner review",
-      "Day 4-5: add reporting rhythm and escalation rules"
-    ],
-    "faqs": [
-      {
-        "question": "What operations work is safest to outsource first?",
-        "answer": "Start with repeat admin work that already has examples, due dates, and a person who can review the first few outputs."
-      },
-      {
-        "question": "Should an outsourced operations assistant make decisions alone?",
-        "answer": "No. Keep spend, policy, vendor, and customer-impact decisions with the owner or manager until the role has earned more trust."
-      }
-    ]
-  },
-  {
-    "slug": "customer-support",
-    "title": "Customer Support",
-    "desc": "Customer support staffing from the Philippines for teams that need inbox, chat, ticket, and follow-up help without giving away sensitive decisions too soon.",
-    "bestTasks": [
-      "Answer common tickets with approved macros and examples",
-      "Tag issues, update CRM notes, and route edge cases to the owner",
-      "Follow up on open requests, refunds, replacements, and status checks"
-    ],
-    "guardrails": [
-      "Manager owns refunds, credits, cancellations, and angry escalations",
-      "Start with read-only access where possible, then add permissions slowly",
-      "Review a sample of tickets daily during the first two weeks"
-    ],
-    "firstWeek": [
-      "Day 1: share brand tone, support rules, and do-not-say examples",
-      "Day 2-3: let the assistant draft replies for approval",
-      "Day 4-5: approve low-risk replies and track escalations"
-    ],
-    "faqs": [
-      {
-        "question": "Can outsourced support handle live customers?",
-        "answer": "Yes, but start with approved scripts, clear escalation rules, and daily QA before the assistant owns a queue alone."
-      },
-      {
-        "question": "What should stay with the in-house team?",
-        "answer": "Keep refunds, legal complaints, high-value accounts, and policy exceptions with the manager until the support plan is mature."
-      }
-    ]
-  },
-  {
-    "slug": "admin-support",
-    "title": "Admin Support",
-    "desc": "Admin support from Filipino talent for founders and teams that want email, calendar, document, and follow-up work handled without losing control.",
-    "bestTasks": [
-      "Clean inboxes, draft replies, and sort messages by urgency",
-      "Book meetings, update calendars, and prepare agendas",
-      "Organize files, forms, CRM notes, and recurring reminders"
-    ],
-    "guardrails": [
-      "Use shared inbox rules before giving full email control",
-      "Keep payment, HR, legal, and personal decisions out of the assistant's scope",
-      "Create a short approval list for replies the assistant can send alone"
-    ],
-    "firstWeek": [
-      "Day 1: list recurring admin tasks and access limits",
-      "Day 2-3: review drafts, calendar updates, and file naming",
-      "Day 4-5: move approved repeat tasks to a daily checklist"
-    ],
-    "faqs": [
-      {
-        "question": "What is the easiest admin task to delegate first?",
-        "answer": "Start with repeatable calendar, inbox, or file work where the assistant can use examples and you can review quickly."
-      },
-      {
-        "question": "How do you avoid giving too much access?",
-        "answer": "Use shared folders, limited permissions, password managers, and approval rules before the assistant works inside sensitive systems."
-      }
-    ]
-  },
-  {
-    "slug": "reporting-and-qa",
-    "title": "Reporting and QA",
-    "desc": "Reporting and QA support from the Philippines for scorecards, issue logs, and review notes that managers can use.",
-    "bestTasks": [
-      "Prepare weekly scorecards, defect logs, and status reports",
-      "Check samples against SOPs and flag missing fields or late work",
-      "Turn manager feedback into repeat checklists"
-    ],
-    "guardrails": [
-      "QA assistant flags issues but the manager decides coaching or replacement",
-      "Scorecards use visible examples, not vague ratings",
-      "Sensitive employee notes stay with the manager"
-    ],
-    "firstWeek": [
-      "Day 1: agree on scorecard fields and pass/fail examples",
-      "Day 2-3: review a small batch of past work together",
-      "Day 4-5: publish the first weekly report and fix the checklist"
-    ],
-    "faqs": [
-      {
-        "question": "What should a staffing QA scorecard include?",
-        "answer": "Track accuracy, timeliness, follow-up, missed fields, customer risk, and the next coaching step. Keep the form short enough to use every week."
-      },
-      {
-        "question": "Can QA be outsourced too?",
-        "answer": "Yes, if the QA role checks clear examples and the manager still owns coaching, discipline, and final staffing decisions."
-      }
-    ]
-  }
+  { slug: "candidate-sourcing-coordination", title: "Candidate Sourcing Coordination", desc: "Filipino employment administration specialists can handle candidate sourcing coordination with documented workflows, approval limits, and owner review." },
+  { slug: "employment-document-administration", title: "Employment Document Administration", desc: "Filipino employment administration specialists can handle employment document administration with documented workflows, approval limits, and owner review." },
+  { slug: "new-hire-onboarding", title: "New Hire Onboarding", desc: "Filipino employment administration specialists can handle new hire onboarding with documented workflows, approval limits, and owner review." },
+  { slug: "employee-records-management", title: "Employee Records Management", desc: "Filipino employment administration specialists can handle employee records management with documented workflows, approval limits, and owner review." },
+  { slug: "schedule-administration", title: "Schedule Administration", desc: "Filipino employment administration specialists can handle schedule administration with documented workflows, approval limits, and owner review." },
+  { slug: "leave-tracking-support", title: "Leave Tracking Support", desc: "Filipino employment administration specialists can handle leave tracking support with documented workflows, approval limits, and owner review." },
+  { slug: "payroll-input-preparation", title: "Payroll Input Preparation", desc: "Filipino employment administration specialists can handle payroll input preparation with documented workflows, approval limits, and owner review." },
+  { slug: "benefits-administration-support", title: "Benefits Administration Support", desc: "Filipino employment administration specialists can handle benefits administration support with documented workflows, approval limits, and owner review." },
+  { slug: "performance-review-coordination", title: "Performance Review Coordination", desc: "Filipino employment administration specialists can handle performance review coordination with documented workflows, approval limits, and owner review." },
+  { slug: "training-coordination", title: "Training Coordination", desc: "Filipino employment administration specialists can handle training coordination with documented workflows, approval limits, and owner review." },
+  { slug: "offboarding-administration", title: "Offboarding Administration", desc: "Filipino employment administration specialists can handle offboarding administration with documented workflows, approval limits, and owner review." },
+  { slug: "workforce-reporting", title: "Workforce Reporting", desc: "Filipino employment administration specialists can handle workforce reporting with documented workflows, approval limits, and owner review." },
 ] as const;
 
 export const blogPosts = [
@@ -399,3 +291,6 @@ export const staffingProcess = [
 ] as const;
 
 export const staffingFitNote = 'Every plan is for talent recruited and hired in the Philippines. Send the role scope, schedule, tools, and management needs so a Philippines staffing team can assess the fit.';
+
+
+export const researchPosts: Array<{ slug: string; title: string; excerpt: string; body: string[] }> = [];
