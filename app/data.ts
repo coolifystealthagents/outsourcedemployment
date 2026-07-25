@@ -32,6 +32,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    "slug": "philippines-hr-records-assistant-access-guide",
+    "title": "Philippines HR Records Assistant: A Safe Access Guide",
+    "excerpt": "Plan what a Filipino HR records assistant can prepare, what the manager keeps, and how access is opened and removed.",
+    "minutes": 11
+  },
+  {
     "slug": "outsourced-employment-planning",
     "title": "Outsourced Employment: Plan a Filipino role",
     "excerpt": "Define the work, decisions, access, and review plan before you compare staffing providers.",
@@ -249,6 +255,161 @@ export const blogDetails: Record<string, BlogDetail> = {
         url: 'https://www.cisa.gov/secure-our-world/use-strong-passwords',
         note: 'Practical guidance on strong passwords, password managers, and multifactor authentication.',
       },
+    ],
+  },
+};
+
+export type EvidenceArticle = {
+  updated: string;
+  takeaways: readonly string[];
+  stats: readonly { value: string; label: string; note: string; source: number }[];
+  chart: readonly { year: string; value: number }[];
+  sections: readonly { id: string; title: string; paragraphs: readonly string[] }[];
+  taskTable: readonly { work: string; assistant: string; manager: string }[];
+  handoffSteps: readonly { step: string; title: string; text: string }[];
+  expertQuote: { quote: string; person: string; role: string; date: string; source: number };
+  scripts: readonly { title: string; text: string }[];
+  faqs: readonly { question: string; answer: string }[];
+  banners: readonly { eyebrow: string; title: string; body: string; href: string; label: string }[];
+  sources: readonly { name: string; url: string; note: string }[];
+};
+
+export const evidenceArticles: Record<string, EvidenceArticle> = {
+  'philippines-hr-records-assistant-access-guide': {
+    updated: 'July 25, 2026',
+    takeaways: [
+      'Give the assistant a narrow records lane: collect, check, name, file, and flag. Keep employee decisions with the HR owner.',
+      'Open access in small steps. A person who only prepares onboarding files should not have the same rights as the person who changes employment status.',
+      'Use named accounts, multifactor authentication, and a written removal list. Shared logins make mistakes and exits harder to trace.',
+      'Test the role with a sample packet before live records move. The test should show whether the person can spot missing fields without making a decision for the manager.',
+    ],
+    stats: [
+      { value: '77.9%', label: 'people using the internet', note: 'Philippines, 2023 World Bank series', source: 1 },
+      { value: '61.4%', label: 'labor participation', note: 'Philippines, 2024 World Bank series', source: 2 },
+      { value: '59.3%', label: 'employment in services', note: 'Philippines, 2024 World Bank series', source: 3 },
+    ],
+    chart: [
+      { year: '2020', value: 53.8 },
+      { year: '2021', value: 66.9 },
+      { year: '2022', value: 75.2 },
+      { year: '2023', value: 77.9 },
+    ],
+    sections: [
+      {
+        id: 'role',
+        title: 'Start with the records lane, not a vague HR title',
+        paragraphs: [
+          'A Philippines HR records assistant can keep routine files moving when the job has firm edges. The assistant may collect forms, check required fields, follow a naming rule, update a tracker, and tell the HR owner what is missing. The owner still decides what a document means and what action follows.',
+          'Avoid handing over a loose request to "manage HR." That phrase can hide decisions about leave, discipline, status changes, benefits, or access. Write the first role around one record type, one queue, and one reviewer so both people know where the assistant must stop.',
+        ],
+      },
+      {
+        id: 'country-context',
+        title: 'Use country data as context, not as proof of skill',
+        paragraphs: [
+          'The World Bank reports that 77.9% of people in the Philippines used the internet in 2023. Its 2024 series also shows 61.4% labor participation and 59.3% of employment in services. These are country measures, so they do not prove that a certain applicant can handle private employee files.',
+          'The numbers do explain why a remote records role can draw from a large, service-based labor pool. Screening still has to happen one person at a time. Ask each candidate to organize a sample packet, find errors, write a short follow-up, and explain when the file should go back to the HR owner.',
+        ],
+      },
+      {
+        id: 'boundaries',
+        title: 'Split file preparation from employee decisions',
+        paragraphs: [
+          'The safest split is simple: the assistant prepares and the manager approves. For a new-hire packet, the assistant can check whether required fields are present and place the files in the right folder. The manager confirms the employment terms, accepts an exception, and tells other teams when access should begin.',
+          'The same line works for changes and exits. An assistant can gather an approved change form, update a record after approval, and save the audit note. The manager decides whether the change is valid, speaks with the employee, and owns any legal or policy question.',
+        ],
+      },
+      {
+        id: 'access',
+        title: 'Give each task the smallest useful access',
+        paragraphs: [
+          'Make an access list beside the task list. Name the system, folder, record type, allowed action, and approver for each item. Start with view or upload rights when editing or deletion is not needed, then add rights only after the work sample and first live batch pass review.',
+          'Every worker should use a named account. CISA recommends strong, unique passwords and multifactor authentication, while NIST CSF 2.0 gives any organization a common way to discuss how it governs and reduces cyber risk. These sources do not certify a staffing provider, but they give a manager clear controls to request.',
+        ],
+      },
+      {
+        id: 'sample',
+        title: 'Run a sample packet before live records',
+        paragraphs: [
+          'Build a fake packet with six to ten documents and remove real names, addresses, account numbers, and medical details. Add a few clear problems, such as a missing signature, wrong file name, duplicate form, or date that does not match the tracker. Give the candidate the same written rules used for daily work.',
+          'Score only what the task requires. Check file naming, field review, tracker accuracy, the follow-up message, and whether the candidate flags an exception instead of guessing. A polished interview means little if the sample packet comes back with silent errors.',
+        ],
+      },
+      {
+        id: 'first-week',
+        title: 'Keep the first week small enough to check',
+        paragraphs: [
+          'On day one, explain the file map and complete one sample together. On days two and three, send a small live batch and review every item at a set time. By the end of the week, move to sample checks only if the assistant has followed the stop rules and the tracker matches the source files.',
+          'Write corrections on the same example instead of sending scattered chat messages. The assistant needs one place to see the rule, the bad result, and the fixed result. If the rule changes, update the example before the next batch arrives.',
+        ],
+      },
+      {
+        id: 'exit',
+        title: 'Plan access removal before the start date',
+        paragraphs: [
+          'The exit list should exist before the first login. It needs the named accounts, shared folders, devices, recovery contacts, open batches, and the person who confirms removal. Keep that list with the role brief so an unexpected absence does not turn into a search across several systems.',
+          'When the role ends, pause new assignments and move open files to the named owner. Remove accounts, check forwarding rules and shared links, and record who completed each step. Then review whether the assistant had any rights that were never used, because the next person may need less access.',
+        ],
+      },
+    ],
+    taskTable: [
+      { work: 'New-hire packet', assistant: 'Check fields, name files, update the tracker, flag gaps', manager: 'Approve terms, exceptions, and the start decision' },
+      { work: 'Employee record change', assistant: 'Collect the approved form and update the record', manager: 'Confirm the change and handle employee questions' },
+      { work: 'Leave document', assistant: 'Log the request and check required attachments', manager: 'Apply policy and approve or deny the request' },
+      { work: 'Exit file', assistant: 'Gather records, close the checklist, route open items', manager: 'Confirm the exit, final actions, and access timing' },
+    ],
+    handoffSteps: [
+      { step: '1', title: 'Request', text: 'A form or approved request enters one named queue.' },
+      { step: '2', title: 'Check', text: 'The assistant checks fields, file names, and required proof.' },
+      { step: '3', title: 'Review', text: 'The HR owner decides exceptions and confirms the action.' },
+      { step: '4', title: 'Record', text: 'The assistant files the approved result and closes the tracker.' },
+    ],
+    expertQuote: {
+      quote: 'The CSF has been a vital tool for many organizations, helping them anticipate and deal with cybersecurity threats.',
+      person: 'Laurie E. Locascio',
+      role: 'NIST Director and Under Secretary of Commerce for Standards and Technology',
+      date: 'February 26, 2024',
+      source: 4,
+    },
+    scripts: [
+      {
+        title: 'Missing document message',
+        text: 'Hi [name], I am checking the [packet or request] against the required file list. The following item is still missing: [item]. Please send it through [approved method] by [date], or tell me if the HR owner needs to review an exception.',
+      },
+      {
+        title: 'Manager review note',
+        text: 'The file check is complete. Items [A and B] match the checklist. Item [C] needs your decision because [short reason]. I have not changed the employee record or sent a final reply.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Can a Philippines HR records assistant approve employee changes?',
+        answer: 'The assistant can prepare an approved change and update a record after review. Keep approval, policy exceptions, status changes, and employee decisions with the HR owner.',
+      },
+      {
+        question: 'What should the first work sample include?',
+        answer: 'Use a fake packet with missing fields, a naming error, a duplicate file, and one item that needs manager review. Score accuracy, the written follow-up, and whether the candidate stops instead of guessing.',
+      },
+      {
+        question: 'How much access should the assistant receive?',
+        answer: 'Start with the least access needed for the first record type. Use a named account, turn on multifactor authentication, and add rights only when a real task requires them.',
+      },
+      {
+        question: 'What should happen when the role ends?',
+        answer: 'Move open work to the named owner, remove accounts and shared links, check forwarding rules, recover any device, and record who confirmed each step.',
+      },
+    ],
+    banners: [
+      { eyebrow: 'Role scope', title: 'Turn the file queue into a clear role brief.', body: 'List the record types, stop rules, systems, and reviewer before candidate matching begins.', href: '/services/employee-records-management', label: 'See records support' },
+      { eyebrow: 'First-week plan', title: 'Open one small records lane first.', body: 'Pair limited access with a sample packet and a set review time for the first live batch.', href: '/services/new-hire-onboarding', label: 'Plan the handoff' },
+      { eyebrow: 'Philippines staffing', title: 'Bring a defined HR support role to the intake.', body: 'Share the task list, schedule, tools, and manager limits for a Philippines-based hire.', href: '/contact', label: 'Send the role brief' },
+    ],
+    sources: [
+      { name: 'World Bank: Individuals using the Internet, Philippines', url: 'https://api.worldbank.org/v2/country/PHL/indicator/IT.NET.USER.ZS?format=json&per_page=20', note: 'The series reports 77.86699677% for 2023. Chart values are rounded to one decimal place.' },
+      { name: 'World Bank: Labor force participation data, Philippines', url: 'https://api.worldbank.org/v2/country/PHL/indicator/SL.TLF.CACT.ZS?format=json&per_page=20', note: 'The series reports 61.402% for 2024.' },
+      { name: 'World Bank: Employment in services data, Philippines', url: 'https://api.worldbank.org/v2/country/PHL/indicator/SL.SRV.EMPL.ZS?format=json&per_page=20', note: 'The series reports 59.3162032087416% for 2024.' },
+      { name: 'NIST releases Cybersecurity Framework 2.0', url: 'https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework', note: 'Published February 26, 2024. The quoted sentence appears in the NIST release.' },
+      { name: 'CISA: Use strong passwords', url: 'https://www.cisa.gov/secure-our-world/use-strong-passwords', note: 'CISA guidance covers strong unique passwords, password managers, and multifactor authentication.' },
     ],
   },
 };
