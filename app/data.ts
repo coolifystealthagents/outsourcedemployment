@@ -36,32 +36,7 @@ export const blogPosts = [
     "title": "Philippines HR Records Assistant: A Safe Access Guide",
     "excerpt": "Plan what a Filipino HR records assistant can prepare, what the manager keeps, and how access is opened and removed.",
     "minutes": 11
-  },
-  {
-    "slug": "outsourced-employment-planning",
-    "title": "Outsourced Employment: Plan a Filipino role",
-    "excerpt": "Define the work, decisions, access, and review plan before you compare staffing providers.",
-    "minutes": 6
-  },
-  {
-    "slug": "outsourced-employment-tasks-to-outsource",
-    "title": "Outsourced Employment: What tasks should you outsource first?",
-    "excerpt": "Start with recurring work that has examples and clear review rules.",
-    "minutes": 7
-  },
-  {
-    "slug": "outsourced-employment-provider-questions",
-    "title": "Outsourced Employment: Questions to ask before hiring",
-    "excerpt": "Use these questions before you sign with a provider or freelancer.",
-    "minutes": 8
-  },
-  {
-    "slug": "outsourced-employment-onboarding-checklist",
-    "title": "Outsourced Employment: First week onboarding checklist",
-    "excerpt": "Set up the tools, examples, review times, and escalation rules for a Filipino staff member's first week.",
-    "minutes": 9
-  }
-] as const;
+  },] as const;
 
 export type GuideBasics = {
   overview: readonly string[];
