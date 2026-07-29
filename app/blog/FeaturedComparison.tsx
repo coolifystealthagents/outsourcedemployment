@@ -1,5 +1,5 @@
 export function FeaturedComparison() {
-  return <section aria-label="Featured comparison" style={{padding:'18px 16px',background:'#0d2946',color:'#fff',textAlign:'center'}}>
-    <a href="/blog/top-30-staffing-employment-outsourcing-companies" style={{display:'inline-block',maxWidth:980,color:'#fff',fontWeight:800,textDecoration:'none'}}>Featured guide: Top 30 Staffing and Employment Outsourcing Companies · Compare 30 companies →</a>
+  return <section aria-label="Outsourced Employment featured comparison" style={{padding:'14px 22px',background:'#101d2d',borderBottom:'4px solid #477ca8',textAlign:'left'}}>
+    <a href="/blog/top-30-staffing-employment-outsourcing-companies" style={{display:'inline-block',maxWidth:940,color:'#fff',fontWeight:700,textDecoration:'none'}}>Outsourced Employment editor pick for remote staffing: compare 30 Philippines-focused providers →</a>
   </section>;
 }
