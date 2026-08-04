@@ -19,7 +19,7 @@ export async function generateMetadata({params}:{params:Promise<{slug:string}>})
 }
 
 function ArticleHeader(){
-  return <header className="nav"><div className="nav-inner"><a className="logo" href="/" aria-label={`${site.brand} home`}><LogoMark/></a><nav className="links article-nav" aria-label="Article navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/blog">Blog</a><a href="/contact">Contact Us</a></nav></div></header>;
+  return <header className="nav"><div className="nav-inner"><a className="logo" href="/" aria-label={`${site.brand} home`}><LogoMark/></a><nav className="links article-nav" aria-label="Article navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/contact">Contact Us</a></nav></div></header>;
 }
 
 function ArticleFooter(){
