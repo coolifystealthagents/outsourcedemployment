@@ -1,3 +1,5 @@
+import { dailyBlogBatch } from './blog/daily-batch';
+
 export const site = {
   "domain": "OutsourcedEmployment.com",
   "slug": "outsourcedemployment",
@@ -56,8 +58,11 @@ export const blogPosts = [
   { "slug": "philippines-outsourced-employment-security-controls", "title": "Security Controls for Philippines Outsourced Employment", "excerpt": "Match access, authentication, device, incident, and removal controls to the actual role.", "minutes": 10, "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=80" },
   { "slug": "philippines-back-office-support-role-design", "title": "Philippines Back-Office Support Role Design", "excerpt": "Define the queue, tools, quality standard, manager decisions, and measurable outputs.", "minutes": 8, "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80" },
   { "slug": "philippines-outsourced-employment-weekly-review", "title": "Weekly Review for Philippines Outsourced Employment", "excerpt": "Use a short weekly review to catch quality drift, access issues, workload changes, and open decisions.", "minutes": 7, "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=80" },
-  { "slug": "philippines-hiring-brief-template", "title": "Philippines Hiring Brief Template", "excerpt": "A plain-language brief for tasks, schedule, tools, examples, boundaries, and first-week success.", "minutes": 8, "image": "https://images.unsplash.com/photo-1456324504439-367dee3b3c32?auto=format&fit=crop&w=1200&q=80" }
+  { "slug": "philippines-hiring-brief-template", "title": "Philippines Hiring Brief Template", "excerpt": "A plain-language brief for tasks, schedule, tools, examples, boundaries, and first-week success.", "minutes": 8, "image": "https://images.unsplash.com/photo-1456324504439-367dee3b3c32?auto=format&fit=crop&w=1200&q=80" },
+  ...dailyBlogBatch
 ] as const;
+
+export const allBlogPosts = blogPosts;
 
 export type GuideBasics = {
   overview: readonly string[];

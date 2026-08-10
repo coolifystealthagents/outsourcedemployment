@@ -1,13 +1,13 @@
 import type {Metadata} from 'next';
 import {notFound} from 'next/navigation';
 import {Header,Footer,CTA,JsonLd,LogoMark} from '../../components';
-import {blogPosts,evidenceArticles,site} from '../../data';
+import {allBlogPosts,evidenceArticles,site} from '../../data';
 
-export function generateStaticParams(){return blogPosts.map(p=>({slug:p.slug}))}
+export function generateStaticParams(){return allBlogPosts.map(p=>({slug:p.slug}))}
 
 export async function generateMetadata({params}:{params:Promise<{slug:string}>}):Promise<Metadata>{
   const {slug}=await params;
-  const post=blogPosts.find(item=>item.slug===slug);
+  const post=allBlogPosts.find(item=>item.slug===slug);
   if(!post)return {};
   const canonical=`https://${String(site.domain).toLowerCase()}/blog/${post.slug}`;
   return {
@@ -32,7 +32,7 @@ function SourceLink({number,href}:{number:number;href:string}){
 
 export default async function Post({params}:{params:Promise<{slug:string}>}){
   const {slug}=await params;
-  const post=blogPosts.find(item=>item.slug===slug);
+  const post=allBlogPosts.find(item=>item.slug===slug);
   if(!post)notFound();
   const article=evidenceArticles[slug];
   const url=`https://${String(site.domain).toLowerCase()}/blog/${post.slug}`;
