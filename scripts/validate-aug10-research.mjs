@@ -18,7 +18,8 @@ for (const entry of manifest.entries) {
   if (entry.sourcePath !== 'app/data.ts' || !fs.existsSync(`${root}${entry.sourcePath}`)) throw new Error(`missing source: ${entry.sourcePath}`);
   if (entry.sourceDate !== manifest.targetDate || entry.renderedDate !== manifest.targetDate) throw new Error(`wrong date: ${entry.slug}`);
   if (!data.includes(`slug: '${entry.slug}'`)) throw new Error(`missing source slug: ${entry.slug}`);
-  if (!data.includes(`publishedDate: '${manifest.targetDate}'`) && !data.includes(`publishedDate: "${manifest.targetDate}"`)) throw new Error('source date field absent');
+  const sourceRecord = data.split('\n').find(line => line.includes(`slug: '${entry.slug}'`));
+  if (!sourceRecord || !sourceRecord.includes(`publishedDate: '${manifest.targetDate}'`)) throw new Error(`source date field absent for ${entry.slug}`);
   if (!detail.includes('datePublished') || !detail.includes('dateTime={publishedDate}')) throw new Error('rendered date fields absent');
   if (!detail.includes('articleUrl') || !detail.includes('alternates:{canonical')) throw new Error('canonical route rendering absent');
   if (!sitemap.includes('researchPosts.map')) throw new Error('research sitemap eligibility absent');
