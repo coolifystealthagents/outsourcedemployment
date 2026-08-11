@@ -1,4 +1,4 @@
-export const dailyBlogBatch = [
+const dailyBlogBatchSource = [
   { slug: 'philippines-hr-inbox-triage-workflow', title: 'Philippines HR Inbox Triage Workflow', excerpt: 'Create a safe daily workflow for sorting HR requests, recording next actions, and escalating decisions to a manager.', minutes: 8, image: '/blog-thumbnails/hr-inbox-triage.svg' },
   { slug: 'philippines-recruiting-coordinator-daily-checklist', title: 'Philippines Recruiting Coordinator Daily Checklist', excerpt: 'Give a recruiting coordinator a repeatable checklist for candidate updates, interview scheduling, and manager follow-up.', minutes: 8, image: '/blog-thumbnails/recruiting-checklist.svg' },
   { slug: 'philippines-employee-onboarding-document-checklist', title: 'Philippines Employee Onboarding Document Checklist', excerpt: 'Use a clear document checklist to keep new-hire onboarding organized while approvals remain with your team.', minutes: 9, image: '/blog-thumbnails/onboarding-documents.svg' },
@@ -44,3 +44,21 @@ export const dailyBlogBatch = [
   { slug: 'philippines-remote-staff-weekly-one-to-one', title: 'Philippines Remote Staff Weekly One-to-One', excerpt: 'Prepare a focused one-to-one agenda for workload, blockers, feedback, development, and manager decisions.', minutes: 8, image: '/blog-thumbnails/weekly-one-to-one.svg' },
   { slug: 'philippines-employee-workflow-audit', title: 'Philippines Employee Workflow Audit', excerpt: 'Audit a recurring employee workflow for missing owners, unclear checks, access gaps, and avoidable handoff friction.', minutes: 9, image: '/blog-thumbnails/employee-workflow-audit.svg' },
 ] as const;
+
+const august10Slugs = new Set([
+  'philippines-hr-calendar-administration-workflow', 'philippines-employee-request-intake-form',
+  'philippines-onboarding-task-status-board', 'philippines-employee-directory-maintenance',
+  'philippines-hr-document-expiry-tracker', 'philippines-recruiting-pipeline-hygiene',
+  'philippines-interview-scheduling-coordination', 'philippines-candidate-document-collection',
+  'philippines-new-hire-announcement-checklist', 'philippines-employee-question-response-log',
+  'philippines-leave-balance-reconciliation', 'philippines-payroll-cutoff-calendar',
+  'philippines-benefits-enrollment-follow-up', 'philippines-training-attendance-records',
+  'philippines-performance-review-evidence-collection', 'philippines-employee-offboarding-handoff',
+  'philippines-work-queue-priority-rules', 'philippines-daily-operations-summary',
+  'philippines-remote-support-error-log', 'philippines-process-change-approval-workflow',
+  'philippines-remote-staff-weekly-one-to-one', 'philippines-employee-workflow-audit'
+]);
+
+export const dailyBlogBatch = dailyBlogBatchSource.map(post =>
+  august10Slugs.has(post.slug) ? {...post, publishedDate: '2026-08-10' as const} : post
+);

@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "contract": "sites3-aug10-public-date-v6",
+  "targetDate": "2026-08-10",
+  "family": "blog",
+  "domain": "outsourcedemployment.com",
+  "repository": "coolifystealthagents/outsourcedemployment",
+  "branch": "main",
+  "minimum": 22,
+  "priorRunId": "aaa41566-5774-4d33-9807-b8b452c759f4",
+  "priorIssueId": "b299c62b-f25e-4175-9fb4-bcdc836939c1",
+  "validationCommands": [
+    "node scripts/validate-aug10-blog.mjs",
+    "npm run build"
+  ],
+  "cleanBuildPassed": true,
+  "existingCompliancePassed": true,
+  "indexNewestFirstPassed": true,
+  "entries": [
+    {
+      "slug": "philippines-hr-calendar-administration-workflow",
+      "route": "/blog/philippines-hr-calendar-administration-workflow",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-employee-request-intake-form",
+      "route": "/blog/philippines-employee-request-intake-form",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-onboarding-task-status-board",
+      "route": "/blog/philippines-onboarding-task-status-board",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-employee-directory-maintenance",
+      "route": "/blog/philippines-employee-directory-maintenance",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-hr-document-expiry-tracker",
+      "route": "/blog/philippines-hr-document-expiry-tracker",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-recruiting-pipeline-hygiene",
+      "route": "/blog/philippines-recruiting-pipeline-hygiene",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-interview-scheduling-coordination",
+      "route": "/blog/philippines-interview-scheduling-coordination",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-candidate-document-collection",
+      "route": "/blog/philippines-candidate-document-collection",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-new-hire-announcement-checklist",
+      "route": "/blog/philippines-new-hire-announcement-checklist",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-employee-question-response-log",
+      "route": "/blog/philippines-employee-question-response-log",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-leave-balance-reconciliation",
+      "route": "/blog/philippines-leave-balance-reconciliation",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-payroll-cutoff-calendar",
+      "route": "/blog/philippines-payroll-cutoff-calendar",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-benefits-enrollment-follow-up",
+      "route": "/blog/philippines-benefits-enrollment-follow-up",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-training-attendance-records",
+      "route": "/blog/philippines-training-attendance-records",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-performance-review-evidence-collection",
+      "route": "/blog/philippines-performance-review-evidence-collection",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-employee-offboarding-handoff",
+      "route": "/blog/philippines-employee-offboarding-handoff",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-work-queue-priority-rules",
+      "route": "/blog/philippines-work-queue-priority-rules",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-daily-operations-summary",
+      "route": "/blog/philippines-daily-operations-summary",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-remote-support-error-log",
+      "route": "/blog/philippines-remote-support-error-log",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-process-change-approval-workflow",
+      "route": "/blog/philippines-process-change-approval-workflow",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-remote-staff-weekly-one-to-one",
+      "route": "/blog/philippines-remote-staff-weekly-one-to-one",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "philippines-employee-workflow-audit",
+      "route": "/blog/philippines-employee-workflow-audit",
+      "sourcePath": "app/blog/daily-batch.ts",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "61b8b0d0690fcf1946f0244e354746314ada7aa8",
+      "sourceDateField": "publishedDate",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    }
+  ]
+}
