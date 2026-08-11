@@ -7,14 +7,15 @@ export function generateStaticParams(){return allBlogPosts.map(p=>({slug:p.slug}
 
 export async function generateMetadata({params}:{params:Promise<{slug:string}>}):Promise<Metadata>{
   const {slug}=await params;
-  const post=allBlogPosts.find(item=>item.slug===slug);
+  const post:any=allBlogPosts.find(item=>item.slug===slug);
   if(!post)return {};
+  const postImage='image' in post ? post.image : undefined;
   const canonical=`https://${String(site.domain).toLowerCase()}/blog/${post.slug}`;
   return {
     title:post.title,
     description:post.excerpt,
     alternates:{canonical},
-    openGraph:{title:post.title,description:post.excerpt,url:canonical,type:'article',images:post.image?[{url:post.image,alt:post.title}]:undefined},
+    openGraph:{title:post.title,description:post.excerpt,url:canonical,type:'article',images:postImage?[{url:postImage,alt:post.title}]:undefined},
   };
 }
 
@@ -32,11 +33,12 @@ function SourceLink({number,href}:{number:number;href:string}){
 
 export default async function Post({params}:{params:Promise<{slug:string}>}){
   const {slug}=await params;
-  const post=allBlogPosts.find(item=>item.slug===slug);
+  const post:any=allBlogPosts.find(item=>item.slug===slug);
   if(!post)notFound();
   const article=evidenceArticles[slug];
   const url=`https://${String(site.domain).toLowerCase()}/blog/${post.slug}`;
   const publishedDate = 'publishedDate' in post && typeof post.publishedDate === 'string' ? post.publishedDate : '2026-08-07';
+  const postImage = 'image' in post ? post.image : undefined;
 
   if(!article){
     return <><Header/><main className="section"><JsonLd data={{'@context':'https://schema.org','@type':'Article',headline:post.title,description:post.excerpt,url,image:post.image,datePublished:publishedDate,citation:['https://www.nist.gov/cyberframework','https://www.cisa.gov/secure-our-world/use-strong-passwords']}}/><article className="container guide-article"><p className="eyebrow">Philippines staffing blog · <time dateTime={publishedDate}>Published {publishedDate}</time></p><h1>{post.title}</h1><p className="lead">{post.excerpt}</p>{post.image&&<img src={post.image} alt={`Illustration for ${post.title}`} width="1200" height="675" style={{width:'100%',height:'auto',borderRadius:'18px'}}/>}<div className="card"><h2>Define the work before the hire</h2><p>Write the recurring tasks, examples, tools, schedule, and approval boundaries before a Filipino specialist begins. A clear role lets you compare a staffing provider, an employer-of-record arrangement, and direct management on the work that actually needs doing.</p><h2>Build a controlled handoff</h2><p>Begin with low-risk samples and only the permissions required for the approved Philippines-based workload. Use named accounts and multifactor authentication. The <a href="https://www.nist.gov/cyberframework" target="_blank" rel="noreferrer">NIST Cybersecurity Framework</a> and <a href="https://www.cisa.gov/secure-our-world/use-strong-passwords" target="_blank" rel="noreferrer">CISA password guidance</a> are useful control references; they do not replace advice for your specific situation.</p><h2>Review outputs and keep decisions visible</h2><p>Use a weekly check of completed work, open decisions, and changing priorities. The specialist can prepare records, drafts, and reports; your named manager should retain approvals, exceptions, spending, policy calls, and sensitive employee decisions.</p><h2>Next step</h2><p>Turn this article into a one-page role brief, then review the <a href="/services">employment support services</a> and <a href="/contact">send the task list to Outsourced Employment</a> for a scoped staffing conversation.</p></div><p className="article-date">Sources: <a href="https://www.nist.gov/cyberframework" target="_blank" rel="noreferrer">NIST CSF 2.0</a> · <a href="https://www.cisa.gov/secure-our-world/use-strong-passwords" target="_blank" rel="noreferrer">CISA</a></p></article><CTA/></main><Footer/></>;
