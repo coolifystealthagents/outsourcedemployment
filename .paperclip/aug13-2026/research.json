@@ -1,0 +1,22 @@
+{
+  "contract": "sites3-aug13-research-v1",
+  "campaignDate": "2026-08-13",
+  "targetDate": "2026-08-13",
+  "family": "research",
+  "repository": "coolifystealthagents/outsourcedemployment",
+  "branch": "main",
+  "required": 10,
+  "minimum": 10,
+  "entries": [
+    {"slug":"philippines-customer-onboarding-coordination-research","route":"/research/philippines-customer-onboarding-coordination-research","sourcePath":"app/research/aug13-batch.ts","sourceDate":"2026-08-13","renderedDate":"2026-08-13"},
+    {"slug":"philippines-helpdesk-knowledge-coordination-research","route":"/research/philippines-helpdesk-knowledge-coordination-research","sourcePath":"app/research/aug13-batch.ts","sourceDate":"2026-08-13","renderedDate":"2026-08-13"},
+    {"slug":"philippines-purchase-order-records-research","route":"/research/philippines-purchase-order-records-research","sourcePath":"app/research/aug13-batch.ts","sourceDate":"2026-08-13","renderedDate":"2026-08-13"},
+    {"slug":"philippines-employee-schedule-coverage-evidence-research","route":"/research/philippines-employee-schedule-coverage-evidence-research","sourcePath":"app/research/aug13-batch.ts","sourceDate":"2026-08-13","renderedDate":"2026-08-13"},
+    {"slug":"philippines-service-complaint-records-research","route":"/research/philippines-service-complaint-records-research","sourcePath":"app/research/aug13-batch.ts","sourceDate":"2026-08-13","renderedDate":"2026-08-13"},
+    {"slug":"philippines-employee-training-records-research","route":"/research/philippines-employee-training-records-research","sourcePath":"app/research/aug13-batch.ts","sourceDate":"2026-08-13","renderedDate":"2026-08-13"},
+    {"slug":"philippines-crm-data-stewardship-research","route":"/research/philippines-crm-data-stewardship-research","sourcePath":"app/research/aug13-batch.ts","sourceDate":"2026-08-13","renderedDate":"2026-08-13"},
+    {"slug":"philippines-remote-device-inventory-research","route":"/research/philippines-remote-device-inventory-research","sourcePath":"app/research/aug13-batch.ts","sourceDate":"2026-08-13","renderedDate":"2026-08-13"},
+    {"slug":"philippines-cash-application-records-research","route":"/research/philippines-cash-application-records-research","sourcePath":"app/research/aug13-batch.ts","sourceDate":"2026-08-13","renderedDate":"2026-08-13"},
+    {"slug":"philippines-returns-records-coordination-research","route":"/research/philippines-returns-records-coordination-research","sourcePath":"app/research/aug13-batch.ts","sourceDate":"2026-08-13","renderedDate":"2026-08-13"}
+  ]
+}
