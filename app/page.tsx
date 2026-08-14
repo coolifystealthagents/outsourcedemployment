@@ -79,7 +79,7 @@ export default function Home() {
         <section className="oe-models" id="models">
           <div className="oe-shell">
             <div className="oe-section-head">
-              <p className="oe-kicker"><img src="/icons/getillustrations/figure-chapter-1-svg/employment-model.svg" alt=""/> Pick the arrangement</p>
+              <p className="oe-kicker"><img src="/icons/getillustrations/figure-chapter-1-svg/employment-model.svg" alt="Employment model comparison"/> Pick the arrangement</p>
               <div>
                 <h2>The contract changes who is responsible.</h2>
                 <p>Before asking a Philippines provider for Filipino candidates, find out who employs the worker, who directs the work, and who handles the messy parts when something changes.</p>
@@ -102,7 +102,7 @@ export default function Home() {
         <section className="oe-work" id="work">
           <div className="oe-shell oe-work-grid">
             <div className="oe-work-intro">
-              <p className="oe-kicker oe-kicker-light"><img src="/icons/getillustrations/figure-chapter-1-svg/role-brief.svg" alt=""/> Define the work</p>
+              <p className="oe-kicker oe-kicker-light"><img src="/icons/getillustrations/figure-chapter-1-svg/role-brief.svg" alt="Documented role brief"/> Define the work</p>
               <h2>A useful brief describes a Tuesday, not a job ad.</h2>
               <p>List the recurring work, the decisions that stay with your team, and how someone will check the first outputs. That gives a provider something real to screen for.</p>
               <a className="oe-button oe-button-light" href="/contact">Request a staffing plan</a>
@@ -122,7 +122,7 @@ export default function Home() {
         <section className="oe-process">
           <div className="oe-shell">
             <div className="oe-section-head oe-process-head">
-              <p className="oe-kicker"><img src="/icons/getillustrations/figure-chapter-1-svg/responsibility-map.svg" alt=""/> A cleaner start</p>
+              <p className="oe-kicker"><img src="/icons/getillustrations/figure-chapter-1-svg/responsibility-map.svg" alt="Team responsibility map"/> A cleaner start</p>
               <div><h2>Questions to settle before a Philippines staffing contract.</h2></div>
             </div>
             <ol className="oe-process-list">
@@ -134,8 +134,8 @@ export default function Home() {
         </section>
 
         <section className="oe-shell gi-proof" aria-label="Employment planning essentials">
-          <img className="gi-proof-art" src="/illustrations/getillustrations/goodle-business-illustrations-svg/employment-partnership.svg" alt=""/>
-          <div><p className="oe-kicker"><span/>Compare responsibilities</p><h2>Make the employment arrangement understandable.</h2><div className="gi-icon-row"><span><img src="/icons/getillustrations/figure-chapter-1-svg/employment-model.svg" alt=""/>Employment model</span><span><img src="/icons/getillustrations/figure-chapter-1-svg/role-brief.svg" alt=""/>Role brief</span><span><img src="/icons/getillustrations/figure-chapter-1-svg/responsibility-map.svg" alt=""/>Responsibility map</span></div></div>
+          <img className="gi-proof-art" src="/illustrations/getillustrations/goodle-business-illustrations-svg/employment-partnership.svg" alt="Philippines employment partners reviewing responsibilities"/>
+          <div><p className="oe-kicker"><span/>Compare responsibilities</p><h2>Make the employment arrangement understandable.</h2><div className="gi-icon-row"><span><img src="/icons/getillustrations/figure-chapter-1-svg/employment-model.svg" alt="Employment model comparison"/>Employment model</span><span><img src="/icons/getillustrations/figure-chapter-1-svg/role-brief.svg" alt="Documented role brief"/>Role brief</span><span><img src="/icons/getillustrations/figure-chapter-1-svg/responsibility-map.svg" alt="Team responsibility map"/>Responsibility map</span></div></div>
         </section>
 
         <section className="oe-guides">
