@@ -1,6 +1,7 @@
 import { dailyBlogBatch } from './blog/daily-batch';
 import { august11BlogBatch } from './blog/aug11-batch';
 import { august13BlogBatch } from './blog/aug13-batch';
+import { august14BlogBatch } from './blog/aug14-batch';
 import { august13ResearchBatch } from './research/aug13-batch';
 
 export const site = {
@@ -66,7 +67,7 @@ export const blogPosts = [
 ] as const;
 
 // The repaired August 10 batch is newest; retain every prior route after it.
-export const allBlogPosts = [...august13BlogBatch, ...august11BlogBatch, ...dailyBlogBatch.slice(22), ...blogPosts, ...dailyBlogBatch.slice(0, 22)];
+export const allBlogPosts = [...august14BlogBatch, ...august13BlogBatch, ...august11BlogBatch, ...dailyBlogBatch.slice(22), ...blogPosts, ...dailyBlogBatch.slice(0, 22)];
 
 export type GuideBasics = {
   overview: readonly string[];
