@@ -1,24 +1,53 @@
-[
-  {"route":"/blog/philippines-r3-01-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-02-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-03-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-04-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-05-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-06-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-07-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-08-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-09-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-10-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-11-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-12-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-13-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-14-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-15-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-16-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-17-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-18-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-19-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-20-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-21-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]},
-  {"route":"/blog/philippines-r3-22-employment-operations","sourcePaths":["app/blog/aug19-repair-3.ts"]}
-]
+{
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/blog/employment-operations-intake-source-register",
+      "source": "content/blog/employment-operations-intake-source-register.md"
+    },
+    {
+      "route": "/blog/employment-operations-approval-evidence-matrix",
+      "source": "content/blog/employment-operations-approval-evidence-matrix.md"
+    },
+    {
+      "route": "/blog/employment-operations-exception-queue-triage",
+      "source": "content/blog/employment-operations-exception-queue-triage.md"
+    },
+    {
+      "route": "/blog/employment-operations-quality-review-cadence",
+      "source": "content/blog/employment-operations-quality-review-cadence.md"
+    },
+    {
+      "route": "/blog/employment-operations-handoff-acceptance-log",
+      "source": "content/blog/employment-operations-handoff-acceptance-log.md"
+    },
+    {
+      "route": "/blog/employment-operations-access-recertification-review",
+      "source": "content/blog/employment-operations-access-recertification-review.md"
+    },
+    {
+      "route": "/blog/employment-operations-weekly-decision-brief",
+      "source": "content/blog/employment-operations-weekly-decision-brief.md"
+    },
+    {
+      "route": "/blog/employment-operations-source-of-truth-map",
+      "source": "content/blog/employment-operations-source-of-truth-map.md"
+    },
+    {
+      "route": "/blog/employment-operations-change-control-record",
+      "source": "content/blog/employment-operations-change-control-record.md"
+    },
+    {
+      "route": "/blog/employment-operations-work-queue-ownership",
+      "source": "content/blog/employment-operations-work-queue-ownership.md"
+    },
+    {
+      "route": "/blog/employment-operations-escalation-path-design",
+      "source": "content/blog/employment-operations-escalation-path-design.md"
+    },
+    {
+      "route": "/blog/employment-operations-launch-readiness-review",
+      "source": "content/blog/employment-operations-launch-readiness-review.md"
+    }
+  ]
+}

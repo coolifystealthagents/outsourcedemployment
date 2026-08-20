@@ -1,16 +1,25 @@
 {
-  "campaignDate":"2026-08-19",
-  "family":"research",
-  "entries":[
-    {"route":"/research/philippines-payroll-input-reconciliation-evidence","sourcePaths":["app/research/aug19-batch.ts"]},
-    {"route":"/research/philippines-hris-field-mapping-research","sourcePaths":["app/research/aug19-batch.ts"]},
-    {"route":"/research/philippines-employment-absence-pattern-analysis","sourcePaths":["app/research/aug19-batch.ts"]},
-    {"route":"/research/philippines-employee-data-access-log-research","sourcePaths":["app/research/aug19-batch.ts"]},
-    {"route":"/research/philippines-remote-handoff-timezone-research","sourcePaths":["app/research/aug19-batch.ts"]},
-    {"route":"/research/philippines-employment-record-correction-request-research","sourcePaths":["app/research/aug19-batch.ts"]},
-    {"route":"/research/philippines-employment-vendor-evidence-review-research","sourcePaths":["app/research/aug19-batch.ts"]},
-    {"route":"/research/philippines-employment-knowledge-transfer-research","sourcePaths":["app/research/aug19-batch.ts"]},
-    {"route":"/research/philippines-employment-contingency-records-research","sourcePaths":["app/research/aug19-batch.ts"]},
-    {"route":"/research/philippines-employment-queue-capacity-research","sourcePaths":["app/research/aug19-batch.ts"]}
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/research/employment-operations-source-quality-evidence-research",
+      "source": "content/research/employment-operations-source-quality-evidence-research.md"
+    },
+    {
+      "route": "/research/employment-operations-exception-aging-patterns-research",
+      "source": "content/research/employment-operations-exception-aging-patterns-research.md"
+    },
+    {
+      "route": "/research/employment-operations-review-consistency-research",
+      "source": "content/research/employment-operations-review-consistency-research.md"
+    },
+    {
+      "route": "/research/employment-operations-access-governance-research",
+      "source": "content/research/employment-operations-access-governance-research.md"
+    },
+    {
+      "route": "/research/employment-operations-handoff-reliability-research",
+      "source": "content/research/employment-operations-handoff-reliability-research.md"
+    }
   ]
 }
