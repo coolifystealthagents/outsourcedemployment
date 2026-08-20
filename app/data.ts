@@ -466,7 +466,7 @@ export const staffingProcess = [
 export const staffingFitNote = 'Every plan is for talent recruited and hired in the Philippines. Send the role scope, schedule, tools, and management needs so a Philippines staffing team can assess the fit.';
 
 
-type ResearchPost = { slug: string; title: string; excerpt: string; body: string[]; publishedDate?: string };
+type ResearchPost = { slug: string; title: string; excerpt: string; body: string[]; publishedDate?: string; handoff?: { href: string; label: string; body: string } };
 
 const researchSources = [
   '1. World Bank, Individuals using the Internet, Philippines (2023 series): https://api.worldbank.org/v2/country/PHL/indicator/IT.NET.USER.ZS?format=json&per_page=20',
