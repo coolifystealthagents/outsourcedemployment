@@ -5,7 +5,18 @@ import { august14BlogBatch } from './blog/aug14-batch';
 import { august17BlogBatch } from './blog/aug17-batch';
 import { august19Repair3Batch } from './blog/aug19-repair-3';
 import { august18Repair5Batch } from './blog/aug18-repair-5';
-import { august20BlogBatch } from './blog/aug20-batch';
+import { august20Repair1Post } from './blog/aug20-repair-1';
+import { august20Repair2Post } from './blog/aug20-repair-2';
+import { august20Repair3Post } from './blog/aug20-repair-3';
+import { august20Repair4Post } from './blog/aug20-repair-4';
+import { august20Repair5Post } from './blog/aug20-repair-5';
+import { august20Repair6Post } from './blog/aug20-repair-6';
+import { august20Repair7Post } from './blog/aug20-repair-7';
+import { august20Repair8Post } from './blog/aug20-repair-8';
+import { august20Repair9Post } from './blog/aug20-repair-9';
+import { august20Repair10Post } from './blog/aug20-repair-10';
+import { august20Repair11Post } from './blog/aug20-repair-11';
+import { august20Repair12Post } from './blog/aug20-repair-12';
 import { august13ResearchBatch } from './research/aug13-batch';
 import { august14ResearchBatch } from './research/aug14-batch';
 import { august17ResearchBatch } from './research/aug17-batch';
@@ -75,7 +86,8 @@ export const blogPosts = [
 ] as const;
 
 // The repaired August 10 batch is newest; retain every prior route after it.
-export const allBlogPosts = [...august20BlogBatch, ...august19Repair3Batch, ...august18Repair5Batch, ...august17BlogBatch, ...august14BlogBatch, ...august13BlogBatch, ...august11BlogBatch, ...dailyBlogBatch.slice(22), ...blogPosts, ...dailyBlogBatch.slice(0, 22)];
+export const august20BlogRepairBatch = [august20Repair1Post, august20Repair2Post, august20Repair3Post, august20Repair4Post, august20Repair5Post, august20Repair6Post, august20Repair7Post, august20Repair8Post, august20Repair9Post, august20Repair10Post, august20Repair11Post, august20Repair12Post] as const;
+export const allBlogPosts = [...august20BlogRepairBatch, ...august19Repair3Batch, ...august18Repair5Batch, ...august17BlogBatch, ...august14BlogBatch, ...august13BlogBatch, ...august11BlogBatch, ...dailyBlogBatch.slice(22), ...blogPosts, ...dailyBlogBatch.slice(0, 22)];
 
 export type GuideBasics = {
   overview: readonly string[];

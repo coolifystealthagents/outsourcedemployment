@@ -2,17 +2,17 @@
   "campaignDate": "2026-08-20",
   "family": "blog",
   "entries": [
-    {"slug":"philippines-employee-question-routing","sourcePaths":["app/blog/aug20-batch.ts"]},
-    {"slug":"philippines-onboarding-document-reconciliation","sourcePaths":["app/blog/aug20-batch.ts"]},
-    {"slug":"philippines-schedule-change-coordination","sourcePaths":["app/blog/aug20-batch.ts"]},
-    {"slug":"philippines-payroll-input-review","sourcePaths":["app/blog/aug20-batch.ts"]},
-    {"slug":"philippines-employee-record-field-mapping","sourcePaths":["app/blog/aug20-batch.ts"]},
-    {"slug":"philippines-benefits-request-intake","sourcePaths":["app/blog/aug20-batch.ts"]},
-    {"slug":"philippines-performance-review-coordination","sourcePaths":["app/blog/aug20-batch.ts"]},
-    {"slug":"philippines-employee-access-removal-handoff","sourcePaths":["app/blog/aug20-batch.ts"]},
-    {"slug":"philippines-hr-policy-version-check","sourcePaths":["app/blog/aug20-batch.ts"]},
-    {"slug":"philippines-candidate-interview-note-handoff","sourcePaths":["app/blog/aug20-batch.ts"]},
-    {"slug":"philippines-employee-absence-record-review","sourcePaths":["app/blog/aug20-batch.ts"]},
-    {"slug":"philippines-remote-equipment-return-coordination","sourcePaths":["app/blog/aug20-batch.ts"]}
+    {"slug":"philippines-question-routing","sourcePaths":["app/blog/aug20-repair-1.ts"]},
+    {"slug":"philippines-onboarding-document-reconciliation","sourcePaths":["app/blog/aug20-repair-2.ts"]},
+    {"slug":"philippines-schedule-change-coordination","sourcePaths":["app/blog/aug20-repair-3.ts"]},
+    {"slug":"philippines-payroll-input-review","sourcePaths":["app/blog/aug20-repair-4.ts"]},
+    {"slug":"philippines-record-field-mapping","sourcePaths":["app/blog/aug20-repair-5.ts"]},
+    {"slug":"philippines-benefits-request-intake","sourcePaths":["app/blog/aug20-repair-6.ts"]},
+    {"slug":"philippines-performance-cycle-coordination","sourcePaths":["app/blog/aug20-repair-7.ts"]},
+    {"slug":"philippines-access-removal-handoff","sourcePaths":["app/blog/aug20-repair-8.ts"]},
+    {"slug":"philippines-policy-version-check","sourcePaths":["app/blog/aug20-repair-9.ts"]},
+    {"slug":"philippines-interview-note-handoff","sourcePaths":["app/blog/aug20-repair-10.ts"]},
+    {"slug":"philippines-absence-record-review","sourcePaths":["app/blog/aug20-repair-11.ts"]},
+    {"slug":"philippines-equipment-return-coordination","sourcePaths":["app/blog/aug20-repair-12.ts"]}
   ]
 }
