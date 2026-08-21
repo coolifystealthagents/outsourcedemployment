@@ -1,0 +1,7 @@
+[
+  {"route":"/research/philippines-employment-payroll-input-variance-research","sourcePaths":["app/research/aug21-research-batch.ts"]},
+  {"route":"/research/philippines-employment-onboarding-evidence-research","sourcePaths":["app/research/aug21-research-batch.ts"]},
+  {"route":"/research/philippines-employment-leave-chronology-research","sourcePaths":["app/research/aug21-research-batch.ts"]},
+  {"route":"/research/philippines-employment-schedule-handoff-research","sourcePaths":["app/research/aug21-research-batch.ts"]},
+  {"route":"/research/philippines-employment-response-time-research","sourcePaths":["app/research/aug21-research-batch.ts"]}
+]
