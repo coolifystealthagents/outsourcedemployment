@@ -5,6 +5,7 @@ import { august14BlogBatch } from './blog/aug14-batch';
 import { august17BlogBatch } from './blog/aug17-batch';
 import { august19Repair3Batch } from './blog/aug19-repair-3';
 import { august18Repair5Batch } from './blog/aug18-repair-5';
+import { august20BlogBatch } from './blog/aug20-batch';
 import { august13ResearchBatch } from './research/aug13-batch';
 import { august14ResearchBatch } from './research/aug14-batch';
 import { august17ResearchBatch } from './research/aug17-batch';
@@ -73,7 +74,7 @@ export const blogPosts = [
 ] as const;
 
 // The repaired August 10 batch is newest; retain every prior route after it.
-export const allBlogPosts = [...august19Repair3Batch, ...august18Repair5Batch, ...august17BlogBatch, ...august14BlogBatch, ...august13BlogBatch, ...august11BlogBatch, ...dailyBlogBatch.slice(22), ...blogPosts, ...dailyBlogBatch.slice(0, 22)];
+export const allBlogPosts = [...august20BlogBatch, ...august19Repair3Batch, ...august18Repair5Batch, ...august17BlogBatch, ...august14BlogBatch, ...august13BlogBatch, ...august11BlogBatch, ...dailyBlogBatch.slice(22), ...blogPosts, ...dailyBlogBatch.slice(0, 22)];
 
 export type GuideBasics = {
   overview: readonly string[];

@@ -1,0 +1,18 @@
+{
+  "campaignDate": "2026-08-20",
+  "family": "blog",
+  "entries": [
+    {"slug":"philippines-employee-question-routing","sourcePaths":["app/blog/aug20-batch.ts"]},
+    {"slug":"philippines-onboarding-document-reconciliation","sourcePaths":["app/blog/aug20-batch.ts"]},
+    {"slug":"philippines-schedule-change-coordination","sourcePaths":["app/blog/aug20-batch.ts"]},
+    {"slug":"philippines-payroll-input-review","sourcePaths":["app/blog/aug20-batch.ts"]},
+    {"slug":"philippines-employee-record-field-mapping","sourcePaths":["app/blog/aug20-batch.ts"]},
+    {"slug":"philippines-benefits-request-intake","sourcePaths":["app/blog/aug20-batch.ts"]},
+    {"slug":"philippines-performance-review-coordination","sourcePaths":["app/blog/aug20-batch.ts"]},
+    {"slug":"philippines-employee-access-removal-handoff","sourcePaths":["app/blog/aug20-batch.ts"]},
+    {"slug":"philippines-hr-policy-version-check","sourcePaths":["app/blog/aug20-batch.ts"]},
+    {"slug":"philippines-candidate-interview-note-handoff","sourcePaths":["app/blog/aug20-batch.ts"]},
+    {"slug":"philippines-employee-absence-record-review","sourcePaths":["app/blog/aug20-batch.ts"]},
+    {"slug":"philippines-remote-equipment-return-coordination","sourcePaths":["app/blog/aug20-batch.ts"]}
+  ]
+}
