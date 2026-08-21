@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-20",
+  "family": "research",
+  "entries": [
+    {"route":"/research/philippines-employment-benefits-change-evidence-research","sourcePaths":["app/research/aug20-research-batch.ts"],"imagePath":"public/aug20-research-heroes/philippines-employment-benefits-change-evidence-research.webp","promptReceipt":"Generated with Gemini via imagegen: editorial documentary scene of a remote employment administrator reconciling benefits enrollment records and an approved change request; no logos, text, watermark, or personal data."},
+    {"route":"/research/philippines-employment-document-translation-review-research","sourcePaths":["app/research/aug20-research-batch.ts"],"imagePath":"public/aug20-research-heroes/philippines-employment-document-translation-review-research.webp","promptReceipt":"Generated with Gemini via imagegen: bilingual remote employment administrator comparing two language versions of an employment document; no logos, text, watermark, or personal data."},
+    {"route":"/research/philippines-employment-workforce-reporting-denominator-research","sourcePaths":["app/research/aug20-research-batch.ts"],"imagePath":"public/aug20-research-heroes/philippines-employment-workforce-reporting-denominator-research.webp","promptReceipt":"Generated with Gemini via imagegen: remote employment operations analyst building a workforce report from separated abstract data cards; no readable charts, logos, text, watermark, or invented statistics."},
+    {"route":"/research/philippines-employment-request-intake-research","sourcePaths":["app/research/aug20-research-batch.ts"],"imagePath":"public/aug20-research-heroes/philippines-employment-request-intake-research.webp","promptReceipt":"Generated with Gemini via imagegen: remote employment support coordinator sorting incoming requests into evidence and decision lanes; no logos, text, watermark, or personal data."},
+    {"route":"/research/philippines-employment-access-review-cadence-research","sourcePaths":["app/research/aug20-research-batch.ts"],"imagePath":"public/aug20-research-heroes/philippines-employment-access-review-cadence-research.webp","promptReceipt":"Generated with Gemini via imagegen: remote employment administrator reviewing access evidence and permission scope; no logos, text, watermark, or personal data."}
+  ]
+}
