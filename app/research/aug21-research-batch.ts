@@ -20,7 +20,9 @@ export const august21ResearchBatch:ResearchEntry[]=[
   'A later correction should reopen the case rather than overwrite the first explanation. Preserve the original comparison, the new source, the owner response, and the resulting record. That history lets a reviewer tell whether the problem was a missing source, a timing mismatch, a duplicate request, an entry mistake, or a changed instruction. It also prevents a clean final total from erasing the uncertainty that existed before approval.',
   'For repeat testing, freeze the input period before opening the comparison and record the extraction time. Re-run the same classification on a later period, but do not compare totals unless the population, field definition, and cutoff remain comparable. A changed mix of starters, leavers, or corrections can move the total without showing a process defect. The reviewer should explain whether a finding is a source problem, a timing problem, or a real change in the work.',
   'The most useful closeout is therefore a bounded statement: the current input differs from the prior period, two supporting sources explain part of the change, one effective date is unresolved, and payroll ownership is required before approval. That sentence is more actionable than a red flag without context. It lets the next owner ask a focused question while keeping the support lane from making a pay decision.',
-  'Sources:',sources.ilo,sources.psa,sources.ftc
+  'Sources: International Labour Organization, Decent Work: https://www.ilo.org/topics/decent-work-and-2030-agenda',
+  'Philippine Statistics Authority, Labor Force Survey: https://psa.gov.ph/statistics/labor-force-survey',
+  'Federal Trade Commission, Protecting Personal Information: https://www.ftc.gov/business-guidance/privacy-security'
  ]},
  {slug:'philippines-employment-onboarding-evidence-research',title:'Philippines Employment Onboarding: What Counts as Completion Evidence?',excerpt:'Study whether an onboarding record proves a step happened, was reviewed, and was safe to hand off.',publishedDate:'2026-08-21',image:'/aug21-research-heroes/philippines-employment-onboarding-evidence-research.png',body:[
   'Research question: what evidence can show that a Philippines employment onboarding step is complete without confusing a submitted document, an owner approval, and a live access change?',
@@ -39,7 +41,11 @@ export const august21ResearchBatch:ResearchEntry[]=[
   'If an owner later changes an instruction, preserve the first state and create a new event. This matters when a start date moves, a document is replaced, or access is narrowed after a review. The record should say what changed, why, who approved it, and whether the downstream system matches the instruction. A durable history gives the employer a usable explanation without making the coordinator the person who decided the employment outcome.',
   'A repeatable review should sample both apparently complete packets and packets that stopped. Complete packets test whether a green status has the required evidence behind it. Stopped packets test whether the queue records a useful reason rather than treating an exception as worker failure. Keep the sample frame, exclusions, and reviewer questions so the next review can tell whether a change reflects better evidence or simply a different mix of cases.',
   'The practical conclusion is narrow: onboarding support can prove that a defined step was received, checked, approved, entered, or verified when the record names the event and its source. It cannot prove that the whole employment relationship is correct. That distinction protects the employer’s decision rights and gives a Filipino support specialist a clear lane for careful daily administration.',
-  'Sources:',sources.ilo,sources.psa,sources.nist,sources.cisa,sources.ftc
+  'Sources: International Labour Organization, Decent Work: https://www.ilo.org/topics/decent-work-and-2030-agenda',
+  'Philippine Statistics Authority, Labor Force Survey: https://psa.gov.ph/statistics/labor-force-survey',
+  'NIST, Cybersecurity Framework 2.0: https://www.nist.gov/cyberframework',
+  'CISA, Cybersecurity Performance Goals: https://www.cisa.gov/cybersecurity-performance-goals',
+  'Federal Trade Commission, Protecting Personal Information: https://www.ftc.gov/business-guidance/privacy-security'
  ]},
  {slug:'philippines-employment-leave-chronology-research',title:'Philippines Employment Leave Requests: Can the Timeline Support a Fair Review?',excerpt:'Research how leave-support records can preserve chronology and uncertainty while the authorized owner applies the relevant policy.',publishedDate:'2026-08-21',image:'/aug21-research-heroes/philippines-employment-leave-chronology-research.png',body:[
   'Research question: which timeline evidence helps a Philippines employment-support coordinator prepare a leave request for review without deciding eligibility, approval, or employee treatment?',
@@ -58,7 +64,9 @@ export const august21ResearchBatch:ResearchEntry[]=[
   'When new evidence arrives, retain the earlier timeline and add the new event. If the employee changes dates, the owner clarifies a policy point, or a balance correction is approved, the record should show the transition instead of making the first request disappear. That history protects the decision maker from relying on a convenient summary and lets support explain exactly which part of the case was prepared, held, or reopened.',
   'The review should also test the cases that appear easy. A request with a familiar reason can still carry a wrong date, a stale balance, or a duplicate submission. Include those cases in the sample and record the evidence that made them ordinary or exceptional. This avoids turning a difficult request into a story about the employee and keeps the conclusion attached to the record that was actually inspected.',
   'For managers, the result should identify the next decision rather than recommend one. It may say that the request arrived before the stated cutoff, that the balance source conflicts with the tracker, and that HR must resolve the discrepancy. That is enough to move the case safely. Support has answered the evidence question without applying a policy it does not own.',
-  'Sources:',sources.ilo,sources.psa,sources.ftc
+  'Sources: International Labour Organization, Decent Work: https://www.ilo.org/topics/decent-work-and-2030-agenda',
+  'Philippine Statistics Authority, Labor Force Survey: https://psa.gov.ph/statistics/labor-force-survey',
+  'Federal Trade Commission, Protecting Personal Information: https://www.ftc.gov/business-guidance/privacy-security'
  ]},
  {slug:'philippines-employment-schedule-handoff-research',title:'Philippines Employment Schedule Handoffs: Which Timing Evidence Prevents False Completion?',excerpt:'Study how distributed employment-support teams can distinguish a handed-off task from a reviewed and completed task.',publishedDate:'2026-08-21',image:'/aug21-research-heroes/philippines-employment-schedule-handoff-research.png',body:[
   'Research question: what timing evidence shows that a Philippines employment-support schedule handoff reached the right owner, rather than merely leaving one queue and entering another?',
@@ -77,7 +85,10 @@ export const august21ResearchBatch:ResearchEntry[]=[
   'A reproducible handoff review should freeze the definition of received and accepted before measuring the sample. It should test at least one case that was acknowledged but not reviewed and one case that was reviewed but returned for a missing source. Those cases reveal whether the queue labels describe the work or merely describe movement between columns. Record the reason for each pause so a later report can separate capacity, authority, evidence, and system causes.',
   'The strongest operational statement is specific: the packet was prepared at one local time, delivered to the named owner, acknowledged, and held because an approval source was missing. That statement supports a reminder or escalation. It does not claim that the task was completed. In distributed Philippines employment support, accuracy about the handoff is more useful than a fast but vague closure.',
   'A small audit should preserve the original message, the handoff packet, the receipt event, and the owner response. Reviewers can then distinguish a delivery failure from a content gap or a decision delay. That distinction gives the team a better question for the next shift and keeps a time-zone boundary from becoming an unsupported judgment about the people doing the work.',
-  'Sources:',sources.ilo,sources.oecd,sources.ftc,sources.nist
+  'Sources: International Labour Organization, Decent Work: https://www.ilo.org/topics/decent-work-and-2030-agenda',
+  'OECD, Employment Outlook: https://www.oecd.org/employment-outlook/',
+  'Federal Trade Commission, Protecting Personal Information: https://www.ftc.gov/business-guidance/privacy-security',
+  'NIST, Cybersecurity Framework 2.0: https://www.nist.gov/cyberframework'
  ]},
  {slug:'philippines-employment-response-time-research',title:'Philippines Employment Support Response Time: When Does a Clock Measure the Work?',excerpt:'Research how response-time reporting can separate acknowledgment, preparation, owner decision, and actual resolution.',publishedDate:'2026-08-21',image:'/aug21-research-heroes/philippines-employment-response-time-research.png',body:[
   'Research question: which event should a Philippines employment-support team measure when it reports response time, and how can it avoid calling an acknowledgment a resolution?',
@@ -96,6 +107,10 @@ export const august21ResearchBatch:ResearchEntry[]=[
   'A metric should be revised when the workflow changes. If an owner adds a required review, a system begins recording a new timestamp, or a request is split into two decisions, preserve the prior definition and publish the new one with an effective date. This makes trend comparisons honest. The best report may show a slower resolution after a new approval gate, because the added evidence can explain what the earlier number concealed.',
   'For repeat measurement, select the sample before reading the result and keep open cases in the report. Compare medians or distributions only after checking that the event definition, business-hour calendar, and pause rules stayed constant. If they changed, describe the break instead of drawing a trend line across incompatible numbers. A transparent limitation is better evidence than a smooth chart built from different clocks.',
   'A manager can use the resulting report to ask a precise question: did support acknowledge requests within its stated window, did packets reach the correct owner, and did verification occur after a decision? Each question has its own denominator and owner. Keeping them separate makes daily article-era operations and employment administration easier to discuss without claiming that a support metric proves worker quality or a final employment result.',
-  'Sources:',sources.ilo,sources.oecd,sources.nist,sources.cisa,sources.ftc
+  'Sources: International Labour Organization, Decent Work: https://www.ilo.org/topics/decent-work-and-2030-agenda',
+  'OECD, Employment Outlook: https://www.oecd.org/employment-outlook/',
+  'NIST, Cybersecurity Framework 2.0: https://www.nist.gov/cyberframework',
+  'CISA, Cybersecurity Performance Goals: https://www.cisa.gov/cybersecurity-performance-goals',
+  'Federal Trade Commission, Protecting Personal Information: https://www.ftc.gov/business-guidance/privacy-security'
  ]},
 ];
