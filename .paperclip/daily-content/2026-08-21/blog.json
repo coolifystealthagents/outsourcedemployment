@@ -1,0 +1,18 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "blog",
+  "entries": [
+    {"route":"/blog/philippines-employment-intake-quality-gate","sourcePaths":["app/blog/aug21-batch.ts"]},
+    {"route":"/blog/philippines-onboarding-owner-map","sourcePaths":["app/blog/aug21-batch.ts"]},
+    {"route":"/blog/philippines-leave-calendar-exception-review","sourcePaths":["app/blog/aug21-batch.ts"]},
+    {"route":"/blog/philippines-payroll-cutoff-evidence-pack","sourcePaths":["app/blog/aug21-batch.ts"]},
+    {"route":"/blog/philippines-employee-record-retention-routine","sourcePaths":["app/blog/aug21-batch.ts"]},
+    {"route":"/blog/philippines-benefits-question-escalation","sourcePaths":["app/blog/aug21-batch.ts"]},
+    {"route":"/blog/philippines-performance-review-cycle-tracker","sourcePaths":["app/blog/aug21-batch.ts"]},
+    {"route":"/blog/philippines-offboarding-access-inventory","sourcePaths":["app/blog/aug21-batch.ts"]},
+    {"route":"/blog/philippines-policy-change-brief","sourcePaths":["app/blog/aug21-batch.ts"]},
+    {"route":"/blog/philippines-recruiting-interview-evidence-log","sourcePaths":["app/blog/aug21-batch.ts"]},
+    {"route":"/blog/philippines-remote-employee-absence-log","sourcePaths":["app/blog/aug21-batch.ts"]},
+    {"route":"/blog/philippines-employee-data-change-approval","sourcePaths":["app/blog/aug21-batch.ts"]}
+  ]
+}
