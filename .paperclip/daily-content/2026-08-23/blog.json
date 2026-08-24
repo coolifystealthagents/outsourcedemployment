@@ -1,0 +1,19 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "blog",
+  "imageStatus": "fallback-text-complete-gemini-unavailable",
+  "entries": [
+    {"route":"/blog/philippines-remote-employee-daily-work-plan","sourcePaths":["app/blog/aug23-batch.ts"]},
+    {"route":"/blog/philippines-remote-employee-coverage-calendar","sourcePaths":["app/blog/aug23-batch.ts"]},
+    {"route":"/blog/philippines-outsourced-employment-workload-review","sourcePaths":["app/blog/aug23-batch.ts"]},
+    {"route":"/blog/philippines-employee-records-review-cadence","sourcePaths":["app/blog/aug23-batch.ts"]},
+    {"route":"/blog/philippines-candidate-pipeline-handoff-standard","sourcePaths":["app/blog/aug23-batch.ts"]},
+    {"route":"/blog/philippines-onboarding-dependency-map","sourcePaths":["app/blog/aug23-batch.ts"]},
+    {"route":"/blog/philippines-payroll-input-reconciliation-routine","sourcePaths":["app/blog/aug23-batch.ts"]},
+    {"route":"/blog/philippines-employee-leave-exception-log","sourcePaths":["app/blog/aug23-batch.ts"]},
+    {"route":"/blog/philippines-remote-team-knowledge-handoff","sourcePaths":["app/blog/aug23-batch.ts"]},
+    {"route":"/blog/philippines-employment-support-escalation-sla","sourcePaths":["app/blog/aug23-batch.ts"]},
+    {"route":"/blog/philippines-remote-employee-quality-sampling","sourcePaths":["app/blog/aug23-batch.ts"]},
+    {"route":"/blog/philippines-employee-access-recertification-calendar","sourcePaths":["app/blog/aug23-batch.ts"]}
+  ]
+}
