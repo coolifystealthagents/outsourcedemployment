@@ -1,5 +1,5 @@
 {
-  "campaignDate": "2026-08-23",
+  "campaignDate": "2026-08-24",
   "family": "blog",
   "status": "gemini-unavailable-fallback",
   "blocker": "No Gemini image-generation provider is available in this execution workspace. Per the authorized fallback, no stock or retained-image substitution was used.",
