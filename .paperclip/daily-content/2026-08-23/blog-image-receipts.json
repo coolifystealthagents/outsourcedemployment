@@ -1,0 +1,20 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "blog",
+  "status": "gemini-unavailable-fallback",
+  "blocker": "No Gemini image-generation provider is available in this execution workspace. No stock or retained-image substitution was used.",
+  "routes": [
+    "/blog/philippines-remote-employee-daily-work-plan",
+    "/blog/philippines-remote-employee-coverage-calendar",
+    "/blog/philippines-outsourced-employment-workload-review",
+    "/blog/philippines-employee-records-review-cadence",
+    "/blog/philippines-candidate-pipeline-handoff-standard",
+    "/blog/philippines-onboarding-dependency-map",
+    "/blog/philippines-payroll-input-reconciliation-routine",
+    "/blog/philippines-employee-leave-exception-log",
+    "/blog/philippines-remote-team-knowledge-handoff",
+    "/blog/philippines-employment-support-escalation-sla",
+    "/blog/philippines-remote-employee-quality-sampling",
+    "/blog/philippines-employee-access-recertification-calendar"
+  ]
+}
