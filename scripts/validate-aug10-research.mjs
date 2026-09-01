@@ -24,5 +24,6 @@ for (const entry of manifest.entries) {
   if (!detail.includes('articleUrl') || !detail.includes('alternates:{canonical')) throw new Error('canonical route rendering absent');
   if (!sitemap.includes('researchPosts.map')) throw new Error('research sitemap eligibility absent');
 }
-if (!index.includes('sort((a,b)=>(b.publishedDate||\'0000-00-00\').localeCompare(a.publishedDate||\'0000-00-00\'))')) throw new Error('index is not newest-first');
+const newestFirstSort = /sort\(\(a\s*,\s*b\)\s*=>\s*\(b\.publishedDate\s*\|\|\s*['\"]0000-00-00['\"]\)\.localeCompare\(a\.publishedDate\s*\|\|\s*['\"]0000-00-00['\"]\)(?:\s*\|\|\s*a\.slug\.localeCompare\(b\.slug\))?\s*\)/;
+if (!newestFirstSort.test(index)) throw new Error('research index must sort published dates newest-first (with an optional stable slug tiebreaker)');
 console.log(`PASS ${manifest.entries.length} research entries; manifest sha256 ${crypto.createHash('sha256').update(fs.readFileSync(manifestPath)).digest('hex')}`);
