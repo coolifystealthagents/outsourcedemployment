@@ -1,0 +1,7 @@
+{"campaignDate":"2026-09-03","family":"research","entries":[
+{"route":"/research/philippines-employment-effective-date-collision-study","sourcePaths":["app/research/sep3-research-batch.ts"]},
+{"route":"/research/philippines-payroll-exception-aging-study","sourcePaths":["app/research/sep3-research-batch.ts"]},
+{"route":"/research/philippines-onboarding-evidence-reviewer-agreement-study","sourcePaths":["app/research/sep3-research-batch.ts"]},
+{"route":"/research/philippines-leave-balance-provenance-reconstruction","sourcePaths":["app/research/sep3-research-batch.ts"]},
+{"route":"/research/philippines-offboarding-access-closure-false-positive-study","sourcePaths":["app/research/sep3-research-batch.ts"]}
+]}
