@@ -1,0 +1,14 @@
+{"campaignDate":"2026-09-03","family":"blog","imageStatus":"fallback-text-complete-gemini-unavailable","entries":[
+{"route":"/blog/philippines-employment-request-queue-triage-rulebook","sourcePaths":["app/blog/sep3-batch.ts"]},
+{"route":"/blog/philippines-payroll-cutoff-change-acknowledgment","sourcePaths":["app/blog/sep3-batch.ts"]},
+{"route":"/blog/philippines-onboarding-account-readiness-proof","sourcePaths":["app/blog/sep3-batch.ts"]},
+{"route":"/blog/philippines-candidate-interview-reschedule-ledger","sourcePaths":["app/blog/sep3-batch.ts"]},
+{"route":"/blog/philippines-offboarding-asset-return-chain","sourcePaths":["app/blog/sep3-batch.ts"]},
+{"route":"/blog/philippines-hr-inbox-duplicate-request-control","sourcePaths":["app/blog/sep3-batch.ts"]},
+{"route":"/blog/philippines-manager-decision-backlog-review","sourcePaths":["app/blog/sep3-batch.ts"]},
+{"route":"/blog/philippines-employment-sop-exception-register","sourcePaths":["app/blog/sep3-batch.ts"]},
+{"route":"/blog/philippines-workforce-report-metric-definition-sheet","sourcePaths":["app/blog/sep3-batch.ts"]},
+{"route":"/blog/philippines-shift-overlap-handoff-checkpoint","sourcePaths":["app/blog/sep3-batch.ts"]},
+{"route":"/blog/philippines-employment-document-translation-coordination","sourcePaths":["app/blog/sep3-batch.ts"]},
+{"route":"/blog/philippines-benefits-enrollment-missing-information-loop","sourcePaths":["app/blog/sep3-batch.ts"]}
+]}
