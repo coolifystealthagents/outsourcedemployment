@@ -23,6 +23,7 @@ import { august31BlogBatch } from './blog/aug31-batch';
 import { september1BlogBatch } from './blog/sep1-batch';
 import { september2BlogBatch } from './blog/sep2-batch';
 import { september3BlogBatch } from './blog/sep3-batch';
+import { september4BlogBatch } from './blog/sep4-batch';
 import { august13ResearchBatch } from './research/aug13-batch';
 import { august14ResearchBatch } from './research/aug14-batch';
 import { august17ResearchBatch } from './research/aug17-batch';
@@ -34,6 +35,7 @@ import { august31ResearchBatch } from './research/aug31-research-batch';
 import { september1ResearchBatch } from './research/sep1-research-batch';
 import { september2ResearchBatch } from './research/sep2-research-batch';
 import { september3ResearchBatch } from './research/sep3-research-batch';
+import { september4ResearchBatch } from './research/sep4-research-batch';
 
 export const site = {
   "domain": "OutsourcedEmployment.com",
@@ -99,7 +101,7 @@ export const blogPosts = [
 
 // The repaired August 10 batch is newest; retain every prior route after it.
 export const august20BlogRepairBatch = [august20Repair1Post, august20Repair2Post, august20Repair3Post, august20Repair4Post, august20Repair5Post, august20Repair6Post, august20Repair7Post, august20Repair8Post, august20Repair9Post, august20Repair10Post, august20Repair11Post, august20Repair12Post] as const;
-export const allBlogPosts = [...september3BlogBatch, ...september2BlogBatch, ...september1BlogBatch, ...august31BlogBatch, ...august23BlogBatch, ...august21BlogBatch, ...august20BlogRepairBatch, ...august19Repair3Batch, ...august18Repair5Batch, ...august17BlogBatch, ...august14BlogBatch, ...august13BlogBatch, ...august11BlogBatch, ...dailyBlogBatch.slice(22), ...blogPosts, ...dailyBlogBatch.slice(0, 22)];
+export const allBlogPosts = [...september4BlogBatch, ...september3BlogBatch, ...september2BlogBatch, ...september1BlogBatch, ...august31BlogBatch, ...august23BlogBatch, ...august21BlogBatch, ...august20BlogRepairBatch, ...august19Repair3Batch, ...august18Repair5Batch, ...august17BlogBatch, ...august14BlogBatch, ...august13BlogBatch, ...august11BlogBatch, ...dailyBlogBatch.slice(22), ...blogPosts, ...dailyBlogBatch.slice(0, 22)];
 
 export type GuideBasics = {
   overview: readonly string[];
@@ -645,4 +647,4 @@ const august10ResearchSlugs = new Set([
   'philippines-employee-data-audit-research',
 ]);
 
-export const researchPosts = [...september3ResearchBatch, ...september2ResearchBatch, ...september1ResearchBatch, ...august31ResearchBatch, ...august23ResearchBatch, ...august21ResearchBatch, ...august20ResearchBatch, ...august19ResearchBatch.slice(0,10), ...august17ResearchBatch, ...august14ResearchBatch, ...august13ResearchBatch, ...researchPostsRaw.map(post => august10ResearchSlugs.has(post.slug) ? {...post, publishedDate: '2026-08-10'} : post)];
+export const researchPosts = [...september4ResearchBatch, ...september3ResearchBatch, ...september2ResearchBatch, ...september1ResearchBatch, ...august31ResearchBatch, ...august23ResearchBatch, ...august21ResearchBatch, ...august20ResearchBatch, ...august19ResearchBatch.slice(0,10), ...august17ResearchBatch, ...august14ResearchBatch, ...august13ResearchBatch, ...researchPostsRaw.map(post => august10ResearchSlugs.has(post.slug) ? {...post, publishedDate: '2026-08-10'} : post)];
