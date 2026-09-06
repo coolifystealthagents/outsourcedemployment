@@ -1,6 +1,6 @@
 # Service-led topic map
 
-Updated: 2026-08-21
+Updated: 2026-09-06
 Scope: existing Philippines-only routes. This is an editorial ledger, not a promise of rankings or a publishing queue.
 
 Each service page is a pillar for a specific buyer need. The linked research route answers the next practical question. Before adding a reader-facing link, confirm that its wording, service scope, and owner-boundary language still match both routes.
@@ -9,7 +9,7 @@ Each service page is a pillar for a specific buyer need. The linked research rou
 | --- | --- | --- | --- |
 | [Candidate Sourcing Coordination](/services/candidate-sourcing-coordination) | [Candidate Scheduling Evidence](/research/philippines-candidate-scheduling-evidence-research) | What can a coordinator prepare before selection? | Link from the research conclusion only when the source explains that interview logistics and record checks are in scope, while selection stays with the hiring owner. |
 | [Employment Document Administration](/services/employment-document-administration) | [HR Document Administration](/research/philippines-hr-document-administration-research) | Which document checks can be prepared without making an HR decision? | Offer the service after the source describes templates, field checks, version records, and the point where review is required. |
-| [New Hire Onboarding](/services/new-hire-onboarding) | [Onboarding Records Coordination](/research/philippines-onboarding-records-coordination-research) | What proves a new-hire packet is ready for owner review? | Point readers to onboarding support after the evidence checklist, without implying that the support role approves a hire. |
+| [New Hire Onboarding](/services/new-hire-onboarding) | [Onboarding Records Coordination](/research/philippines-onboarding-records-coordination-research) | What proves a new-hire packet is ready for owner review? | Delivered locally on 2026-09-06: one route-local service handoff follows the evidence checklist. Do not add another link; the HR owner keeps eligibility, employment terms, policy answers, access, and start approval. |
 | [Employee Records Management](/services/employee-records-management) | [Employee Records Retention](/research/philippines-employee-records-retention-research) | Which records and access gaps should a coordinator surface? | Delivered locally on 2026-09-03: one route-local service handoff follows the inventory and access boundary. Do not add another link; the responsible owner keeps retention, disclosure, deletion, record-change, status, and access decisions. |
 | [Schedule Administration](/services/schedule-administration) | [Schedule Administration](/research/philippines-schedule-administration-research) | What evidence should appear before a manager changes coverage? | Place the handoff after the coverage and exception discussion; do not frame it as approval of hours or leave. |
 | [Leave Tracking Support](/services/leave-tracking-support) | [Leave Records Reconciliation](/research/philippines-leave-records-reconciliation-research) | How can leave records be checked without deciding entitlement? | Link after the source asks readers to separate facts, mismatches, and the owner decision. |
