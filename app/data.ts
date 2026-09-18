@@ -46,6 +46,7 @@ import { september8ResearchBatch } from './research/sep8-research-batch';
 import { september9ResearchBatch } from './research/sep9-research-batch';
 import { september10ResearchBatch } from './research/sep10-research-batch';
 import { september14ResearchBatch } from './research/sep14-research-batch';
+import { september18ResearchBatch } from './research/sep18-research-batch';
 
 export const site = {
   "domain": "OutsourcedEmployment.com",
@@ -657,4 +658,4 @@ const august10ResearchSlugs = new Set([
   'philippines-employee-data-audit-research',
 ]);
 
-export const researchPosts = [...september14ResearchBatch, ...september10ResearchBatch, ...september9ResearchBatch, ...september8ResearchBatch, ...september7ResearchBatch, ...september4ResearchBatch, ...september3ResearchBatch, ...september2ResearchBatch, ...september1ResearchBatch, ...august31ResearchBatch, ...august23ResearchBatch, ...august21ResearchBatch, ...august20ResearchBatch, ...august19ResearchBatch.slice(0,10), ...august17ResearchBatch, ...august14ResearchBatch, ...august13ResearchBatch, ...researchPostsRaw.map(post => august10ResearchSlugs.has(post.slug) ? {...post, publishedDate: '2026-08-10'} : post)];
+export const researchPosts = [...september18ResearchBatch, ...september14ResearchBatch, ...september10ResearchBatch, ...september9ResearchBatch, ...september8ResearchBatch, ...september7ResearchBatch, ...september4ResearchBatch, ...september3ResearchBatch, ...september2ResearchBatch, ...september1ResearchBatch, ...august31ResearchBatch, ...august23ResearchBatch, ...august21ResearchBatch, ...august20ResearchBatch, ...august19ResearchBatch.slice(0,10), ...august17ResearchBatch, ...august14ResearchBatch, ...august13ResearchBatch, ...researchPostsRaw.map(post => august10ResearchSlugs.has(post.slug) ? {...post, publishedDate: '2026-08-10'} : post)];
