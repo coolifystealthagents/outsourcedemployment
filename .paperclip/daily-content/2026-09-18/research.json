@@ -1,0 +1,23 @@
+{
+  "publicationDate": "2026-09-18",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "contentCommitSha": "73960b366f5bcca1a652293d2fb7a02b4f7eafe2",
+  "sourceFile": "app/research/sep18-research-batch.ts",
+  "sourcesCheckedDate": "2026-09-18",
+  "sources": [
+    {"publisher":"National Privacy Commission","title":"Implementing Rules and Regulations of the Data Privacy Act of 2012","url":"https://privacy.gov.ph/implementing-rules-regulations-data-privacy-act-2012/"},
+    {"publisher":"National Privacy Commission","title":"Republic Act No. 10173, Data Privacy Act of 2012","url":"https://privacy.gov.ph/data-privacy-act/"},
+    {"publisher":"Department of Labor and Employment","title":"Labor Code of the Philippines, DOLE Edition 2022","url":"https://dole.gov.ph/labor-code-of-the-philippines-2/"},
+    {"publisher":"National Institute of Standards and Technology","title":"Cybersecurity Framework 2.0","url":"https://doi.org/10.6028/NIST.CSWP.29"},
+    {"publisher":"National Institute of Standards and Technology","title":"Cybersecurity Supply Chain Risk Management: Due Diligence Assessment Quick-Start Guide, SP 1326","url":"https://doi.org/10.6028/NIST.SP.1326"}
+  ],
+  "entries": [
+    {"topic":"candidate data minimization for sourcing coordination","slug":"philippines-candidate-data-minimization-research","contentHash":"d5c68439e9877850fc16dcc833ba8ff3f54616b743be366eef41e03389f2335b","publicationDate":"2026-09-18","liveUrl":"https://outsourcedemployment.com/research/philippines-candidate-data-minimization-research"},
+    {"topic":"employment document acknowledgment evidence","slug":"philippines-employment-document-acknowledgment-research","contentHash":"d94379b4a4744df4b12a2add61ab0e1d4675cfe099d3197ba33f43d68b71b331","publicationDate":"2026-09-18","liveUrl":"https://outsourcedemployment.com/research/philippines-employment-document-acknowledgment-research"},
+    {"topic":"training attendance versus competency decisions","slug":"philippines-training-attendance-competency-research","contentHash":"589d20eac2a6be2a06c1c561e781567fb9c4c265026fed1b3157711912ed19f7","publicationDate":"2026-09-18","liveUrl":"https://outsourcedemployment.com/research/philippines-training-attendance-competency-research"},
+    {"topic":"performance review input provenance","slug":"philippines-performance-review-source-provenance-research","contentHash":"54dc415da8a19ef0ca860038be275dd071da43f0e165b3371e3d0702f5526bcb","publicationDate":"2026-09-18","liveUrl":"https://outsourcedemployment.com/research/philippines-performance-review-source-provenance-research"},
+    {"topic":"staffing subcontractor and service-chain visibility","slug":"philippines-staffing-subcontractor-visibility-research","contentHash":"a4859bd96831068b4d965640ee78861a5e3831dcd502f68f54ae087ec58ca09a","publicationDate":"2026-09-18","liveUrl":"https://outsourcedemployment.com/research/philippines-staffing-subcontractor-visibility-research"}
+  ]
+}
