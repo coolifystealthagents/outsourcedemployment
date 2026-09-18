@@ -1,14 +1,37 @@
-{"campaignDate":"2026-09-18","family":"blog","required":12,"entries":[
-{"slug":"philippines-payroll-correction-request-evidence-pack"},
-{"slug":"philippines-new-hire-start-date-change-control"},
-{"slug":"philippines-employee-record-correction-source-map"},
-{"slug":"philippines-candidate-consent-expiry-follow-up"},
-{"slug":"philippines-benefits-deduction-first-paycheck-check"},
-{"slug":"philippines-offboarding-access-removal-sequence"},
-{"slug":"philippines-leave-return-to-work-record-handoff"},
-{"slug":"philippines-recruitment-interview-scorecard-completeness"},
-{"slug":"philippines-workforce-report-late-source-disclosure"},
-{"slug":"philippines-training-record-version-reconciliation"},
-{"slug":"philippines-remote-staff-shared-mailbox-ownership"},
-{"slug":"philippines-employment-service-provider-transition-ledger"}
-]}
+{
+  "runDate": "2026-09-18",
+  "family": "blog",
+  "required": 12,
+  "sourceCommit": "6f31ac304dcb5e0cd5f07692e0ee12a6df7e2a54",
+  "productionBranch": "main",
+  "deployment": {
+    "application": "j42hq0gf9q21pgt9l0pg90ml",
+    "attempts": [
+      {"uuid":"d084ltxzmbdo8xdlgtsghwgn","commit":"9facb41a4ed19aa52eacb8a40226eba12139d43d","status":"cancelled-by-user","note":"Superseded deployment selected the preceding research commit."},
+      {"uuid":"wp0ys3htfpmxbe65lniuxvel","commit":"6f31ac304dcb5e0cd5f07692e0ee12a6df7e2a54","status":"cancelled-by-user","note":"No process, logs, or timestamp movement."},
+      {"uuid":"rtjns0uqgdjdk0vxaw5miplk","commit":"6f31ac304dcb5e0cd5f07692e0ee12a6df7e2a54","status":"queued","note":"Force-rebuild recovery attempt; no process, logs, or timestamp movement as of 2026-09-18T14:22:00Z."}
+    ]
+  },
+  "validation": {"typecheck":"passed","productionBuild":"passed","minimumRenderedWordCount":1423,"localRoutesVerified":12,"liveRoutesVerified":0},
+  "sources": [
+    "https://privacy.gov.ph/data-privacy-act/",
+    "https://blr.dole.gov.ph/2014/12/11/labor-code-of-the-philippines/",
+    "https://www.cisa.gov/secure-our-world/require-multifactor-authentication",
+    "https://www.nist.gov/cyberframework"
+  ],
+  "entries": [
+    {"topic":"Payroll correction evidence","slug":"philippines-payroll-correction-request-evidence-pack","contentHash":"87c3e973139d64987d0531092e0377d515e20fbe7f9ff10ecada8efb55554a16"},
+    {"topic":"New-hire start-date change control","slug":"philippines-new-hire-start-date-change-control","contentHash":"d6b827130d0b315c17a80f2877783baafca8256fc32762ecd5580f6ec1613a13"},
+    {"topic":"Employee record correction sources","slug":"philippines-employee-record-correction-source-map","contentHash":"263459f6ce7c0ff358270b85bcfb9be40f3f1070c91620d2b6f05c0a5d9d8a22"},
+    {"topic":"Candidate consent expiry","slug":"philippines-candidate-consent-expiry-follow-up","contentHash":"c999d5c99f4e953023987ba7f650196312fa1af30837072e86ddc8662d9f54fa"},
+    {"topic":"First-paycheck benefits deductions","slug":"philippines-benefits-deduction-first-paycheck-check","contentHash":"b7c44f802fadef8be5827b6d751a6a7348f173f5ac517874e5c9e9d93a65fc68"},
+    {"topic":"Offboarding access removal","slug":"philippines-offboarding-access-removal-sequence","contentHash":"4f650420a752acb729176c369b5122b2c3b927d2ea07305cc3e541a4e14a46ee"},
+    {"topic":"Return-to-work record handoff","slug":"philippines-leave-return-to-work-record-handoff","contentHash":"a7e8089e28e4e0f6a9973f1d16b7c0fbc9e8aa65d141af45d686bfb53cdc4a37"},
+    {"topic":"Interview scorecard completeness","slug":"philippines-recruitment-interview-scorecard-completeness","contentHash":"bd7c97a2cf89ba80ba7c61e0bdf7c1aeb517df6984b3ba6fe5d5d03927834703"},
+    {"topic":"Late sources in workforce reports","slug":"philippines-workforce-report-late-source-disclosure","contentHash":"a9dfe25a4065e4bb5a9330403a5ba97c995bd7b1a24ad62a7b028a0f8bec953c"},
+    {"topic":"Training record version reconciliation","slug":"philippines-training-record-version-reconciliation","contentHash":"7522858545834de846d39e87f5d9b80f7adcb84e32f637343ab8c71406efff85"},
+    {"topic":"Shared mailbox ownership","slug":"philippines-remote-staff-shared-mailbox-ownership","contentHash":"c7cd6832fd9f90580828b4da0494d9ff7615aaeecc109a375c4e3445b597086d"},
+    {"topic":"Employment support provider transition","slug":"philippines-employment-service-provider-transition-ledger","contentHash":"9407987ddfba784d23a4c8d47e0634754c9c0367a862b875a01fa28dfd407238"}
+  ],
+  "publication": {"actualDate":null,"verificationTime":null,"status":"blocked-pending-live-deployment","liveUrls":[]}
+}
