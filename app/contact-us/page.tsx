@@ -64,7 +64,7 @@ export default function ContactUsPage() {
       </div></section>
 
       <section className="about-stealth"><div className="contact-shell about-grid">
-        <div><p className="powered">Powered by <a href="https://stealthagents.com/" target="_blank" rel="noopener noreferrer">Stealth Agents</a></p><h2>About Stealth Agents</h2></div>
+        <div><p className="powered">Powered by <a href="https://stealthagents.com/" target="_blank" rel="noopener noreferrer">StealthAgents</a></p><h2>About Stealth Agents</h2></div>
         <p>Stealth Agents works with over 35+ different industries. We&apos;re featured on Forbes as the top rated virtual assistant company.</p>
       </div></section>
 
