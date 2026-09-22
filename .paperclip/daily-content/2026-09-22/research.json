@@ -1,0 +1,23 @@
+{
+  "publicationDate": "2026-09-22",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "contentCommitSha": "6601ea92cb31625eb839f73a0e1cfb999803eb43",
+  "sourceFile": "app/research/sep22-research-batch.ts",
+  "sourcesCheckedDate": "2026-09-22",
+  "sources": [
+    {"publisher":"National Privacy Commission","title":"Implementing Rules and Regulations of the Data Privacy Act of 2012","url":"https://privacy.gov.ph/implementing-rules-regulations-data-privacy-act-2012/"},
+    {"publisher":"National Privacy Commission","title":"Advisories and Circulars","url":"https://privacy.gov.ph/pips-and-pics/advisories-circulars/"},
+    {"publisher":"Bureau of Working Conditions","title":"Labor Advisories","url":"https://bwc.dole.gov.ph/issuances/labor-advisories/"},
+    {"publisher":"Bureau of Working Conditions","title":"DOLE-BWC Provides Guidance on Flexible Work Arrangements While Safeguarding Workers’ Rights","url":"https://bwc.dole.gov.ph/dole-bwc-provides-guidance-on-flexible-work-arrangements-while-safeguarding-workers-rights/"},
+    {"publisher":"National Institute of Standards and Technology","title":"Security and Privacy Controls for Information Systems and Organizations, SP 800-53 Revision 5","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"}
+  ],
+  "entries": [
+    {"topic":"offboarding open-work transfer evidence","slug":"philippines-offboarding-open-work-transfer-research","contentHash":"604701063f5e12dcb16a860759e99a5bd62c68b2569a42428c9ea24de9cd4fb6","wordCount":1255,"publicationDate":"2026-09-22","liveUrl":"https://outsourcedemployment.com/research/philippines-offboarding-open-work-transfer-research"},
+    {"topic":"schedule-change approval provenance","slug":"philippines-schedule-change-approval-provenance-research","contentHash":"fa6a5fc5a63e4bc7d4f32a0ae6d137bd79edf44e7a4abcba9eb6eb3a6951c9f9","wordCount":1244,"publicationDate":"2026-09-22","liveUrl":"https://outsourcedemployment.com/research/philippines-schedule-change-approval-provenance-research"},
+    {"topic":"benefits dependent-document exception routing","slug":"philippines-benefits-dependent-document-exception-research","contentHash":"620a48a57f0abfeb251379dda8ff862e3f14cd7477c597f219d8519696aabf71","wordCount":1263,"publicationDate":"2026-09-22","liveUrl":"https://outsourcedemployment.com/research/philippines-benefits-dependent-document-exception-research"},
+    {"topic":"performance-review status coordination","slug":"philippines-performance-review-status-research","contentHash":"f970b13556e4ba2e1bbce3811f4fb78bd9271c5ad9c1a5de99c7c00d2daa92df","wordCount":1247,"publicationDate":"2026-09-22","liveUrl":"https://outsourcedemployment.com/research/philippines-performance-review-status-research"},
+    {"topic":"workforce roster cutoff reproducibility","slug":"philippines-workforce-roster-cutoff-research","contentHash":"407207fd871bcf0d07a72fe1fa89ff72ecd0859c1ebdf267d43caf4e8aa97971","wordCount":1241,"publicationDate":"2026-09-22","liveUrl":"https://outsourcedemployment.com/research/philippines-workforce-roster-cutoff-research"}
+  ]
+}
