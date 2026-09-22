@@ -1,0 +1,30 @@
+{
+  "runDate": "2026-09-22",
+  "family": "blog",
+  "required": 12,
+  "productionBranch": "main",
+  "contentCommit": null,
+  "deployment": {"application":"j42hq0gf9q21pgt9l0pg90ml","status":"pending"},
+  "validation": {"typecheck":"passed","productionBuild":"passed","localRoutesVerified":12,"minimumRenderedWordCount":2949},
+  "sources": [
+    "https://privacy.gov.ph/data-privacy-act/",
+    "https://blr.dole.gov.ph/2014/12/11/labor-code-of-the-philippines/",
+    "https://www.cisa.gov/secure-our-world/require-multifactor-authentication",
+    "https://www.nist.gov/cyberframework"
+  ],
+  "entries": [
+    {"topic":"Candidate duplicate-record resolution","slug":"philippines-candidate-duplicate-record-resolution","contentHash":"0c18b8b82562fb85abada0d447716cabbef9ab6f037f64fa797c5c03ea858b46"},
+    {"topic":"Employment signature-packet completeness","slug":"philippines-employment-document-signature-packet-check","contentHash":"1253cd10c4d61afdea187f09d4122b9bafcd19ffa247f979f9a07b4100001155"},
+    {"topic":"New-hire equipment receipt handoff","slug":"philippines-new-hire-equipment-receipt-handoff","contentHash":"6d000e677753e135d6807d0012cfafb7d9d89b9fe39643e0c254857364af04e2"},
+    {"topic":"Employee name-change sequencing","slug":"philippines-employee-name-change-record-sequence","contentHash":"490bc0177038b32c2c70f790687a73db95d953d622576b86bfbafc03c2592a54"},
+    {"topic":"Shift-swap approval evidence","slug":"philippines-shift-swap-approval-evidence","contentHash":"89373c0f645a6f79ef9e5d19073dfcd0690e6a94c400a934de9bd1a3bfe6ff53"},
+    {"topic":"Leave-balance source discrepancy","slug":"philippines-leave-balance-source-discrepancy","contentHash":"e812c5754ef0db5b0561a54d497c43ef34440721060a30a5e77bf7ab50919416"},
+    {"topic":"Late payroll input after cutoff","slug":"philippines-payroll-late-input-cutoff-decision","contentHash":"a67e36803a5d18e453f0050f22e9ebfcd08f01b4677e9ec02292b9eb833ec22b"},
+    {"topic":"Benefits dependent-document intake","slug":"philippines-benefits-dependent-document-intake","contentHash":"374ff1f67e24a0c5de268c75ba2b6a3f081b5bc9f9a0c6aabbd6894e2b645834"},
+    {"topic":"Performance-review calibration packet","slug":"philippines-performance-review-calibration-packet","contentHash":"6796a28028d71960a58596a06d6516b844ab65e309389fd7744d3142753497c3"},
+    {"topic":"Training attendance correction","slug":"philippines-training-attendance-correction-evidence","contentHash":"edf7768544e62f5eeff566533405137d65ebb2d4b8d9941b491ade2e42b6ddc1"},
+    {"topic":"Offboarding shared-drive transfer","slug":"philippines-offboarding-shared-drive-ownership-transfer","contentHash":"7d5dd0d6698d04b749d3365be099a8c8959e890516df3bb97dc44127f8c48e20"},
+    {"topic":"Workforce report definition changes","slug":"philippines-workforce-report-definition-change-log","contentHash":"0429f6750ad64f2343b2e54e8adf046cfdd77bc13425f8d351b5afdbf22fde30"}
+  ],
+  "publication": {"actualDate":null,"verificationTime":null,"status":"pending","liveUrls":[]}
+}
