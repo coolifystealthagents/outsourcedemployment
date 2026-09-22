@@ -3,7 +3,7 @@
   "family": "blog",
   "required": 12,
   "productionBranch": "main",
-  "contentCommit": null,
+  "contentCommit": "57982b4af0ea487d16b01e8143149c9bce80c5ac",
   "deployment": {"application":"j42hq0gf9q21pgt9l0pg90ml","status":"pending"},
   "validation": {"typecheck":"passed","productionBuild":"passed","localRoutesVerified":12,"minimumRenderedWordCount":2949},
   "sources": [
