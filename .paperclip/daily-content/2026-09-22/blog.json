@@ -4,7 +4,7 @@
   "required": 12,
   "productionBranch": "main",
   "contentCommit": "57982b4af0ea487d16b01e8143149c9bce80c5ac",
-  "deployment": {"application":"j42hq0gf9q21pgt9l0pg90ml","status":"pending"},
+  "deployment": {"application":"j42hq0gf9q21pgt9l0pg90ml","pushedCommit":"c4f445d1028e5a1ad27f3737ef3bf32814585d31","status":"blocked","evidence":"Authenticated Coolify API redirected to login twice; representative public route remained 404 through 2026-09-22T16:19:53Z."},
   "validation": {"typecheck":"passed","productionBuild":"passed","localRoutesVerified":12,"minimumRenderedWordCount":2949},
   "sources": [
     "https://privacy.gov.ph/data-privacy-act/",
@@ -26,5 +26,5 @@
     {"topic":"Offboarding shared-drive transfer","slug":"philippines-offboarding-shared-drive-ownership-transfer","contentHash":"7d5dd0d6698d04b749d3365be099a8c8959e890516df3bb97dc44127f8c48e20"},
     {"topic":"Workforce report definition changes","slug":"philippines-workforce-report-definition-change-log","contentHash":"0429f6750ad64f2343b2e54e8adf046cfdd77bc13425f8d351b5afdbf22fde30"}
   ],
-  "publication": {"actualDate":null,"verificationTime":null,"status":"pending","liveUrls":[]}
+  "publication": {"actualDate":null,"verificationTime":null,"status":"blocked-pending-live-deployment","liveUrls":[]}
 }
