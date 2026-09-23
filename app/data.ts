@@ -31,6 +31,7 @@ import { september10BlogBatch } from './blog/sep10-batch';
 import { september14BlogBatch } from './blog/sep14-batch';
 import { september18BlogBatch } from './blog/sep18-batch';
 import { september22BlogBatch } from './blog/sep22-batch';
+import { september23BlogBatch } from './blog/sep23-batch';
 import { august13ResearchBatch } from './research/aug13-batch';
 import { august14ResearchBatch } from './research/aug14-batch';
 import { august17ResearchBatch } from './research/aug17-batch';
@@ -115,7 +116,7 @@ export const blogPosts = [
 
 // The repaired August 10 batch is newest; retain every prior route after it.
 export const august20BlogRepairBatch = [august20Repair1Post, august20Repair2Post, august20Repair3Post, august20Repair4Post, august20Repair5Post, august20Repair6Post, august20Repair7Post, august20Repair8Post, august20Repair9Post, august20Repair10Post, august20Repair11Post, august20Repair12Post] as const;
-export const allBlogPosts = [...september22BlogBatch, ...september18BlogBatch, ...september14BlogBatch, ...september10BlogBatch, ...september9BlogBatch, ...september8BlogBatch, ...september7BlogBatch, ...september4BlogBatch, ...september3BlogBatch, ...september2BlogBatch, ...september1BlogBatch, ...august31BlogBatch, ...august23BlogBatch, ...august21BlogBatch, ...august20BlogRepairBatch, ...august19Repair3Batch, ...august18Repair5Batch, ...august17BlogBatch, ...august14BlogBatch, ...august13BlogBatch, ...august11BlogBatch, ...dailyBlogBatch.slice(22), ...blogPosts, ...dailyBlogBatch.slice(0, 22)];
+export const allBlogPosts = [...september23BlogBatch, ...september22BlogBatch, ...september18BlogBatch, ...september14BlogBatch, ...september10BlogBatch, ...september9BlogBatch, ...september8BlogBatch, ...september7BlogBatch, ...september4BlogBatch, ...september3BlogBatch, ...september2BlogBatch, ...september1BlogBatch, ...august31BlogBatch, ...august23BlogBatch, ...august21BlogBatch, ...august20BlogRepairBatch, ...august19Repair3Batch, ...august18Repair5Batch, ...august17BlogBatch, ...august14BlogBatch, ...august13BlogBatch, ...august11BlogBatch, ...dailyBlogBatch.slice(22), ...blogPosts, ...dailyBlogBatch.slice(0, 22)];
 
 export type GuideBasics = {
   overview: readonly string[];
