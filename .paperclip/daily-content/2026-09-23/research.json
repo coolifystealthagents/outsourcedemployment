@@ -4,6 +4,9 @@
   "family": "research",
   "requiredCount": 5,
   "contentCommitSha": "937316bb965ae2458880fae93b1dd9e1af3a00c0",
+  "productionCommitSha": "9ff3e26639dd58709ca6d1aacc7c1656599a7a1e",
+  "deployment": {"provider":"Coolify3","applicationUuid":"j42hq0gf9q21pgt9l0pg90ml","deploymentUuid":"sgydhiuf8vxvvzdedwefugtb","status":"finished","finishedAt":"2026-09-23T17:06:26Z"},
+  "liveVerifiedAt": "2026-09-23T19:05:01Z",
   "sourceFile": "app/research/sep23-research-batch.ts",
   "sourcesCheckedDate": "2026-09-23",
   "sources": [
@@ -14,10 +17,10 @@
     {"publisher":"National Institute of Standards and Technology","title":"Security and Privacy Controls for Information Systems and Organizations, SP 800-53 Revision 5","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"}
   ],
   "entries": [
-    {"topic":"interview feedback provenance","slug":"philippines-interview-feedback-provenance-research","contentHash":"fea106fac17e9664ed5c39aab5f6cc00727514a2a840aab460bc00410698921a","wordCount":1280,"publicationDate":"2026-09-23","liveUrl":"https://outsourcedemployment.com/research/philippines-interview-feedback-provenance-research"},
-    {"topic":"onboarding access readiness","slug":"philippines-onboarding-access-readiness-research","contentHash":"cd18e4fc585e05c3b82c07aa5ec293b0ee37351c6e8c7591ba3d97639fc5e415","wordCount":1259,"publicationDate":"2026-09-23","liveUrl":"https://outsourcedemployment.com/research/philippines-onboarding-access-readiness-research"},
-    {"topic":"leave request status boundaries","slug":"philippines-leave-request-status-boundary-research","contentHash":"56d38e27e00aa05327445b92f61a14723a2151ae8db02c9da7da23ac01fb4ab0","wordCount":1263,"publicationDate":"2026-09-23","liveUrl":"https://outsourcedemployment.com/research/philippines-leave-request-status-boundary-research"},
-    {"topic":"late payroll input cutoff controls","slug":"philippines-payroll-late-input-cutoff-research","contentHash":"be7099190f5b79499b61139da2fed2cffdb8ec874f39f7355232bff93b30baf0","wordCount":1289,"publicationDate":"2026-09-23","liveUrl":"https://outsourcedemployment.com/research/philippines-payroll-late-input-cutoff-research"},
-    {"topic":"training completion evidence","slug":"philippines-training-completion-evidence-research","contentHash":"8b9f99428cae217b0da5886aa6aef35445b8d3a4732be3e91a38eb7996532611","wordCount":1258,"publicationDate":"2026-09-23","liveUrl":"https://outsourcedemployment.com/research/philippines-training-completion-evidence-research"}
+    {"topic":"interview feedback provenance","slug":"philippines-interview-feedback-provenance-research","contentHash":"fea106fac17e9664ed5c39aab5f6cc00727514a2a840aab460bc00410698921a","wordCount":1280,"publicationDate":"2026-09-23","productionCommitSha":"9ff3e26639dd58709ca6d1aacc7c1656599a7a1e","verifiedAt":"2026-09-23T19:05:01Z","liveUrl":"https://outsourcedemployment.com/research/philippines-interview-feedback-provenance-research"},
+    {"topic":"onboarding access readiness","slug":"philippines-onboarding-access-readiness-research","contentHash":"cd18e4fc585e05c3b82c07aa5ec293b0ee37351c6e8c7591ba3d97639fc5e415","wordCount":1259,"publicationDate":"2026-09-23","productionCommitSha":"9ff3e26639dd58709ca6d1aacc7c1656599a7a1e","verifiedAt":"2026-09-23T19:05:01Z","liveUrl":"https://outsourcedemployment.com/research/philippines-onboarding-access-readiness-research"},
+    {"topic":"leave request status boundaries","slug":"philippines-leave-request-status-boundary-research","contentHash":"56d38e27e00aa05327445b92f61a14723a2151ae8db02c9da7da23ac01fb4ab0","wordCount":1263,"publicationDate":"2026-09-23","productionCommitSha":"9ff3e26639dd58709ca6d1aacc7c1656599a7a1e","verifiedAt":"2026-09-23T19:05:01Z","liveUrl":"https://outsourcedemployment.com/research/philippines-leave-request-status-boundary-research"},
+    {"topic":"late payroll input cutoff controls","slug":"philippines-payroll-late-input-cutoff-research","contentHash":"be7099190f5b79499b61139da2fed2cffdb8ec874f39f7355232bff93b30baf0","wordCount":1289,"publicationDate":"2026-09-23","productionCommitSha":"9ff3e26639dd58709ca6d1aacc7c1656599a7a1e","verifiedAt":"2026-09-23T19:05:01Z","liveUrl":"https://outsourcedemployment.com/research/philippines-payroll-late-input-cutoff-research"},
+    {"topic":"training completion evidence","slug":"philippines-training-completion-evidence-research","contentHash":"8b9f99428cae217b0da5886aa6aef35445b8d3a4732be3e91a38eb7996532611","wordCount":1258,"publicationDate":"2026-09-23","productionCommitSha":"9ff3e26639dd58709ca6d1aacc7c1656599a7a1e","verifiedAt":"2026-09-23T19:05:01Z","liveUrl":"https://outsourcedemployment.com/research/philippines-training-completion-evidence-research"}
   ]
 }
