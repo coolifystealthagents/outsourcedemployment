@@ -1,0 +1,31 @@
+{
+  "site": "OutsourcedEmployment.com",
+  "timezone": "UTC",
+  "date": "2026-09-24",
+  "purpose": "Single production-head consolidation for the September 24 Blog and Research routines",
+  "productionBranch": "main",
+  "baseRemoteSha": "f6401dd9c47726d48386285d18f31bb73e07fb93",
+  "batches": [
+    {
+      "family": "blog",
+      "requiredCount": 12,
+      "pushedCount": 12,
+      "liveVerifiedCountBeforeConsolidation": 12,
+      "contentCommitSha": "c55f9be12b1e718b2e6657a7841071f87d95f347"
+    },
+    {
+      "family": "research",
+      "requiredCount": 5,
+      "pushedCount": 5,
+      "liveVerifiedCountBeforeConsolidation": 0,
+      "contentCommitSha": "f4d9fc69a14d64d737bf8d2bae49e6ccac302ff4",
+      "evidenceCommitSha": "f6401dd9c47726d48386285d18f31bb73e07fb93"
+    }
+  ],
+  "deploymentPolicy": {
+    "target": "existing dedicated OutsourcedEmployment.com Coolify3 application",
+    "path": "Git push to main",
+    "requestedDeployments": 1,
+    "cancelScope": "OutsourcedEmployment.com redundant or stale deployments only"
+  }
+}
