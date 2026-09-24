@@ -3,7 +3,7 @@
   "timezone": "UTC",
   "family": "research",
   "requiredCount": 5,
-  "contentCommitSha": "65782b3e82fbc0decc0f59bbe542b91dc36de143",
+  "contentCommitSha": "f4d9fc69a14d64d737bf8d2bae49e6ccac302ff4",
   "sourceFile": "app/research/sep24-research-batch.ts",
   "sourcesCheckedDate": "2026-09-24",
   "sources": [
