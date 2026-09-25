@@ -12,7 +12,8 @@ assert.equal(new Set(posts.map(post=>post.slug)).size,5,'research slugs must be 
 for(const post of posts){
   assert.equal(post.publishedDate,publicationDate,`${post.slug}: publication date mismatch`);
   assert.ok(!inventory.includes(`slug:'${post.slug}'`)&&!inventory.includes(`slug: '${post.slug}'`),`${post.slug}: slug existed before this run`);
-  assert.ok(words([post.title,post.excerpt,...post.body].join(' '))>=900,`${post.slug}: under 900 substantive words`);
+  const bodyWithoutSourceAppendix=post.body.slice(0,-1);
+  assert.ok(words(bodyWithoutSourceAppendix.join(' '))>=1200,`${post.slug}: under 1200 substantive body words excluding source appendix`);
   assert.ok(post.body.length>=10,`${post.slug}: insufficient article structure`);
   assert.ok(post.handoff.href.startsWith('/services/'),`${post.slug}: missing service handoff`);
   assert.ok(fs.existsSync(path.join(process.cwd(),'public',post.image)),`${post.slug}: missing image asset`);
@@ -29,4 +30,4 @@ for(const post of posts){
 
 const sitemap=fs.readFileSync('.next/server/app/sitemap.xml.body','utf8');
 for(const post of posts) assert.ok(sitemap.includes(`/research/${post.slug}`),`${post.slug}: missing from sitemap`);
-console.log(`PASS: ${posts.length} new Research articles; unique slugs, >=900 words, date, canonical, media, service handoff, schema, static routes, and sitemap verified`);
+console.log(`PASS: ${posts.length} new Research articles; unique slugs, >=1200 body-only words excluding source appendix, date, canonical, media, service handoff, schema, static routes, and sitemap verified`);
