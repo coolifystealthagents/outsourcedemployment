@@ -4,7 +4,7 @@
   "family": "research",
   "requiredCount": 5,
   "stagedCount": 5,
-  "contentCommitSha": "3a0a286c4816ebd8a2ba8facebed6ee3a20401a0",
+  "contentCommitSha": "e02d3e8defa50614e5965441609641edc5891951",
   "sourceFile": "app/research/sep25-research-batch.ts",
   "sourcesCheckedDate": "2026-09-25",
   "sources": [
@@ -49,7 +49,7 @@
       "contentHash": "f4af33f61a60b2ca9a1779b53cfbf9a321f43e03ce3fa7fa31e8d9ad7b11bd09",
       "wordCount": 1272,
       "publicationDate": "2026-09-25",
-      "contentCommitSha": "3a0a286c4816ebd8a2ba8facebed6ee3a20401a0",
+      "contentCommitSha": "e02d3e8defa50614e5965441609641edc5891951",
       "liveUrl": "https://outsourcedemployment.com/research/philippines-payroll-parallel-run-variance-research",
       "verificationStatus": "staged_for_combined_release; public verification owned by user"
     },
@@ -59,7 +59,7 @@
       "contentHash": "a9f4f29d0196a2bd7b1849f6731711f5b225104b9314778c71cc2eadd333860d",
       "wordCount": 1282,
       "publicationDate": "2026-09-25",
-      "contentCommitSha": "3a0a286c4816ebd8a2ba8facebed6ee3a20401a0",
+      "contentCommitSha": "e02d3e8defa50614e5965441609641edc5891951",
       "liveUrl": "https://outsourcedemployment.com/research/philippines-candidate-consent-source-research",
       "verificationStatus": "staged_for_combined_release; public verification owned by user"
     },
@@ -69,7 +69,7 @@
       "contentHash": "944e63fb4406ec7d5ae06954afc228099c9d333f4ce5d711f0b047ae94acf335",
       "wordCount": 1262,
       "publicationDate": "2026-09-25",
-      "contentCommitSha": "3a0a286c4816ebd8a2ba8facebed6ee3a20401a0",
+      "contentCommitSha": "e02d3e8defa50614e5965441609641edc5891951",
       "liveUrl": "https://outsourcedemployment.com/research/philippines-onboarding-prerequisite-dependency-research",
       "verificationStatus": "staged_for_combined_release; public verification owned by user"
     },
@@ -79,7 +79,7 @@
       "contentHash": "38097acf950c27815fffe5128ce6834a81117d3de3a04388d5aa315acd1093ae",
       "wordCount": 1285,
       "publicationDate": "2026-09-25",
-      "contentCommitSha": "3a0a286c4816ebd8a2ba8facebed6ee3a20401a0",
+      "contentCommitSha": "e02d3e8defa50614e5965441609641edc5891951",
       "liveUrl": "https://outsourcedemployment.com/research/philippines-offboarding-asset-custody-chain-research",
       "verificationStatus": "staged_for_combined_release; public verification owned by user"
     },
@@ -89,7 +89,7 @@
       "contentHash": "033048ff132a5f98788cdeccc69c7ed4e59b46fa6ff402e4dda67de6a55916c3",
       "wordCount": 1285,
       "publicationDate": "2026-09-25",
-      "contentCommitSha": "3a0a286c4816ebd8a2ba8facebed6ee3a20401a0",
+      "contentCommitSha": "e02d3e8defa50614e5965441609641edc5891951",
       "liveUrl": "https://outsourcedemployment.com/research/philippines-benefits-eligibility-data-lineage-research",
       "verificationStatus": "staged_for_combined_release; public verification owned by user"
     }
