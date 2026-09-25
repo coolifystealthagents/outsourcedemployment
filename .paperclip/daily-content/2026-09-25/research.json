@@ -1,0 +1,97 @@
+{
+  "publicationDate": "2026-09-25",
+  "timezone": "UTC",
+  "family": "research",
+  "requiredCount": 5,
+  "stagedCount": 5,
+  "contentCommitSha": "3a0a286c4816ebd8a2ba8facebed6ee3a20401a0",
+  "sourceFile": "app/research/sep25-research-batch.ts",
+  "sourcesCheckedDate": "2026-09-25",
+  "sources": [
+    {
+      "publisher": "National Privacy Commission",
+      "title": "Republic Act 10173 \u2014 Data Privacy Act of 2012",
+      "url": "https://privacy.gov.ph/data-privacy-act/"
+    },
+    {
+      "publisher": "National Privacy Commission",
+      "title": "Implementing Rules and Regulations of the Data Privacy Act of 2012",
+      "url": "https://privacy.gov.ph/implementing-rules-regulations-data-privacy-act-2012/"
+    },
+    {
+      "publisher": "National Privacy Commission",
+      "title": "Data Security",
+      "url": "https://privacy.gov.ph/data-security/"
+    },
+    {
+      "publisher": "National Institute of Standards and Technology",
+      "title": "Cybersecurity Framework 2.0",
+      "url": "https://www.nist.gov/cyberframework"
+    },
+    {
+      "publisher": "National Institute of Standards and Technology",
+      "title": "Cybersecurity Framework 2.0 Resource and Overview Guide, SP 1299",
+      "url": "https://csrc.nist.gov/pubs/sp/1299/final"
+    }
+  ],
+  "validation": {
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "staticResearchRoutes": 5,
+    "productionPush": "not performed per combined-release contract",
+    "deployment": "not performed; browser operator owns single deployment",
+    "publicVerification": "user-owned after combined release"
+  },
+  "entries": [
+    {
+      "topic": "payroll parallel-run variance review",
+      "slug": "philippines-payroll-parallel-run-variance-research",
+      "contentHash": "f4af33f61a60b2ca9a1779b53cfbf9a321f43e03ce3fa7fa31e8d9ad7b11bd09",
+      "wordCount": 1272,
+      "publicationDate": "2026-09-25",
+      "contentCommitSha": "3a0a286c4816ebd8a2ba8facebed6ee3a20401a0",
+      "liveUrl": "https://outsourcedemployment.com/research/philippines-payroll-parallel-run-variance-research",
+      "verificationStatus": "staged_for_combined_release; public verification owned by user"
+    },
+    {
+      "topic": "candidate consent source evidence",
+      "slug": "philippines-candidate-consent-source-research",
+      "contentHash": "a9f4f29d0196a2bd7b1849f6731711f5b225104b9314778c71cc2eadd333860d",
+      "wordCount": 1282,
+      "publicationDate": "2026-09-25",
+      "contentCommitSha": "3a0a286c4816ebd8a2ba8facebed6ee3a20401a0",
+      "liveUrl": "https://outsourcedemployment.com/research/philippines-candidate-consent-source-research",
+      "verificationStatus": "staged_for_combined_release; public verification owned by user"
+    },
+    {
+      "topic": "onboarding prerequisite dependencies",
+      "slug": "philippines-onboarding-prerequisite-dependency-research",
+      "contentHash": "944e63fb4406ec7d5ae06954afc228099c9d333f4ce5d711f0b047ae94acf335",
+      "wordCount": 1262,
+      "publicationDate": "2026-09-25",
+      "contentCommitSha": "3a0a286c4816ebd8a2ba8facebed6ee3a20401a0",
+      "liveUrl": "https://outsourcedemployment.com/research/philippines-onboarding-prerequisite-dependency-research",
+      "verificationStatus": "staged_for_combined_release; public verification owned by user"
+    },
+    {
+      "topic": "offboarding asset custody chain",
+      "slug": "philippines-offboarding-asset-custody-chain-research",
+      "contentHash": "38097acf950c27815fffe5128ce6834a81117d3de3a04388d5aa315acd1093ae",
+      "wordCount": 1285,
+      "publicationDate": "2026-09-25",
+      "contentCommitSha": "3a0a286c4816ebd8a2ba8facebed6ee3a20401a0",
+      "liveUrl": "https://outsourcedemployment.com/research/philippines-offboarding-asset-custody-chain-research",
+      "verificationStatus": "staged_for_combined_release; public verification owned by user"
+    },
+    {
+      "topic": "benefits eligibility data lineage",
+      "slug": "philippines-benefits-eligibility-data-lineage-research",
+      "contentHash": "033048ff132a5f98788cdeccc69c7ed4e59b46fa6ff402e4dda67de6a55916c3",
+      "wordCount": 1285,
+      "publicationDate": "2026-09-25",
+      "contentCommitSha": "3a0a286c4816ebd8a2ba8facebed6ee3a20401a0",
+      "liveUrl": "https://outsourcedemployment.com/research/philippines-benefits-eligibility-data-lineage-research",
+      "verificationStatus": "staged_for_combined_release; public verification owned by user"
+    }
+  ]
+}
