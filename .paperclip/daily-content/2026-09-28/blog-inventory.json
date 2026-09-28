@@ -1,0 +1,28 @@
+{
+  "cycleLabel": "September28",
+  "family": "blog",
+  "requiredCount": 12,
+  "baselineSha": "57ffd5a3b30f4b1dc88111e4aca0f6782459bb57",
+  "publicationDate": null,
+  "publicationDateRule": "Set to the actual UTC date immediately before the sole combined production push; never backdate from the cycle label.",
+  "entries": [
+    {"slug":"philippines-employment-provider-implementation-timeline","topic":"How long does a Philippines employment-provider implementation take?","pillar":"provider comparison","intent":"planning","distinctiveAngle":"stage gates from role approval through verified first payroll","cta":"/services/new-hire-onboarding"},
+    {"slug":"philippines-employment-provider-switching-checklist","topic":"Switching Philippines employment providers without losing operating continuity","pillar":"provider comparison","intent":"migration","distinctiveAngle":"records, payroll cutover, access custody, and employee communications","cta":"/services/employee-records-management"},
+    {"slug":"philippines-employment-service-level-agreement-guide","topic":"What to put in a Philippines employment support service-level agreement","pillar":"commercial evaluation","intent":"evaluation","distinctiveAngle":"measurable response, correction, escalation, and evidence terms","cta":"/services/workforce-reporting"},
+    {"slug":"philippines-outsourced-employment-responsibility-matrix","topic":"Building a responsibility matrix for outsourced employment in the Philippines","pillar":"operating model","intent":"design","distinctiveAngle":"provider, client manager, specialist, and adviser decision rights","cta":"/services/employment-document-administration"},
+    {"slug":"philippines-payroll-parallel-run-checklist","topic":"Planning a parallel payroll run for a Philippines team","pillar":"payroll operations","intent":"risk reduction","distinctiveAngle":"input freeze, variance classes, approvals, and release evidence","cta":"/services/payroll-input-preparation"},
+    {"slug":"philippines-new-hire-readiness-scorecard","topic":"A readiness scorecard for Philippines new hires","pillar":"onboarding","intent":"implementation","distinctiveAngle":"day-one dependencies weighted by consequence rather than activity count","cta":"/services/new-hire-onboarding"},
+    {"slug":"philippines-employee-data-minimization-workflow","topic":"Data minimization in Philippines employment administration","pillar":"records and privacy","intent":"control design","distinctiveAngle":"field-by-field purpose, source, access, retention, and deletion decisions","cta":"/services/employee-records-management"},
+    {"slug":"philippines-leave-calendar-reconciliation-guide","topic":"Reconciling leave records and team calendars for Philippines operations","pillar":"leave administration","intent":"workflow","distinctiveAngle":"approved decision versus calendar representation and coverage impact","cta":"/services/leave-tracking-support"},
+    {"slug":"philippines-offboarding-critical-access-sequence","topic":"Sequencing critical access removal during Philippines offboarding","pillar":"offboarding","intent":"security planning","distinctiveAngle":"human accounts, service accounts, automations, devices, and evidence","cta":"/services/offboarding-administration"},
+    {"slug":"philippines-benefits-provider-file-quality-checks","topic":"Quality checks for Philippines benefits-provider files","pillar":"benefits administration","intent":"quality assurance","distinctiveAngle":"eligibility authority, field validation, secure transfer, rejects, and confirmation","cta":"/services/benefits-administration-support"},
+    {"slug":"philippines-training-expiry-monitoring-guide","topic":"Monitoring training and certification expiry for Philippines teams","pillar":"training operations","intent":"workflow","distinctiveAngle":"requirement ownership, evidence versions, renewal windows, and exceptions","cta":"/services/training-coordination"},
+    {"slug":"philippines-workforce-reporting-definition-register","topic":"Creating a definition register for Philippines workforce reports","pillar":"workforce reporting","intent":"measurement governance","distinctiveAngle":"population, effective date, exclusions, source precedence, and revision history","cta":"/services/workforce-reporting"}
+  ],
+  "editorialControls": {
+    "minimumBodyWords": 900,
+    "maximumFiveWordShingleJaccard": 0.5,
+    "minimumAuthoritativeSources": 3,
+    "requiredElements": ["original scenario", "decision steps", "boundary", "measurement approach", "service CTA"]
+  }
+}

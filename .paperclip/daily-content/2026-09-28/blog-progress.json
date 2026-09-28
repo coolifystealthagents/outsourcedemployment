@@ -1,0 +1,26 @@
+{
+  "cycleLabel": "September28",
+  "taskId": "4654fb45-8180-43d0-ab78-de1f5ec649ea",
+  "taskIdentifier": "OUTAAAAAAAAAAA-73",
+  "pairedResearchTaskId": "02aae4a5-3c09-48a2-bf8a-3678448735fe",
+  "pairedResearchTaskIdentifier": "OUTAAAAAAAAAAA-72",
+  "repository": "coolifystealthagents/outsourcedemployment",
+  "productionBranch": "main",
+  "baselineSha": "57ffd5a3b30f4b1dc88111e4aca0f6782459bb57",
+  "startingRemoteSha": "57ffd5a3b30f4b1dc88111e4aca0f6782459bb57",
+  "integrationBranch": "routine/sep28-blog-integrator",
+  "worktree": "/paperclip/instances/default/projects/e04a5b39-4bd2-4737-af38-e065ef3d7a73/897056e1-823e-45b2-aa16-d62fe811bd8f/_default/outsourcedemployment/.paperclip/worktrees/sep28-blog",
+  "timezone": "UTC",
+  "publicationDate": null,
+  "requiredBlogCount": 12,
+  "requiredResearchCount": 5,
+  "state": "drafting",
+  "productionPushes": 0,
+  "deploymentSubmissions": 0,
+  "notes": [
+    "Fresh isolated worktree created from the exact current origin/main baseline.",
+    "Dirty shared checkout was not modified.",
+    "Publication date remains unset until the combined release is ready for its sole push.",
+    "Blog is the sole combined-release integrator and is waiting for the paired local Research handoff before integration."
+  ]
+}
