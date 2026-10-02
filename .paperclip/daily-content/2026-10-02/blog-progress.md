@@ -37,3 +37,4 @@ Next: substantively replace all twelve bodies with article-specific structures, 
 - Both use different argument orders, scenarios, evidence requests, commercial reasoning, and reader outcomes.
 - Local TypeScript validation now passes with this worktree's own dependencies.
 - Ten articles still require independent literal rewrites. The generated fallbacks remain rejected and must not be pushed.
+- Independently rewrote `philippines-remote-employee-manager-readiness` as literal prose. Nine articles now remain.
