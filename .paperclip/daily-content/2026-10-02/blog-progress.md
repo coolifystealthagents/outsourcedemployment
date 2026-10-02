@@ -11,4 +11,12 @@
 - Production pushes: 0
 - Deployments: 0
 
-Next: draft the twelve independent bodies; run body-only word, repeated-paragraph, shared-argument and five-word-shingle audits; wire routes and metadata; validate combined Research and Blog; run typecheck, tests and a clean production build; fetch/rebase; then make the single combined non-force push.
+## Rejected first draft audit
+
+- Twelve route records were wired into the site with 4,019 to 4,227 body words each.
+- TypeScript could not run in this fresh worktree because dependencies are not installed here (`tsc: not found`).
+- Cross-cycle originality FAILED: maximum five-word-shingle Jaccard was 92.1153% against September 28.
+- Qualitative review FAILED: the draft reused September 28's argument sequence and paragraph construction.
+- This draft must not be pushed. It is retained only to preserve the exact inventory, metadata wiring, and measured failure.
+
+Next: substantively replace all twelve bodies with article-specific structures, examples, reasoning, and outcomes; rerun body-only word, repeated-paragraph, shared-argument, within-family, and cross-cycle shingle audits; install or reuse isolated dependencies; validate combined Research and Blog; run typecheck, tests and a clean production build; fetch/rebase; then make the single combined non-force push.
