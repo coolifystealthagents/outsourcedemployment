@@ -39,3 +39,4 @@ Next: substantively replace all twelve bodies with article-specific structures, 
 - Ten articles still require independent literal rewrites. The generated fallbacks remain rejected and must not be pushed.
 - Independently rewrote `philippines-remote-employee-manager-readiness` as literal prose. Nine articles now remain.
 - Independently rewrote `philippines-employment-onboarding-information-request` as literal prose. Eight articles now remain.
+- Added a source-level release gate that rejects shared body generators, repeated paragraphs, sub-900 bodies, duplicate slugs, invalid dates/CTAs/sources, dash-style failures, and within-family Jaccard at or above 50%.
