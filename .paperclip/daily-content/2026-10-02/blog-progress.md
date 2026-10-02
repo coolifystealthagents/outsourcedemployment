@@ -40,3 +40,4 @@ Next: substantively replace all twelve bodies with article-specific structures, 
 - Independently rewrote `philippines-remote-employee-manager-readiness` as literal prose. Nine articles now remain.
 - Independently rewrote `philippines-employment-onboarding-information-request` as literal prose. Eight articles now remain.
 - Added a source-level release gate that rejects shared body generators, repeated paragraphs, sub-900 bodies, duplicate slugs, invalid dates/CTAs/sources, dash-style failures, and within-family Jaccard at or above 50%.
+- Extended the release gate to calculate and reject cross-cycle five-word-shingle overlap at or above 50% against the September 28 Blog family.
