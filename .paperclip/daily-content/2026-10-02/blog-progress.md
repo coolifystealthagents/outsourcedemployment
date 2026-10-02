@@ -20,3 +20,11 @@
 - This draft must not be pushed. It is retained only to preserve the exact inventory, metadata wiring, and measured failure.
 
 Next: substantively replace all twelve bodies with article-specific structures, examples, reasoning, and outcomes; rerun body-only word, repeated-paragraph, shared-argument, within-family, and cross-cycle shingle audits; install or reuse isolated dependencies; validate combined Research and Blog; run typecheck, tests and a clean production build; fetch/rebase; then make the single combined non-force push.
+
+## Rejected second draft audit
+
+- Replaced the September-derived prose and reduced each article to 1,031 to 1,047 substantive words.
+- Cross-cycle maximum Jaccard improved from 92.1153% to 5.3644%.
+- Within-family maximum Jaccard is still 75.8298%, so the draft fails.
+- Exact repeated paragraphs: 77. The shared argument sequence remains visible and fails qualitative review.
+- Required correction: rewrite each article independently, using a topic-specific section order and reasoning path; do not add filler or mechanically perturb wording.
