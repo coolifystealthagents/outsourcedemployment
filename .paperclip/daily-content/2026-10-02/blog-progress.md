@@ -28,3 +28,12 @@ Next: substantively replace all twelve bodies with article-specific structures, 
 - Within-family maximum Jaccard is still 75.8298%, so the draft fails.
 - Exact repeated paragraphs: 77. The shared argument sequence remains visible and fails qualitative review.
 - Required correction: rewrite each article independently, using a topic-specific section order and reasoning path; do not add filler or mechanically perturb wording.
+
+## Independent rewrite progress
+
+- Installed this worktree's own dependencies with `npm ci --include=dev`.
+- Independently rewrote `philippines-employment-provider-discovery-call-questions` as literal prose: 943 body words.
+- Independently rewrote `philippines-employment-provider-proposal-comparison` as literal prose: 909 body words.
+- Both use different argument orders, scenarios, evidence requests, commercial reasoning, and reader outcomes.
+- Local TypeScript validation now passes with this worktree's own dependencies.
+- Ten articles still require independent literal rewrites. The generated fallbacks remain rejected and must not be pushed.
