@@ -1,0 +1,21 @@
+{
+  "cycleLabel": "October 2, 2026",
+  "timezone": "UTC",
+  "baselineSha": "3502854438a41158b0422d3e7b77601a8860f307",
+  "researchHandoffSha": "50a538fea3ea90b184af255f408f08fc8a303148",
+  "requiredCount": 12,
+  "entries": [
+    {"slug":"philippines-employment-provider-discovery-call-questions","topic":"Questions for a Philippines employment-provider discovery call","pillar":"provider selection","readerOutcome":"leave the call with comparable evidence instead of a generic sales narrative","cta":"/services"},
+    {"slug":"philippines-employment-provider-proposal-comparison","topic":"How to compare Philippines employment-provider proposals","pillar":"provider selection","readerOutcome":"normalize scope, assumptions, exclusions, and retained client work before comparing price","cta":"/services/workforce-reporting"},
+    {"slug":"philippines-remote-employee-manager-readiness","topic":"Manager readiness for a Philippines-based remote employee","pillar":"onboarding","readerOutcome":"test whether the manager has decisions, routines, and first-week work ready","cta":"/services/new-hire-onboarding"},
+    {"slug":"philippines-employment-onboarding-information-request","topic":"Designing a secure onboarding information request","pillar":"onboarding","readerOutcome":"collect only the approved worker data needed at each onboarding stage","cta":"/services/new-hire-onboarding"},
+    {"slug":"philippines-payroll-input-cutoff-calendar","topic":"Building a Philippines payroll-input cutoff calendar","pillar":"payroll operations","readerOutcome":"translate payroll deadlines into owner-specific preparation and approval milestones","cta":"/services/payroll-input-preparation"},
+    {"slug":"philippines-payroll-correction-request-workflow","topic":"A controlled payroll-correction request workflow","pillar":"payroll operations","readerOutcome":"separate reported concerns, source corrections, approvals, processing, and employee communication","cta":"/services/payroll-input-preparation"},
+    {"slug":"philippines-employee-record-change-request","topic":"Handling employee-record change requests","pillar":"records management","readerOutcome":"verify authority, effective date, evidence, propagation, and acknowledgment for a change","cta":"/services/employee-records-management"},
+    {"slug":"philippines-leave-handoff-manager-provider","topic":"Designing the manager-to-provider leave handoff","pillar":"leave administration","readerOutcome":"prevent an approval decision from being confused with calendar or payroll preparation","cta":"/services/leave-tracking-support"},
+    {"slug":"philippines-benefits-enrollment-evidence-checklist","topic":"Evidence checklist for benefits enrollment support","pillar":"benefits administration","readerOutcome":"trace an approved enrollment event through provider confirmation and rejection handling","cta":"/services/benefits-administration-support"},
+    {"slug":"philippines-offboarding-knowledge-transfer-plan","topic":"Planning knowledge transfer before offboarding","pillar":"offboarding","readerOutcome":"move work, decisions, files, and recurring obligations before access removal","cta":"/services/offboarding-administration"},
+    {"slug":"philippines-employment-support-monthly-review","topic":"Running a monthly outsourced-employment service review","pillar":"governance","readerOutcome":"review demand, aging, errors, decisions, risks, and improvement actions with evidence","cta":"/services/workforce-reporting"},
+    {"slug":"philippines-employment-provider-escalation-drill","topic":"Testing an employment-provider escalation path","pillar":"governance","readerOutcome":"prove owners, backups, evidence, and communication work during a realistic exception","cta":"/services/employment-document-administration"}
+  ]
+}
