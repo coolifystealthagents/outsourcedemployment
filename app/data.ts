@@ -58,6 +58,7 @@ import { september23ResearchBatch } from './research/sep23-research-batch';
 import { september24ResearchBatch } from './research/sep24-research-batch';
 import { september25ResearchBatch } from './research/sep25-research-batch';
 import { september28ResearchBatch } from './research/sep28-research-batch';
+import { october2ResearchBatch } from './research/oct2-research-batch';
 
 export const site = {
   "domain": "OutsourcedEmployment.com",
@@ -669,4 +670,4 @@ const august10ResearchSlugs = new Set([
   'philippines-employee-data-audit-research',
 ]);
 
-export const researchPosts = [...september28ResearchBatch, ...september25ResearchBatch, ...september24ResearchBatch, ...september23ResearchBatch, ...september22ResearchBatch, ...september18ResearchBatch, ...september14ResearchBatch, ...september10ResearchBatch, ...september9ResearchBatch, ...september8ResearchBatch, ...september7ResearchBatch, ...september4ResearchBatch, ...september3ResearchBatch, ...september2ResearchBatch, ...september1ResearchBatch, ...august31ResearchBatch, ...august23ResearchBatch, ...august21ResearchBatch, ...august20ResearchBatch, ...august19ResearchBatch.slice(0,10), ...august17ResearchBatch, ...august14ResearchBatch, ...august13ResearchBatch, ...researchPostsRaw.map(post => august10ResearchSlugs.has(post.slug) ? {...post, publishedDate: '2026-08-10'} : post)];
+export const researchPosts = [...october2ResearchBatch, ...september28ResearchBatch, ...september25ResearchBatch, ...september24ResearchBatch, ...september23ResearchBatch, ...september22ResearchBatch, ...september18ResearchBatch, ...september14ResearchBatch, ...september10ResearchBatch, ...september9ResearchBatch, ...september8ResearchBatch, ...september7ResearchBatch, ...september4ResearchBatch, ...september3ResearchBatch, ...september2ResearchBatch, ...september1ResearchBatch, ...august31ResearchBatch, ...august23ResearchBatch, ...august21ResearchBatch, ...august20ResearchBatch, ...august19ResearchBatch.slice(0,10), ...august17ResearchBatch, ...august14ResearchBatch, ...august13ResearchBatch, ...researchPostsRaw.map(post => august10ResearchSlugs.has(post.slug) ? {...post, publishedDate: '2026-08-10'} : post)];
