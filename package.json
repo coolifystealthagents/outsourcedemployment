@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -H 0.0.0.0 -p 3000",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "validate:research-schema-identity": "node tests/research-schema-identity.test.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.6",
