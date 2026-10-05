@@ -68,3 +68,18 @@ Commit `eaac2150da9692401f186dd3210a27eb32b6efc4` adds four unpublished Blog dra
 Maximum pairwise five-word-shingle overlap within this four-draft checkpoint is 1.08% (scope-exclusion map versus inbox privacy triage; 10 shared unique shingles using the smaller document as denominator). Manual review found no repeated substantive paragraph, shared argument sequence, or reused worked example among the four drafts. Full-family and prior-corpus audits remain required after all twelve Blog drafts exist.
 
 Research checkpoint: branch `routine/oct5-research-handoff` advanced to initialization commit `be23914`, but it contained no October 5 article handoff at this checkpoint.
+
+## Integration and authoring checkpoint 2
+
+Research handoff `a10e90f59ae3b04e13c3efb167ca8aeb729f91fe` was independently inspected and integrated through local cherry-picks `4ee10e7`, `3005535`, and `34b283a`. The focused Research validator passes with five articles at 1,218–1,275 words, maximum pairwise five-word-shingle Jaccard overlap 1.47%, no repeated paragraphs, and distinct methods/examples. This is local integration only; no production push or deployment occurred.
+
+Commit `41d987e4e5b102ed8660a46f28cd4535ed2fb4e5` adds four more unpublished Blog drafts. The Blog inventory is now 8/12:
+
+| Added slug | Substantive body words |
+| --- | ---: |
+| `philippines-employment-support-cross-market-holiday-coverage` | 903 |
+| `philippines-workforce-report-recipient-access-review` | 900 |
+| `philippines-final-pay-input-evidence-handoff` | 904 |
+| `philippines-benefits-dependent-removal-effective-date` | 923 |
+
+Across all eight Blog drafts, maximum pairwise five-word-shingle overlap is 1.88% (employee-support inbox privacy triage versus workforce-report recipient review; 17 shared unique shingles using the smaller set as denominator). The four new articles use distinct holiday continuity, report disclosure, final-pay input, and dependent-effective-date arguments and worked examples. They remain unregistered and undated pending the complete 12+5 combined head.
