@@ -53,3 +53,18 @@ These are working candidates, not approved article claims. Each article still re
 8. Fetch and safely rebase onto the newest `origin/main`, rerun affected gates, and make one non-force push.
 9. Stop production mutations and hand the full SHA to the connected browser operator for exact-SHA pin/deploy.
 10. After successful exact-SHA deployment evidence, verify all 17 public routes and assets and persist per-route timestamps and evidence.
+
+## Authoring checkpoint 1
+
+Commit `eaac2150da9692401f186dd3210a27eb32b6efc4` adds four unpublished Blog drafts to `app/blog/oct5-batch.ts`. The file is deliberately not imported into `app/data.ts`, so these incomplete-cycle routes cannot render or enter the sitemap, and it contains no guessed publication date.
+
+| Slug | Substantive body words | Paragraphs |
+| --- | ---: | ---: |
+| `philippines-employment-support-scope-exclusion-map` | 940 | 11 |
+| `philippines-payroll-calendar-change-communication` | 925 | 12 |
+| `philippines-employee-support-inbox-privacy-triage` | 921 | 12 |
+| `philippines-manager-reassignment-employment-record-controls` | 924 | 12 |
+
+Maximum pairwise five-word-shingle overlap within this four-draft checkpoint is 1.08% (scope-exclusion map versus inbox privacy triage; 10 shared unique shingles using the smaller document as denominator). Manual review found no repeated substantive paragraph, shared argument sequence, or reused worked example among the four drafts. Full-family and prior-corpus audits remain required after all twelve Blog drafts exist.
+
+Research checkpoint: branch `routine/oct5-research-handoff` advanced to initialization commit `be23914`, but it contained no October 5 article handoff at this checkpoint.
