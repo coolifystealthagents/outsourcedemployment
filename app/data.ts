@@ -36,6 +36,9 @@ import { september24BlogBatch } from './blog/sep24-batch';
 import { september25BlogBatch } from './blog/sep25-batch';
 import { september28BlogBatch } from './blog/sep28-batch';
 import { october2BlogBatch } from './blog/oct2-batch';
+import { october5BlogDrafts } from './blog/oct5-batch';
+import { october5BlogDraftsPart2 } from './blog/oct5-batch-part2';
+import { october5BlogDraftsPart3 } from './blog/oct5-batch-part3';
 import { august13ResearchBatch } from './research/aug13-batch';
 import { august14ResearchBatch } from './research/aug14-batch';
 import { august17ResearchBatch } from './research/aug17-batch';
@@ -128,7 +131,7 @@ export const blogPosts = [
 
 // The repaired August 10 batch is newest; retain every prior route after it.
 export const august20BlogRepairBatch = [august20Repair1Post, august20Repair2Post, august20Repair3Post, august20Repair4Post, august20Repair5Post, august20Repair6Post, august20Repair7Post, august20Repair8Post, august20Repair9Post, august20Repair10Post, august20Repair11Post, august20Repair12Post] as const;
-export const allBlogPosts = [...october2BlogBatch, ...september28BlogBatch, ...september25BlogBatch, ...september24BlogBatch, ...september23BlogBatch, ...september22BlogBatch, ...september18BlogBatch, ...september14BlogBatch, ...september10BlogBatch, ...september9BlogBatch, ...september8BlogBatch, ...september7BlogBatch, ...september4BlogBatch, ...september3BlogBatch, ...september2BlogBatch, ...september1BlogBatch, ...august31BlogBatch, ...august23BlogBatch, ...august21BlogBatch, ...august20BlogRepairBatch, ...august19Repair3Batch, ...august18Repair5Batch, ...august17BlogBatch, ...august14BlogBatch, ...august13BlogBatch, ...august11BlogBatch, ...dailyBlogBatch.slice(22), ...blogPosts, ...dailyBlogBatch.slice(0, 22)];
+export const allBlogPosts = [...october5BlogDrafts.map(x=>({...x,publishedDate:'2026-10-05' as const})), ...october5BlogDraftsPart2.map(x=>({...x,publishedDate:'2026-10-05' as const})), ...october5BlogDraftsPart3.map(x=>({...x,publishedDate:'2026-10-05' as const})), ...october2BlogBatch, ...september28BlogBatch, ...september25BlogBatch, ...september24BlogBatch, ...september23BlogBatch, ...september22BlogBatch, ...september18BlogBatch, ...september14BlogBatch, ...september10BlogBatch, ...september9BlogBatch, ...september8BlogBatch, ...september7BlogBatch, ...september4BlogBatch, ...september3BlogBatch, ...september2BlogBatch, ...september1BlogBatch, ...august31BlogBatch, ...august23BlogBatch, ...august21BlogBatch, ...august20BlogRepairBatch, ...august19Repair3Batch, ...august18Repair5Batch, ...august17BlogBatch, ...august14BlogBatch, ...august13BlogBatch, ...august11BlogBatch, ...dailyBlogBatch.slice(22), ...blogPosts, ...dailyBlogBatch.slice(0, 22)];
 
 export type GuideBasics = {
   overview: readonly string[];
