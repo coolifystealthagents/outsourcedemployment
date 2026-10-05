@@ -1,0 +1,23 @@
+{
+  "cycle": "2026-10-05",
+  "siteTimezone": "UTC",
+  "repository": "coolifystealthagents/outsourcedemployment",
+  "productionBranch": "main",
+  "baseline": "afee0ab60dc6644b8ae7ceef36508c15bf228815",
+  "contentCommit": "b9cecf40ddbfc4267a63438d85db5dbb8d830712",
+  "blogRequired": 12,
+  "blogStaged": 12,
+  "researchRequired": 5,
+  "researchStaged": 5,
+  "publicationDate": "2026-10-05",
+  "publicationDateStatus": "pending first public verification in UTC",
+  "deploymentApplication": "j42hq0gf9q21pgt9l0pg90ml",
+  "deploymentActor": "browser operator only",
+  "productionPushes": 0,
+  "authorityLinkAudit": {
+    "npcOriginals": "HTTP 403 bot-blocked; content independently confirmed in indexed official retrieval",
+    "doleOriginals": "HTTP 403/unreachable; content independently confirmed in indexed official retrieval",
+    "publicReplacement": "Philippine Supreme Court E-Library Lawphil primary statute text",
+    "replacementHttpStatus": 200
+  }
+}
