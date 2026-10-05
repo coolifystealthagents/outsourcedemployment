@@ -7,6 +7,7 @@
   "draftBranch": "routine/oct5-research-handoff",
   "worktree": "out-77-research",
   "baseline": "afee0ab60dc6644b8ae7ceef36508c15bf228815",
+  "contentCommit": "f43b1e8",
   "siteTimezone": "UTC",
   "publicationDate": "2026-10-05",
   "publicationDateStatus": "provisional until first public verification; integrator must reconcile before the sole combined push",
