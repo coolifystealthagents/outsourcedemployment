@@ -1,0 +1,19 @@
+{
+  "cycle": "2026-10-05",
+  "task": "OUTAAAAAAAAAAA-77",
+  "integratorTask": "OUTAAAAAAAAAAA-78",
+  "repository": "coolifystealthagents/outsourcedemployment",
+  "productionBranch": "main",
+  "draftBranch": "routine/oct5-research-handoff",
+  "worktree": "out-77-research",
+  "baseline": "afee0ab60dc6644b8ae7ceef36508c15bf228815",
+  "siteTimezone": "UTC",
+  "publicationDate": "2026-10-05",
+  "publicationDateStatus": "provisional until first public verification; integrator must reconcile before the sole combined push",
+  "required": 5,
+  "staged": 5,
+  "productionPushAuthorized": false,
+  "deploymentAuthorized": false,
+  "ledger": "docs/research-publication-ledger-2026-10-05.jsonl",
+  "validator": "scripts/validate-oct5-research.mjs"
+}

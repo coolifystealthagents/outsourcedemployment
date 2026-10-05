@@ -59,7 +59,10 @@ import { september23ResearchBatch } from './research/sep23-research-batch';
 import { september24ResearchBatch } from './research/sep24-research-batch';
 import { september25ResearchBatch } from './research/sep25-research-batch';
 import { september28ResearchBatch } from './research/sep28-research-batch';
-import { october2ResearchBatch } from './research/oct2-research-batch';
+import { october2ResearchBatch as october2ResearchBatchRaw } from './research/oct2-research-batch';
+import { october5ResearchBatch } from './research/oct5-research-batch';
+
+const october2ResearchBatch = [...october5ResearchBatch, ...october2ResearchBatchRaw];
 
 export const site = {
   "domain": "OutsourcedEmployment.com",

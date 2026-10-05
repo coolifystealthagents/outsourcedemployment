@@ -35,3 +35,11 @@ Primary-source set selected for direct review: Philippine National Privacy Commi
 - Verify body/source equality, unique slugs/topics, images, internal links, authoritative destinations, titles, provisional dates, schema, index, sitemap, hashes, repeated paragraphs/sentences, shared arguments and examples, and pairwise five-word-shingle overlap.
 - Run locked dependency checks, typecheck, relevant tests, and a clean production build.
 - Fetch and safely rebase locally if needed, commit locally, and report the full SHA/worktree/inventory to `OUTAAAAAAAAAAA-78`. Do not push or deploy.
+
+## Draft and validation result
+
+Exactly five new Research routes are staged in `app/research/oct5-research-batch.ts` and registered in `app/data.ts`. Body lengths are 1,255; 1,218; 1,275; 1,257; and 1,265 words. The focused validator reports five unique non-colliding slugs, zero repeated paragraphs, distinct argument structures and worked cases, and maximum pairwise five-word-shingle Jaccard overlap `0.014711575687185443` (1.47%). Existing repository images and valid dynamic service routes are used. Source URLs were checked on October 5, 2026.
+
+Locked dependency installation with development dependencies completed with 0 vulnerabilities. Typecheck, homepage contract test, Research schema identity test, focused October 5 validator, and the production build pass. The build rendered all five new static Research paths; its only content-independent warnings are the pre-existing workspace-root inference and CSS `start` compatibility warning.
+
+The separate cycle ledger is `docs/research-publication-ledger-2026-10-05.jsonl`; the manifest is `.paperclip/daily-content/2026-10-05/research-manifest.json`. Publication dates are explicitly provisional for October 5 in UTC and must be reconciled by the Blog integrator to the actual first-publication date before its sole combined production push. No push, deployment, Coolify call, or live claim has been made.
