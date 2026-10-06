@@ -1,0 +1,421 @@
+{
+  "generatedAt": "2026-10-06T08:45:24.706Z",
+  "timezone": "UTC",
+  "expected": 17,
+  "verified": 17,
+  "publicationDate": "2026-10-06",
+  "rows": [
+    {
+      "family": "blog",
+      "slug": "philippines-employment-support-scope-exclusion-map",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "09c62af5f579862e0e1e4a6467b4ca00eec318049d3e07277cb617a6b4cef837",
+      "image": {
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "dimensions": "1200x630",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/workforce-reporting",
+        "http": 200
+      }
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-payroll-calendar-change-communication",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "e315f5c912e00b5288aa8a60d80aba428345b88a8762542eb376e3abf9107f3a",
+      "image": {
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "dimensions": "1200x630",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/payroll-input-preparation",
+        "http": 200
+      }
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-employee-support-inbox-privacy-triage",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "516f1fe29654cfa076d1bdcc9fb6dcdfcce48a657464ba946737d51df6d97e70",
+      "image": {
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "dimensions": "1200x630",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/employee-records-management",
+        "http": 200
+      }
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-manager-reassignment-employment-record-controls",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "2c5da035806f04521db3e4c4a5332a48520e6ea8ff151e4c09767fca766ce033",
+      "image": {
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "dimensions": "1200x630",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/employee-records-management",
+        "http": 200
+      }
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-employment-support-cross-market-holiday-coverage",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "8d41cf76e332b3ddc5f733e240e4e3cd13cfbf7f0ae2548e01d7fb2465cfe162",
+      "image": {
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "dimensions": "1200x630",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/schedule-administration",
+        "http": 200
+      }
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-workforce-report-recipient-access-review",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "b545babe3616f30d427938ae7bbdf5d3f468575abd6a7a48e9b9d38aca0f3885",
+      "image": {
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "dimensions": "1200x630",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/workforce-reporting",
+        "http": 200
+      }
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-final-pay-input-evidence-handoff",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "b6b9b3b9c46e42c391ca72617382b15200f9e023dff2befa1d347893424f3227",
+      "image": {
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "dimensions": "1200x630",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/payroll-input-preparation",
+        "http": 200
+      }
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-benefits-dependent-removal-effective-date",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "5a05039f6dd630a48e45135d78081a250db76aa53b35f359b5f0e160c344dd97",
+      "image": {
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "dimensions": "1200x630",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/benefits-administration-support",
+        "http": 200
+      }
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-employment-support-pilot-acceptance-criteria",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "ba18dfdfee647624ac5a5a5e5676811c0e64051d954e42679edc1120bacacc47",
+      "image": {
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "dimensions": "1200x630",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/workforce-reporting",
+        "http": 200
+      }
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-employment-support-volume-forecast",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "1a90d2921cd20d292797a48aa825a537fca59c03d75866f846b0d0e967211f00",
+      "image": {
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "dimensions": "1200x630",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/workforce-reporting",
+        "http": 200
+      }
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-employment-provider-exit-data-package",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "ff361eefa46fdbf9137fda37436a3bfcbf9f0a90698f03d49aa779b7c5dc7fd3",
+      "image": {
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "dimensions": "1200x630",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/employee-records-management",
+        "http": 200
+      }
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-employment-support-exception-cost-model",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "fcafee948e595d22b113a04583aac0c6610d3b66c78a1f8a4b01a8258ce0d75d",
+      "image": {
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "dimensions": "1200x630",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/workforce-reporting",
+        "http": 200
+      }
+    },
+    {
+      "family": "research",
+      "slug": "philippines-payroll-reversal-corrected-payment-lineage-research",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "a9cc530c4eba87ee386658592cdb1174c324cb144f5b4258308159ac2fdb400e",
+      "image": {
+        "http": 200,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a",
+        "dimensions": "1536x1024",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/payroll-input-preparation",
+        "http": 200
+      }
+    },
+    {
+      "family": "research",
+      "slug": "philippines-onboarding-equipment-delivery-custody-research",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "3a24a35afadae732437eb62c1fd069b05b110b0dc10d17912de056a0667e13f7",
+      "image": {
+        "http": 200,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a",
+        "dimensions": "1659x948",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/new-hire-onboarding",
+        "http": 200
+      }
+    },
+    {
+      "family": "research",
+      "slug": "philippines-leave-document-access-deletion-evidence-research",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "a186bd6ff42e45dbde57f4a806b506e72be17416410eda090fac5b79bb5cbfc0",
+      "image": {
+        "http": 200,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a",
+        "dimensions": "1659x948",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/leave-tracking-support",
+        "http": 200
+      }
+    },
+    {
+      "family": "research",
+      "slug": "philippines-recruiting-offer-approval-expiry-research",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "cd873dea2dd12265d39b7df40aab1e4ec684a1cd5d1e1cddb7d0f544a4240c77",
+      "image": {
+        "http": 200,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a",
+        "dimensions": "1536x1024",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/candidate-sourcing-coordination",
+        "http": 200
+      }
+    },
+    {
+      "family": "research",
+      "slug": "philippines-hr-inbox-sender-identity-routing-research",
+      "http": 200,
+      "datePublished": true,
+      "visibleDate": true,
+      "canonical": true,
+      "index": true,
+      "sitemap": true,
+      "orderedBodyHash": "a721d687caec5659281a113a54d550eed0b7254cbbd9ead1b44fa9d4b58cca80",
+      "image": {
+        "http": 200,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a",
+        "dimensions": "1693x929",
+        "decoded": true
+      },
+      "destination": {
+        "path": "/services/employee-records-management",
+        "http": 200
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+      "http": 200,
+      "finalUrl": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html"
+    },
+    {
+      "url": "https://www.nist.gov/privacy-framework",
+      "http": 200,
+      "finalUrl": "https://www.nist.gov/privacy-framework"
+    },
+    {
+      "url": "https://www.nist.gov/cyberframework",
+      "http": 200,
+      "finalUrl": "https://www.nist.gov/cyberframework"
+    },
+    {
+      "url": "https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html",
+      "http": 200,
+      "finalUrl": "https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html"
+    },
+    {
+      "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+      "http": 200,
+      "finalUrl": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20"
+    },
+    {
+      "url": "https://pages.nist.gov/800-63-4/sp800-63a/proofing/",
+      "http": 200,
+      "finalUrl": "https://pages.nist.gov/800-63-4/sp800-63a/proofing/"
+    },
+    {
+      "url": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+      "http": 200,
+      "finalUrl": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing"
+    }
+  ],
+  "errors": []
+}

@@ -7,7 +7,7 @@ export type Oct5BlogDraft = {
   cta: string;
   sources: { name: string; url: string }[];
   body: string[];
-  publishedDate?: '2026-10-05';
+  publishedDate?: '2026-10-06';
 };
 
 const privacySources = [
