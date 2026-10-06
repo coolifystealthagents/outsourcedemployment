@@ -1,0 +1,2605 @@
+{
+  "generatedAt": "2026-10-06T11:10:33.582Z",
+  "timezone": "UTC",
+  "repository": "coolifystealthagents/outsourcedemployment",
+  "branch": "main",
+  "pushedSha": "d39c97c383a2328fcf52b154eaa5b7a862300cf3",
+  "deployedSha": "d39c97c383a2328fcf52b154eaa5b7a862300cf3",
+  "deployment": {
+    "application": "j42hq0gf9q21pgt9l0pg90ml",
+    "id": "qsdo0phkygnf0cohqyypy47j",
+    "status": "Success",
+    "duration": "03m43s",
+    "evidenceSource": "browser operator comment ae168752-a63d-45f6-a789-c1f6da027031"
+  },
+  "required": 17,
+  "verified": 16,
+  "indexes": {
+    "blog": {
+      "http": 200
+    },
+    "research": {
+      "http": 200
+    }
+  },
+  "sitemap": {
+    "http": 200
+  },
+  "routes": [
+    {
+      "family": "blog",
+      "slug": "philippines-employment-support-scope-exclusion-map",
+      "url": "https://outsourcedemployment.com/blog/philippines-employment-support-scope-exclusion-map",
+      "verifiedAt": "2026-10-06T11:10:26.566Z",
+      "http": 200,
+      "title": {
+        "expected": "Map What a Philippines Employment-Support Scope Excludes",
+        "rendered": "Map What a Philippines Employment-Support Scope Excludes",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 11,
+        "renderedParagraphs": 11,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "9c40d0e5fe7aa904d61311b6a12ac50f9b36985267b45187e9605142474c7228",
+            "renderedHash": "9c40d0e5fe7aa904d61311b6a12ac50f9b36985267b45187e9605142474c7228",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "1673f8f2797ab3fbdfe5750e7d9e817b746fd4ea53d34f9e94c713b507b259fc",
+            "renderedHash": "1673f8f2797ab3fbdfe5750e7d9e817b746fd4ea53d34f9e94c713b507b259fc",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "5182801d7e56212b7663cfa2d8492635a20cd16feac3a7cd9458d8b0e3c0cd6f",
+            "renderedHash": "5182801d7e56212b7663cfa2d8492635a20cd16feac3a7cd9458d8b0e3c0cd6f",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "088aac46c27519bcbfdc492932e7dd89b6b6bc68c0e23751861135a577cfb11d",
+            "renderedHash": "088aac46c27519bcbfdc492932e7dd89b6b6bc68c0e23751861135a577cfb11d",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "ed7b683f55ad6dd9c472b154f716551c2b380eaa24a2237b938e3f8dfa641eb7",
+            "renderedHash": "ed7b683f55ad6dd9c472b154f716551c2b380eaa24a2237b938e3f8dfa641eb7",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "5ee9985f949d0d95860288aa312d5dcc1fa4e9584324e2ff3e6c689d2f3a5b5f",
+            "renderedHash": "5ee9985f949d0d95860288aa312d5dcc1fa4e9584324e2ff3e6c689d2f3a5b5f",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "6973250c0a04810164f30b4f64b9a7f6befbaa0f16c0040ad953e9068b0da1c3",
+            "renderedHash": "6973250c0a04810164f30b4f64b9a7f6befbaa0f16c0040ad953e9068b0da1c3",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "39cdeb5929336017f63399cddfa635c3bc3528c928ff8d457ffd5ee9b53c5c93",
+            "renderedHash": "39cdeb5929336017f63399cddfa635c3bc3528c928ff8d457ffd5ee9b53c5c93",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "f1dc88e968473714f8ee2d6ebd7a665aeff24030ca4bc61dabeb2f9b84efbbed",
+            "renderedHash": "f1dc88e968473714f8ee2d6ebd7a665aeff24030ca4bc61dabeb2f9b84efbbed",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "543cc50bdc5b320d47504c76763998d5d639d22889121f569abca6f4af8ebd3b",
+            "renderedHash": "543cc50bdc5b320d47504c76763998d5d639d22889121f569abca6f4af8ebd3b",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "d0d7aeb5454bad745a8a80cc5f5295d051011d7d901f49b55d044918658ff82a",
+            "renderedHash": "d0d7aeb5454bad745a8a80cc5f5295d051011d7d901f49b55d044918658ff82a",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "09c62af5f579862e0e1e4a6467b4ca00eec318049d3e07277cb617a6b4cef837",
+        "renderedHash": "09c62af5f579862e0e1e4a6467b4ca00eec318049d3e07277cb617a6b4cef837",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "Map What a Philippines Employment-Support Scope Excludes",
+        "url": "https://outsourcedemployment.com/blog/philippines-employment-support-scope-exclusion-map",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/blog/philippines-employment-support-scope-exclusion-map",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/blog-thumbnails/sop-template.svg",
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "encodedBytes": 523,
+        "encodedHash": "2ee2c1cd1c4ce5d0f467aa67f5bf1a72069cdbeef7a4e03e8d5f4c9ba8fd6915",
+        "width": 2400,
+        "height": 1260,
+        "format": "svg",
+        "channels": 4,
+        "decodedPixelBytes": 12096000,
+        "decodedPixelHash": "a88c95e582eec8b6c60a4711f6ac63dcb095877c3e547cdc689f2736bf8bf45a",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:26.636Z"
+      },
+      "destination": {
+        "url": "/services/workforce-reporting",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/workforce-reporting",
+        "bytes": 20150,
+        "verifiedAt": "2026-10-06T11:10:26.832Z"
+      },
+      "renderedLinks": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "/services/workforce-reporting"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework"
+      ]
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-payroll-calendar-change-communication",
+      "url": "https://outsourcedemployment.com/blog/philippines-payroll-calendar-change-communication",
+      "verifiedAt": "2026-10-06T11:10:26.904Z",
+      "http": 200,
+      "title": {
+        "expected": "Communicate a Philippines Payroll Calendar Change Without Creating Two Cutoffs",
+        "rendered": "Communicate a Philippines Payroll Calendar Change Without Creating Two Cutoffs",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 12,
+        "renderedParagraphs": 12,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "221bca4ac3032519de6cf0897ef3cb0720a3851ad69fa4305c1cb3b5e241ac0e",
+            "renderedHash": "221bca4ac3032519de6cf0897ef3cb0720a3851ad69fa4305c1cb3b5e241ac0e",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "3bc21dd7953fceb80eb26cf2d7cf08bd7e8504f6cf15b3b62ff0e69f25902b1b",
+            "renderedHash": "3bc21dd7953fceb80eb26cf2d7cf08bd7e8504f6cf15b3b62ff0e69f25902b1b",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "4f27d9bfecb85df1600d0f65df3e678c2c9b87c36142e4db7c8f11a5361adfc4",
+            "renderedHash": "4f27d9bfecb85df1600d0f65df3e678c2c9b87c36142e4db7c8f11a5361adfc4",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "e0171a4709bd2f8dec86ec63d7ae53e3edc7aabf674c3c0a0f51f257dee2a817",
+            "renderedHash": "e0171a4709bd2f8dec86ec63d7ae53e3edc7aabf674c3c0a0f51f257dee2a817",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "4ada36a27bb0921d5fbcccd80eed27af544a31d3afc91d7d4df7ec3d6115620e",
+            "renderedHash": "4ada36a27bb0921d5fbcccd80eed27af544a31d3afc91d7d4df7ec3d6115620e",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "8b8023752804227af64e93fa2332aeb03a40ae24994b3bdc3672f33ca43b5438",
+            "renderedHash": "8b8023752804227af64e93fa2332aeb03a40ae24994b3bdc3672f33ca43b5438",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "f28da87ef3fdc130c551fd18c8806f24dc5e978aa9b5c9b2d5b5f7b76348bf32",
+            "renderedHash": "f28da87ef3fdc130c551fd18c8806f24dc5e978aa9b5c9b2d5b5f7b76348bf32",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "f27ac90914b71169b23e16943fa751ee809febeda08849d3283d427e87b8bbe2",
+            "renderedHash": "f27ac90914b71169b23e16943fa751ee809febeda08849d3283d427e87b8bbe2",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "457e876b47f4779680c1778a2df90d86474391c9cc9a7f5737f85943072c9da8",
+            "renderedHash": "457e876b47f4779680c1778a2df90d86474391c9cc9a7f5737f85943072c9da8",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "50d6e35f995db92708ef5fc8f316aedef1ec26b3333fd0e358ae09c61fb7425a",
+            "renderedHash": "50d6e35f995db92708ef5fc8f316aedef1ec26b3333fd0e358ae09c61fb7425a",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "e9e38b76fc83db80c931ccd8d8305bcfcb1745d70c5626420bb2fd2eb6cc974c",
+            "renderedHash": "e9e38b76fc83db80c931ccd8d8305bcfcb1745d70c5626420bb2fd2eb6cc974c",
+            "equal": true
+          },
+          {
+            "position": 12,
+            "sourceHash": "64cc23b6a318b2125560f37bea07f50eba576af002a0ae7f15e3d391310a1f7a",
+            "renderedHash": "64cc23b6a318b2125560f37bea07f50eba576af002a0ae7f15e3d391310a1f7a",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "e315f5c912e00b5288aa8a60d80aba428345b88a8762542eb376e3abf9107f3a",
+        "renderedHash": "e315f5c912e00b5288aa8a60d80aba428345b88a8762542eb376e3abf9107f3a",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "Communicate a Philippines Payroll Calendar Change Without Creating Two Cutoffs",
+        "url": "https://outsourcedemployment.com/blog/philippines-payroll-calendar-change-communication",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/blog/philippines-payroll-calendar-change-communication",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/blog-thumbnails/payroll-cutoff-calendar.svg",
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "encodedBytes": 741,
+        "encodedHash": "d13e127a5d7ddf1cf4fcf55b38469568a49b066cf368fb35a4058f567836c2bc",
+        "width": 2400,
+        "height": 1260,
+        "format": "svg",
+        "channels": 4,
+        "decodedPixelBytes": 12096000,
+        "decodedPixelHash": "cfc347c10c6cf748fd53c7e415f8bdb8afc2053320d550921447ca2dae914164",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:26.983Z"
+      },
+      "destination": {
+        "url": "/services/payroll-input-preparation",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/payroll-input-preparation",
+        "bytes": 20208,
+        "verifiedAt": "2026-10-06T11:10:27.151Z"
+      },
+      "renderedLinks": [
+        "https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html",
+        "https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/cyberframework",
+        "/services/payroll-input-preparation"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/cyberframework"
+      ]
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-employee-support-inbox-privacy-triage",
+      "url": "https://outsourcedemployment.com/blog/philippines-employee-support-inbox-privacy-triage",
+      "verifiedAt": "2026-10-06T11:10:27.225Z",
+      "http": 200,
+      "title": {
+        "expected": "Triage a Philippines Employee-Support Inbox by Privacy Lane",
+        "rendered": "Triage a Philippines Employee-Support Inbox by Privacy Lane",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 12,
+        "renderedParagraphs": 12,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "e35d0f53ecf8dcf3938d1f51a299d7e133384c045067a699403e7e657abed1a6",
+            "renderedHash": "e35d0f53ecf8dcf3938d1f51a299d7e133384c045067a699403e7e657abed1a6",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "c2e35cd4d213f62b66d69c230604e04c946299c4f444030e99f30c9ac709c387",
+            "renderedHash": "c2e35cd4d213f62b66d69c230604e04c946299c4f444030e99f30c9ac709c387",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "5d7676c4352c86a5d7d2baededf3a4ad95e3b830d787cb8d0a97c59424382791",
+            "renderedHash": "5d7676c4352c86a5d7d2baededf3a4ad95e3b830d787cb8d0a97c59424382791",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "878525bcf8381e5d3df96b47ba484bc340ed281578c84c8dfd075968e76799a2",
+            "renderedHash": "878525bcf8381e5d3df96b47ba484bc340ed281578c84c8dfd075968e76799a2",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "20c1b3b5d9af31469750eba4d27c10ce4b655e528879d67d3bfdf3e82b14fd5a",
+            "renderedHash": "20c1b3b5d9af31469750eba4d27c10ce4b655e528879d67d3bfdf3e82b14fd5a",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "3327f78cf9d9dbcf234ff4b507801fa6300d8ad2d8f015e6700346c7064e728e",
+            "renderedHash": "3327f78cf9d9dbcf234ff4b507801fa6300d8ad2d8f015e6700346c7064e728e",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "2ea5a57b1380dfceced5de106b5a39391dd3be112c04efe6027a5cfdf1f95125",
+            "renderedHash": "2ea5a57b1380dfceced5de106b5a39391dd3be112c04efe6027a5cfdf1f95125",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "486faec1169590a293854e3ae7461cb795fe56cedbe2cdb30806ac28d03fad1d",
+            "renderedHash": "486faec1169590a293854e3ae7461cb795fe56cedbe2cdb30806ac28d03fad1d",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "08268097ff1c948f68100e773dee65147a11d7ee2eb07ef48e42e915ace131c9",
+            "renderedHash": "08268097ff1c948f68100e773dee65147a11d7ee2eb07ef48e42e915ace131c9",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "6ea15e87274f9f531b59b542767e6b69801ab782aec750f3a2d772e5aae85edd",
+            "renderedHash": "6ea15e87274f9f531b59b542767e6b69801ab782aec750f3a2d772e5aae85edd",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "37cb5ce3b96d0a1b264c508b5b7e8a4c41d42e15c9cf8f2c679df00b97a2a37e",
+            "renderedHash": "37cb5ce3b96d0a1b264c508b5b7e8a4c41d42e15c9cf8f2c679df00b97a2a37e",
+            "equal": true
+          },
+          {
+            "position": 12,
+            "sourceHash": "2d1d3e4ed0f5d564d96a86098e5907655bef72795542edff32710508d68c4797",
+            "renderedHash": "2d1d3e4ed0f5d564d96a86098e5907655bef72795542edff32710508d68c4797",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "516f1fe29654cfa076d1bdcc9fb6dcdfcce48a657464ba946737d51df6d97e70",
+        "renderedHash": "516f1fe29654cfa076d1bdcc9fb6dcdfcce48a657464ba946737d51df6d97e70",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "Triage a Philippines Employee-Support Inbox by Privacy Lane",
+        "url": "https://outsourcedemployment.com/blog/philippines-employee-support-inbox-privacy-triage",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/blog/philippines-employee-support-inbox-privacy-triage",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/blog-thumbnails/hr-inbox-triage.svg",
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "encodedBytes": 523,
+        "encodedHash": "2ee2c1cd1c4ce5d0f467aa67f5bf1a72069cdbeef7a4e03e8d5f4c9ba8fd6915",
+        "width": 2400,
+        "height": 1260,
+        "format": "svg",
+        "channels": 4,
+        "decodedPixelBytes": 12096000,
+        "decodedPixelHash": "a88c95e582eec8b6c60a4711f6ac63dcb095877c3e547cdc689f2736bf8bf45a",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:27.306Z"
+      },
+      "destination": {
+        "url": "/services/employee-records-management",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/employee-records-management",
+        "bytes": 20246,
+        "verifiedAt": "2026-10-06T11:10:27.469Z"
+      },
+      "renderedLinks": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "/services/employee-records-management"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework"
+      ]
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-manager-reassignment-employment-record-controls",
+      "url": "https://outsourcedemployment.com/blog/philippines-manager-reassignment-employment-record-controls",
+      "verifiedAt": "2026-10-06T11:10:27.547Z",
+      "http": 200,
+      "title": {
+        "expected": "Control Manager Reassignment Across Philippines Employment Records",
+        "rendered": "Control Manager Reassignment Across Philippines Employment Records",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 12,
+        "renderedParagraphs": 12,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "024375fd755f202b518366c171c76266380eb0aee3de0f27e7144f5dcf8b0bcb",
+            "renderedHash": "024375fd755f202b518366c171c76266380eb0aee3de0f27e7144f5dcf8b0bcb",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "f92618d4eb20f2f52aa3e8975920fc16c92acfeac3b7176d41547c7abe68123d",
+            "renderedHash": "f92618d4eb20f2f52aa3e8975920fc16c92acfeac3b7176d41547c7abe68123d",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "be5b29ac9575aefc605f1d92260882b1d4e7b6f86b7b906cf16ebb1c8fd04afe",
+            "renderedHash": "be5b29ac9575aefc605f1d92260882b1d4e7b6f86b7b906cf16ebb1c8fd04afe",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "4a593f02792864cd8d84f3ed407e54b781a021541a8ecdc4da6034062da7ed3b",
+            "renderedHash": "4a593f02792864cd8d84f3ed407e54b781a021541a8ecdc4da6034062da7ed3b",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "bcf868c473b04aff8cc4fd87687ae0197903a0db4a72b0f38bb207791ccb8883",
+            "renderedHash": "bcf868c473b04aff8cc4fd87687ae0197903a0db4a72b0f38bb207791ccb8883",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "27dc540dcd5c163ec5ebf3957e16e19c3cdac7e8d9c3dfd5c4aa4857012ce5c7",
+            "renderedHash": "27dc540dcd5c163ec5ebf3957e16e19c3cdac7e8d9c3dfd5c4aa4857012ce5c7",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "113cd0af833334a6c70e8c1fb3cd6f3f60600809dabb2545fd2a73c2d615e460",
+            "renderedHash": "113cd0af833334a6c70e8c1fb3cd6f3f60600809dabb2545fd2a73c2d615e460",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "3413b8bbf72c5dc4f3c2b49b7351dec42b83c03023ac2dc65ffcc80e09b49eaf",
+            "renderedHash": "3413b8bbf72c5dc4f3c2b49b7351dec42b83c03023ac2dc65ffcc80e09b49eaf",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "bcc7344ea0e9e7c946a79d5ae222d86b5997ad4ba9d9b49c40de2d580e79f795",
+            "renderedHash": "bcc7344ea0e9e7c946a79d5ae222d86b5997ad4ba9d9b49c40de2d580e79f795",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "892d80a0a485985488979bb44f384302767712918d50fbd152660c6a1e1cc2d7",
+            "renderedHash": "892d80a0a485985488979bb44f384302767712918d50fbd152660c6a1e1cc2d7",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "3e55280378269e41bb39bf8ddb948fea71fef4f6b5617fc83f1cbbde5784800a",
+            "renderedHash": "3e55280378269e41bb39bf8ddb948fea71fef4f6b5617fc83f1cbbde5784800a",
+            "equal": true
+          },
+          {
+            "position": 12,
+            "sourceHash": "96a86a7bc6d1796c7a5e9a30f97611047545304f129977498477bee0f49a211b",
+            "renderedHash": "96a86a7bc6d1796c7a5e9a30f97611047545304f129977498477bee0f49a211b",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "2c5da035806f04521db3e4c4a5332a48520e6ea8ff151e4c09767fca766ce033",
+        "renderedHash": "2c5da035806f04521db3e4c4a5332a48520e6ea8ff151e4c09767fca766ce033",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "Control Manager Reassignment Across Philippines Employment Records",
+        "url": "https://outsourcedemployment.com/blog/philippines-manager-reassignment-employment-record-controls",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/blog/philippines-manager-reassignment-employment-record-controls",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/blog-thumbnails/employee-directory.svg",
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "encodedBytes": 741,
+        "encodedHash": "d13e127a5d7ddf1cf4fcf55b38469568a49b066cf368fb35a4058f567836c2bc",
+        "width": 2400,
+        "height": 1260,
+        "format": "svg",
+        "channels": 4,
+        "decodedPixelBytes": 12096000,
+        "decodedPixelHash": "cfc347c10c6cf748fd53c7e415f8bdb8afc2053320d550921447ca2dae914164",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:27.619Z"
+      },
+      "destination": {
+        "url": "/services/employee-records-management",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/employee-records-management",
+        "bytes": 20246,
+        "verifiedAt": "2026-10-06T11:10:27.469Z"
+      },
+      "renderedLinks": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "/services/employee-records-management"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework"
+      ]
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-employment-support-cross-market-holiday-coverage",
+      "url": "https://outsourcedemployment.com/blog/philippines-employment-support-cross-market-holiday-coverage",
+      "verifiedAt": "2026-10-06T11:10:27.782Z",
+      "http": 200,
+      "title": {
+        "expected": "Plan Cross-Market Holiday Coverage for Philippines Employment Support",
+        "rendered": "Plan Cross-Market Holiday Coverage for Philippines Employment Support",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 11,
+        "renderedParagraphs": 11,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "c14a3be0e85843549c66f918ab2d2928ab1a52d3b4dc450fea670e4a7847e6a1",
+            "renderedHash": "c14a3be0e85843549c66f918ab2d2928ab1a52d3b4dc450fea670e4a7847e6a1",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "1a9ab5e99bace32a5283c4e00dde79553bcfdb94ab6d7fe192b412ef48ebbc62",
+            "renderedHash": "1a9ab5e99bace32a5283c4e00dde79553bcfdb94ab6d7fe192b412ef48ebbc62",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "f9cc2e109b9fcca76849a3c95bb2972dd6499c4c662791034be926f151b3289a",
+            "renderedHash": "f9cc2e109b9fcca76849a3c95bb2972dd6499c4c662791034be926f151b3289a",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "912a586c18cb98e6a9f070238a14a9d1937490ff9047285799c31e7d8118a177",
+            "renderedHash": "912a586c18cb98e6a9f070238a14a9d1937490ff9047285799c31e7d8118a177",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "c25ff29330ee9a4e3eea74208a75ad325662e8b27fa8060b9ef4784dec3acfaf",
+            "renderedHash": "c25ff29330ee9a4e3eea74208a75ad325662e8b27fa8060b9ef4784dec3acfaf",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "b82b53b6afc082ef5bae2e5f46a57db173eba7a0de05394479ef950fe65e98d9",
+            "renderedHash": "b82b53b6afc082ef5bae2e5f46a57db173eba7a0de05394479ef950fe65e98d9",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "de9c4f96409e79821df4ee554245b3f14172a974a7c7fb71a130d787bf3410b9",
+            "renderedHash": "de9c4f96409e79821df4ee554245b3f14172a974a7c7fb71a130d787bf3410b9",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "2d115dab730c4440c3890467844bb59907aeca0d218c827e12f80c3cadee59ea",
+            "renderedHash": "2d115dab730c4440c3890467844bb59907aeca0d218c827e12f80c3cadee59ea",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "d83a3da327ff918ac1c3e267a58925919f559693fdb507d5a2efe7e0cdbcae89",
+            "renderedHash": "d83a3da327ff918ac1c3e267a58925919f559693fdb507d5a2efe7e0cdbcae89",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "3097114ee52d2cbae195aa54690d1c89b47e5272b3182e500a837cf01f50e07e",
+            "renderedHash": "3097114ee52d2cbae195aa54690d1c89b47e5272b3182e500a837cf01f50e07e",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "0d201e7d690945da63b78ce0811bd2ac1c0f1732a8ce0713f54341f6e9d3dc01",
+            "renderedHash": "0d201e7d690945da63b78ce0811bd2ac1c0f1732a8ce0713f54341f6e9d3dc01",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "8d41cf76e332b3ddc5f733e240e4e3cd13cfbf7f0ae2548e01d7fb2465cfe162",
+        "renderedHash": "8d41cf76e332b3ddc5f733e240e4e3cd13cfbf7f0ae2548e01d7fb2465cfe162",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "Plan Cross-Market Holiday Coverage for Philippines Employment Support",
+        "url": "https://outsourcedemployment.com/blog/philippines-employment-support-cross-market-holiday-coverage",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/blog/philippines-employment-support-cross-market-holiday-coverage",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/blog-thumbnails/hr-calendar-administration.svg",
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "encodedBytes": 19672,
+        "encodedHash": "d923e7745342fbdebfb712abf60a7834d54b929c9f44545e259e3d078a32b4fa",
+        "fullDecode": false,
+        "decodeError": "Input buffer has corrupt header: glib: XML parse error: Error domain 1 code 5 on line 1 column 741 of data: Extra content at the end of the document",
+        "verifiedAt": "2026-10-06T11:10:27.844Z"
+      },
+      "destination": {
+        "url": "/services/schedule-administration",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/schedule-administration",
+        "bytes": 20170,
+        "verifiedAt": "2026-10-06T11:10:27.917Z"
+      },
+      "renderedLinks": [
+        "https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html",
+        "https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/cyberframework",
+        "/services/schedule-administration"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/cyberframework"
+      ]
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-workforce-report-recipient-access-review",
+      "url": "https://outsourcedemployment.com/blog/philippines-workforce-report-recipient-access-review",
+      "verifiedAt": "2026-10-06T11:10:27.981Z",
+      "http": 200,
+      "title": {
+        "expected": "Review Who Receives Philippines Workforce Reports",
+        "rendered": "Review Who Receives Philippines Workforce Reports",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 11,
+        "renderedParagraphs": 11,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "527a1490a11c584ae6683896eee8a42de4a2c208c97c3032256201f33dc9de79",
+            "renderedHash": "527a1490a11c584ae6683896eee8a42de4a2c208c97c3032256201f33dc9de79",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "f26a11d1d9236a97260cb3d06a440eae51a4b319184f39d6acebc273017fdeb5",
+            "renderedHash": "f26a11d1d9236a97260cb3d06a440eae51a4b319184f39d6acebc273017fdeb5",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "4ac6045a30c194b03b73ff92b848b536677c4a4e3cd565c7a54470f1caa49c15",
+            "renderedHash": "4ac6045a30c194b03b73ff92b848b536677c4a4e3cd565c7a54470f1caa49c15",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "40d067d9582d98eeaad693dfdbef923a7bf5a2749b86afa2a0c397a1ef37a6ab",
+            "renderedHash": "40d067d9582d98eeaad693dfdbef923a7bf5a2749b86afa2a0c397a1ef37a6ab",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "bb0f6390b29c48afa9e8208003b2c6633250e3493ae85807524a3f6e63647812",
+            "renderedHash": "bb0f6390b29c48afa9e8208003b2c6633250e3493ae85807524a3f6e63647812",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "590d27bac7154a52cee9fc241866879f5562668c1e23033dd4bc3293126b5549",
+            "renderedHash": "590d27bac7154a52cee9fc241866879f5562668c1e23033dd4bc3293126b5549",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "7f6884d7b88a1fd144bb2ba21fdeaab52ee0c2d6be7113a56e307e1664513ab9",
+            "renderedHash": "7f6884d7b88a1fd144bb2ba21fdeaab52ee0c2d6be7113a56e307e1664513ab9",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "7ede9369d41aa87422a16047d37fde450156e99131d531e15dd9cf338020b3a1",
+            "renderedHash": "7ede9369d41aa87422a16047d37fde450156e99131d531e15dd9cf338020b3a1",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "3514139d4654c6865e77a0e73b3b596c48062d841f14dae6b1ce2bc453751bb0",
+            "renderedHash": "3514139d4654c6865e77a0e73b3b596c48062d841f14dae6b1ce2bc453751bb0",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "88c0e4201c84a3bfba52436469cfd05d816b565349a679ac348f81340aa3d90d",
+            "renderedHash": "88c0e4201c84a3bfba52436469cfd05d816b565349a679ac348f81340aa3d90d",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "675d6d84d5c6fd3f6540c191eff1bb7ab044d4bf2c24748f7e47ffe3fb2de2bb",
+            "renderedHash": "675d6d84d5c6fd3f6540c191eff1bb7ab044d4bf2c24748f7e47ffe3fb2de2bb",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "b545babe3616f30d427938ae7bbdf5d3f468575abd6a7a48e9b9d38aca0f3885",
+        "renderedHash": "b545babe3616f30d427938ae7bbdf5d3f468575abd6a7a48e9b9d38aca0f3885",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "Review Who Receives Philippines Workforce Reports",
+        "url": "https://outsourcedemployment.com/blog/philippines-workforce-report-recipient-access-review",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/blog/philippines-workforce-report-recipient-access-review",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/blog-thumbnails/reporting-calendar.svg",
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "encodedBytes": 523,
+        "encodedHash": "2ee2c1cd1c4ce5d0f467aa67f5bf1a72069cdbeef7a4e03e8d5f4c9ba8fd6915",
+        "width": 2400,
+        "height": 1260,
+        "format": "svg",
+        "channels": 4,
+        "decodedPixelBytes": 12096000,
+        "decodedPixelHash": "a88c95e582eec8b6c60a4711f6ac63dcb095877c3e547cdc689f2736bf8bf45a",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:28.053Z"
+      },
+      "destination": {
+        "url": "/services/workforce-reporting",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/workforce-reporting",
+        "bytes": 20150,
+        "verifiedAt": "2026-10-06T11:10:26.832Z"
+      },
+      "renderedLinks": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/cyberframework",
+        "/services/workforce-reporting"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework"
+      ]
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-final-pay-input-evidence-handoff",
+      "url": "https://outsourcedemployment.com/blog/philippines-final-pay-input-evidence-handoff",
+      "verifiedAt": "2026-10-06T11:10:28.220Z",
+      "http": 200,
+      "title": {
+        "expected": "Prepare a Final-Pay Input Evidence Handoff for Philippines Offboarding",
+        "rendered": "Prepare a Final-Pay Input Evidence Handoff for Philippines Offboarding",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 11,
+        "renderedParagraphs": 11,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "d48db770575e1527eae084e68fc6b19925cb0553c486589a746679f7902a4ad3",
+            "renderedHash": "d48db770575e1527eae084e68fc6b19925cb0553c486589a746679f7902a4ad3",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "06ebf3de6ffae76a7d699c9eb55c4254d96bff7a395b779d58db00a9f416faf9",
+            "renderedHash": "06ebf3de6ffae76a7d699c9eb55c4254d96bff7a395b779d58db00a9f416faf9",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "b8ab6b59a37a868da1dc2028b7ee33da01fdc7504445d8d28f9f10359a873d65",
+            "renderedHash": "b8ab6b59a37a868da1dc2028b7ee33da01fdc7504445d8d28f9f10359a873d65",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "9473885218f4631f8990bbf2f3ead573db6111cb7a1e09e357535acfa4a3a96b",
+            "renderedHash": "9473885218f4631f8990bbf2f3ead573db6111cb7a1e09e357535acfa4a3a96b",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "eeead2aef244a4cb8eb3b0c19afcccf2eac8124ad99b4fa02985316b7897d10d",
+            "renderedHash": "eeead2aef244a4cb8eb3b0c19afcccf2eac8124ad99b4fa02985316b7897d10d",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "217b07fd1b78f5d8cb55f424a6b632522395372140720a6bf6336b2a679b7eea",
+            "renderedHash": "217b07fd1b78f5d8cb55f424a6b632522395372140720a6bf6336b2a679b7eea",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "427d2ad579adb6c14533b8157b6d303cdd3909e697a03c16fe21492787983913",
+            "renderedHash": "427d2ad579adb6c14533b8157b6d303cdd3909e697a03c16fe21492787983913",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "11eac940262e24379e571f797c437a39d7124f1e0782bf99c237f57c4d34e77a",
+            "renderedHash": "11eac940262e24379e571f797c437a39d7124f1e0782bf99c237f57c4d34e77a",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "2aa51a3102419a743b2180dff503769f9996fac8752feed4a6d4c84c86fc3ddf",
+            "renderedHash": "2aa51a3102419a743b2180dff503769f9996fac8752feed4a6d4c84c86fc3ddf",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "7458c34416b5f10d69097e6bf908d996555d2b839b10b5c246bd1e802b8bd34b",
+            "renderedHash": "7458c34416b5f10d69097e6bf908d996555d2b839b10b5c246bd1e802b8bd34b",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "883f6f2cb151bbd62e677b8918ae7e9b495992546680f81b88a92992c5cd3801",
+            "renderedHash": "883f6f2cb151bbd62e677b8918ae7e9b495992546680f81b88a92992c5cd3801",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "b6b9b3b9c46e42c391ca72617382b15200f9e023dff2befa1d347893424f3227",
+        "renderedHash": "b6b9b3b9c46e42c391ca72617382b15200f9e023dff2befa1d347893424f3227",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "Prepare a Final-Pay Input Evidence Handoff for Philippines Offboarding",
+        "url": "https://outsourcedemployment.com/blog/philippines-final-pay-input-evidence-handoff",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/blog/philippines-final-pay-input-evidence-handoff",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/blog-thumbnails/payroll-checks.svg",
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "encodedBytes": 523,
+        "encodedHash": "2ee2c1cd1c4ce5d0f467aa67f5bf1a72069cdbeef7a4e03e8d5f4c9ba8fd6915",
+        "width": 2400,
+        "height": 1260,
+        "format": "svg",
+        "channels": 4,
+        "decodedPixelBytes": 12096000,
+        "decodedPixelHash": "a88c95e582eec8b6c60a4711f6ac63dcb095877c3e547cdc689f2736bf8bf45a",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:28.286Z"
+      },
+      "destination": {
+        "url": "/services/payroll-input-preparation",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/payroll-input-preparation",
+        "bytes": 20208,
+        "verifiedAt": "2026-10-06T11:10:27.151Z"
+      },
+      "renderedLinks": [
+        "https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html",
+        "https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "/services/payroll-input-preparation"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/cyberframework"
+      ]
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-benefits-dependent-removal-effective-date",
+      "url": "https://outsourcedemployment.com/blog/philippines-benefits-dependent-removal-effective-date",
+      "verifiedAt": "2026-10-06T11:10:28.446Z",
+      "http": 200,
+      "title": {
+        "expected": "Control a Benefits Dependent-Removal Effective Date for Philippines Teams",
+        "rendered": "Control a Benefits Dependent-Removal Effective Date for Philippines Teams",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 12,
+        "renderedParagraphs": 12,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "3cf58b8738f670bd6170fe6f11a40a0f07226dba6884c6f57f12b2ef66dafa0f",
+            "renderedHash": "3cf58b8738f670bd6170fe6f11a40a0f07226dba6884c6f57f12b2ef66dafa0f",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "a765bcce73ad6893742fac94c8c3b298523e6068a793098c6219329efe0dcf0c",
+            "renderedHash": "a765bcce73ad6893742fac94c8c3b298523e6068a793098c6219329efe0dcf0c",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "76880e7fb97795aa82f924d3a23c0019356836a025f35e5d51180cbc40c96f90",
+            "renderedHash": "76880e7fb97795aa82f924d3a23c0019356836a025f35e5d51180cbc40c96f90",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "f3f2e78fafa8cde1c023e1945eb2f32779e4a9b551d3b82f4d0fb7132bd6ca58",
+            "renderedHash": "f3f2e78fafa8cde1c023e1945eb2f32779e4a9b551d3b82f4d0fb7132bd6ca58",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "0dd48e28efdd8d7b23cfedab19b51047816035e8bb8be4f42fadf0edef1bc862",
+            "renderedHash": "0dd48e28efdd8d7b23cfedab19b51047816035e8bb8be4f42fadf0edef1bc862",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "c51c474044d185e317d9377f0cc8496c75895ff03866a9b601a50a271a927e8e",
+            "renderedHash": "c51c474044d185e317d9377f0cc8496c75895ff03866a9b601a50a271a927e8e",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "56cede48a77de21e1ae0c529adf91a10c35061749592763d406c32ec4c31ed44",
+            "renderedHash": "56cede48a77de21e1ae0c529adf91a10c35061749592763d406c32ec4c31ed44",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "30c1c067afad95175ea7f9d5d53fbbca03a83d684a6544eb587aba5ca67fbd03",
+            "renderedHash": "30c1c067afad95175ea7f9d5d53fbbca03a83d684a6544eb587aba5ca67fbd03",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "efd8f4640eb8b5ddddd0e8259ff49c74fe93d55c6f534faf5d1d23a131b3bb8a",
+            "renderedHash": "efd8f4640eb8b5ddddd0e8259ff49c74fe93d55c6f534faf5d1d23a131b3bb8a",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "aef555754fa5429b78acc64e84d361714fb8ec97ebe7af57b87aa138fd22fbf6",
+            "renderedHash": "aef555754fa5429b78acc64e84d361714fb8ec97ebe7af57b87aa138fd22fbf6",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "8ccc963593936f9a9e87fb65cd84b12d7e44a8aba4a3bdc128d4638f7c0270c6",
+            "renderedHash": "8ccc963593936f9a9e87fb65cd84b12d7e44a8aba4a3bdc128d4638f7c0270c6",
+            "equal": true
+          },
+          {
+            "position": 12,
+            "sourceHash": "40e72710025980da3dd4aaaced42880acf1118e67d2394f556dedc68a515f8df",
+            "renderedHash": "40e72710025980da3dd4aaaced42880acf1118e67d2394f556dedc68a515f8df",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "5a05039f6dd630a48e45135d78081a250db76aa53b35f359b5f0e160c344dd97",
+        "renderedHash": "5a05039f6dd630a48e45135d78081a250db76aa53b35f359b5f0e160c344dd97",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "Control a Benefits Dependent-Removal Effective Date for Philippines Teams",
+        "url": "https://outsourcedemployment.com/blog/philippines-benefits-dependent-removal-effective-date",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/blog/philippines-benefits-dependent-removal-effective-date",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/blog-thumbnails/benefits-enrollment.svg",
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "encodedBytes": 741,
+        "encodedHash": "d13e127a5d7ddf1cf4fcf55b38469568a49b066cf368fb35a4058f567836c2bc",
+        "width": 2400,
+        "height": 1260,
+        "format": "svg",
+        "channels": 4,
+        "decodedPixelBytes": 12096000,
+        "decodedPixelHash": "cfc347c10c6cf748fd53c7e415f8bdb8afc2053320d550921447ca2dae914164",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:28.496Z"
+      },
+      "destination": {
+        "url": "/services/benefits-administration-support",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/benefits-administration-support",
+        "bytes": 20322,
+        "verifiedAt": "2026-10-06T11:10:28.654Z"
+      },
+      "renderedLinks": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html",
+        "https://www.nist.gov/cyberframework",
+        "/services/benefits-administration-support"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework",
+        "https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html"
+      ]
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-employment-support-pilot-acceptance-criteria",
+      "url": "https://outsourcedemployment.com/blog/philippines-employment-support-pilot-acceptance-criteria",
+      "verifiedAt": "2026-10-06T11:10:28.713Z",
+      "http": 200,
+      "title": {
+        "expected": "Set Acceptance Criteria for a Philippines Employment-Support Pilot",
+        "rendered": "Set Acceptance Criteria for a Philippines Employment-Support Pilot",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 12,
+        "renderedParagraphs": 12,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "b75f2b462bb083b749e4c94c131d1b41868bbaca2c320472532dfd9f3ae75d15",
+            "renderedHash": "b75f2b462bb083b749e4c94c131d1b41868bbaca2c320472532dfd9f3ae75d15",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "58106c3fc09e4d169d285175be8fcfde9f2715e958f26ca70d7a0f95518f06c5",
+            "renderedHash": "58106c3fc09e4d169d285175be8fcfde9f2715e958f26ca70d7a0f95518f06c5",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "98f8a52640e437eb7752babb03a92413933e3004bd84a134d30fdd2d563a8e4d",
+            "renderedHash": "98f8a52640e437eb7752babb03a92413933e3004bd84a134d30fdd2d563a8e4d",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "9258bedbdd840f631d346021b760538b986bb3118bb4029833e7b7947a3b8960",
+            "renderedHash": "9258bedbdd840f631d346021b760538b986bb3118bb4029833e7b7947a3b8960",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "f898e2c5624f8f5672693a43aa4000ab8c904253b02cc526b80297d9e5d65d3f",
+            "renderedHash": "f898e2c5624f8f5672693a43aa4000ab8c904253b02cc526b80297d9e5d65d3f",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "c2130be3ce5f55d685d1282972d3f502899c25a87280665e803bfd0c51368ece",
+            "renderedHash": "c2130be3ce5f55d685d1282972d3f502899c25a87280665e803bfd0c51368ece",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "d944dca8e8c6d30494e0e6bd5ddbdf1efc16c37396530ccf5a2a949d709d0860",
+            "renderedHash": "d944dca8e8c6d30494e0e6bd5ddbdf1efc16c37396530ccf5a2a949d709d0860",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "8cd91bb0afc9f6cd7c420c25704c88fd19600d0e0e328d19963487d607c546fa",
+            "renderedHash": "8cd91bb0afc9f6cd7c420c25704c88fd19600d0e0e328d19963487d607c546fa",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "06ca5965e015acac8cb7348e75b7eba19e87b8a08fe248ffec69049988a6715e",
+            "renderedHash": "06ca5965e015acac8cb7348e75b7eba19e87b8a08fe248ffec69049988a6715e",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "bf9d413ea5006d915f962dc434fd1b980e89b561ab3004ed7bd0811d94351c09",
+            "renderedHash": "bf9d413ea5006d915f962dc434fd1b980e89b561ab3004ed7bd0811d94351c09",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "3d0cb5edcddba9aab35a1281dd44eb3958f734ce58eb37938a3526bc323e881b",
+            "renderedHash": "3d0cb5edcddba9aab35a1281dd44eb3958f734ce58eb37938a3526bc323e881b",
+            "equal": true
+          },
+          {
+            "position": 12,
+            "sourceHash": "d29f2f9bb01d31427d5ff45a2e31a7c1b208e4b497d4fd9bc7db1c3bcee78c76",
+            "renderedHash": "d29f2f9bb01d31427d5ff45a2e31a7c1b208e4b497d4fd9bc7db1c3bcee78c76",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "ba18dfdfee647624ac5a5a5e5676811c0e64051d954e42679edc1120bacacc47",
+        "renderedHash": "ba18dfdfee647624ac5a5a5e5676811c0e64051d954e42679edc1120bacacc47",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "Set Acceptance Criteria for a Philippines Employment-Support Pilot",
+        "url": "https://outsourcedemployment.com/blog/philippines-employment-support-pilot-acceptance-criteria",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/blog/philippines-employment-support-pilot-acceptance-criteria",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/blog-thumbnails/quality-scorecard.svg",
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "encodedBytes": 523,
+        "encodedHash": "2ee2c1cd1c4ce5d0f467aa67f5bf1a72069cdbeef7a4e03e8d5f4c9ba8fd6915",
+        "width": 2400,
+        "height": 1260,
+        "format": "svg",
+        "channels": 4,
+        "decodedPixelBytes": 12096000,
+        "decodedPixelHash": "a88c95e582eec8b6c60a4711f6ac63dcb095877c3e547cdc689f2736bf8bf45a",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:28.777Z"
+      },
+      "destination": {
+        "url": "/services/workforce-reporting",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/workforce-reporting",
+        "bytes": 20150,
+        "verifiedAt": "2026-10-06T11:10:26.832Z"
+      },
+      "renderedLinks": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "/services/workforce-reporting"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework"
+      ]
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-employment-support-volume-forecast",
+      "url": "https://outsourcedemployment.com/blog/philippines-employment-support-volume-forecast",
+      "verifiedAt": "2026-10-06T11:10:28.943Z",
+      "http": 200,
+      "title": {
+        "expected": "Forecast Volume for a Philippines Employment-Support Role",
+        "rendered": "Forecast Volume for a Philippines Employment-Support Role",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 12,
+        "renderedParagraphs": 12,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "fc186a05c200d2c35eb341ec90289a45382e1a1bc3f2d776f51e2d4166336452",
+            "renderedHash": "fc186a05c200d2c35eb341ec90289a45382e1a1bc3f2d776f51e2d4166336452",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "be4e43360c0bb84012b713fb0c270d87eafee98123ba3d3d8eea3e77ceb1d60e",
+            "renderedHash": "be4e43360c0bb84012b713fb0c270d87eafee98123ba3d3d8eea3e77ceb1d60e",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "d9a003be9982178289074cf07801f8bfb3a44517d9cd47736ceebd0bb31ff816",
+            "renderedHash": "d9a003be9982178289074cf07801f8bfb3a44517d9cd47736ceebd0bb31ff816",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "55b99072b1bf165d45a78a6688bedadbcad5761dcbe9cb6e69971b0b1cb94f87",
+            "renderedHash": "55b99072b1bf165d45a78a6688bedadbcad5761dcbe9cb6e69971b0b1cb94f87",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "0014d8158cd16662ef810fb76a751dd0d729e4924324701a2a5ead49d42278c2",
+            "renderedHash": "0014d8158cd16662ef810fb76a751dd0d729e4924324701a2a5ead49d42278c2",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "cdec31a998c0f223dada64ee61f3170f1d7267cb5d49e6ab89908090714a1d4c",
+            "renderedHash": "cdec31a998c0f223dada64ee61f3170f1d7267cb5d49e6ab89908090714a1d4c",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "6bb3476f7cb805541df5d9a96246636ef3cf45bc41f12a15a69d80464865d6ea",
+            "renderedHash": "6bb3476f7cb805541df5d9a96246636ef3cf45bc41f12a15a69d80464865d6ea",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "f7768dafda3f825d3ca1e70b18f65e3dfe58c74b91a7b104e4bba8f005da5582",
+            "renderedHash": "f7768dafda3f825d3ca1e70b18f65e3dfe58c74b91a7b104e4bba8f005da5582",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "acb7b46669e4220cbf211e5cdcf881f4403e26be3382eb5ef3d93ad5a2312cb8",
+            "renderedHash": "acb7b46669e4220cbf211e5cdcf881f4403e26be3382eb5ef3d93ad5a2312cb8",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "c1f5814e429ef670ef9e28059898609a586760390f73b8c96af3ebbf17c3265f",
+            "renderedHash": "c1f5814e429ef670ef9e28059898609a586760390f73b8c96af3ebbf17c3265f",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "9b9ae6be6a3dd5b808d25d8e089e545398065837376caa29834447c0cdee796a",
+            "renderedHash": "9b9ae6be6a3dd5b808d25d8e089e545398065837376caa29834447c0cdee796a",
+            "equal": true
+          },
+          {
+            "position": 12,
+            "sourceHash": "1ae75e6288c3e0b47f54a8818ac57ba1e0182682f1724209d8d19a21fc31de85",
+            "renderedHash": "1ae75e6288c3e0b47f54a8818ac57ba1e0182682f1724209d8d19a21fc31de85",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "1a90d2921cd20d292797a48aa825a537fca59c03d75866f846b0d0e967211f00",
+        "renderedHash": "1a90d2921cd20d292797a48aa825a537fca59c03d75866f846b0d0e967211f00",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "Forecast Volume for a Philippines Employment-Support Role",
+        "url": "https://outsourcedemployment.com/blog/philippines-employment-support-volume-forecast",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/blog/philippines-employment-support-volume-forecast",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/blog-thumbnails/capacity-planning.svg",
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "encodedBytes": 523,
+        "encodedHash": "2ee2c1cd1c4ce5d0f467aa67f5bf1a72069cdbeef7a4e03e8d5f4c9ba8fd6915",
+        "width": 2400,
+        "height": 1260,
+        "format": "svg",
+        "channels": 4,
+        "decodedPixelBytes": 12096000,
+        "decodedPixelHash": "a88c95e582eec8b6c60a4711f6ac63dcb095877c3e547cdc689f2736bf8bf45a",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:29.010Z"
+      },
+      "destination": {
+        "url": "/services/workforce-reporting",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/workforce-reporting",
+        "bytes": 20150,
+        "verifiedAt": "2026-10-06T11:10:26.832Z"
+      },
+      "renderedLinks": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "/services/workforce-reporting"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework"
+      ]
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-employment-provider-exit-data-package",
+      "url": "https://outsourcedemployment.com/blog/philippines-employment-provider-exit-data-package",
+      "verifiedAt": "2026-10-06T11:10:29.159Z",
+      "http": 200,
+      "title": {
+        "expected": "Define the Data Package for Exiting a Philippines Employment Provider",
+        "rendered": "Define the Data Package for Exiting a Philippines Employment Provider",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 12,
+        "renderedParagraphs": 12,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "756047fe158aadb9300402bb72c02314caac5518b99989bff64ae26c4db6b47c",
+            "renderedHash": "756047fe158aadb9300402bb72c02314caac5518b99989bff64ae26c4db6b47c",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "89eccd267616ac29f4d9be170f4bb5da6ac4fa4ee3e2c51bdcd074d75e851330",
+            "renderedHash": "89eccd267616ac29f4d9be170f4bb5da6ac4fa4ee3e2c51bdcd074d75e851330",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "6274a3338d207ce6f4bdc6caa4fa752a027ab135bc9c01da512bae421b42cccb",
+            "renderedHash": "6274a3338d207ce6f4bdc6caa4fa752a027ab135bc9c01da512bae421b42cccb",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "66b175ffa28b67dcb8f1410fdf25cd4ba8df6a08fcc10b6f8ed34326bbf4baa5",
+            "renderedHash": "66b175ffa28b67dcb8f1410fdf25cd4ba8df6a08fcc10b6f8ed34326bbf4baa5",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "adad28ff167a2f789d0a6129a161e91667862732523027a510d01e2f7a98fad5",
+            "renderedHash": "adad28ff167a2f789d0a6129a161e91667862732523027a510d01e2f7a98fad5",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "04c1ae09d29ca476443b5fe728feea0f592d51a91aa73bda372e909ca273303d",
+            "renderedHash": "04c1ae09d29ca476443b5fe728feea0f592d51a91aa73bda372e909ca273303d",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "b8dd208624d05b2a15598aaed11c57f3d7c306e28de522109f4843c9c0996893",
+            "renderedHash": "b8dd208624d05b2a15598aaed11c57f3d7c306e28de522109f4843c9c0996893",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "d30766683539d270cd3fcdf8115736e0d1a3b73952e8278639afe4e522422689",
+            "renderedHash": "d30766683539d270cd3fcdf8115736e0d1a3b73952e8278639afe4e522422689",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "20c9359600e7a653ea7d3b9dca6a49a6a6545bf26f2504422ea5bf20d5e99401",
+            "renderedHash": "20c9359600e7a653ea7d3b9dca6a49a6a6545bf26f2504422ea5bf20d5e99401",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "ecb1df1b393d2c73633a7b317a2a888695ee3c3142be3667865dbde754625ac6",
+            "renderedHash": "ecb1df1b393d2c73633a7b317a2a888695ee3c3142be3667865dbde754625ac6",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "ac943b39bb3f7c0d25e69aa16ba578f672a081cf7f5cad7fcb9425169798f3be",
+            "renderedHash": "ac943b39bb3f7c0d25e69aa16ba578f672a081cf7f5cad7fcb9425169798f3be",
+            "equal": true
+          },
+          {
+            "position": 12,
+            "sourceHash": "ee7f87d0e173149d6cc67887abcb081cc56eda7bd79aaae17ae2fad43ceb8140",
+            "renderedHash": "ee7f87d0e173149d6cc67887abcb081cc56eda7bd79aaae17ae2fad43ceb8140",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "ff361eefa46fdbf9137fda37436a3bfcbf9f0a90698f03d49aa779b7c5dc7fd3",
+        "renderedHash": "ff361eefa46fdbf9137fda37436a3bfcbf9f0a90698f03d49aa779b7c5dc7fd3",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "Define the Data Package for Exiting a Philippines Employment Provider",
+        "url": "https://outsourcedemployment.com/blog/philippines-employment-provider-exit-data-package",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/blog/philippines-employment-provider-exit-data-package",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/blog-thumbnails/offboarding-handoff.svg",
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "encodedBytes": 741,
+        "encodedHash": "d13e127a5d7ddf1cf4fcf55b38469568a49b066cf368fb35a4058f567836c2bc",
+        "width": 2400,
+        "height": 1260,
+        "format": "svg",
+        "channels": 4,
+        "decodedPixelBytes": 12096000,
+        "decodedPixelHash": "cfc347c10c6cf748fd53c7e415f8bdb8afc2053320d550921447ca2dae914164",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:29.226Z"
+      },
+      "destination": {
+        "url": "/services/employee-records-management",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/employee-records-management",
+        "bytes": 20246,
+        "verifiedAt": "2026-10-06T11:10:27.469Z"
+      },
+      "renderedLinks": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "/services/employee-records-management"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework"
+      ]
+    },
+    {
+      "family": "blog",
+      "slug": "philippines-employment-support-exception-cost-model",
+      "url": "https://outsourcedemployment.com/blog/philippines-employment-support-exception-cost-model",
+      "verifiedAt": "2026-10-06T11:10:29.396Z",
+      "http": 200,
+      "title": {
+        "expected": "Model the Cost of Exceptions in Philippines Employment Support",
+        "rendered": "Model the Cost of Exceptions in Philippines Employment Support",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 12,
+        "renderedParagraphs": 12,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "e7750accf9336ac43764004c9985c544312ba64061c582109943fcb54fc1f5ab",
+            "renderedHash": "e7750accf9336ac43764004c9985c544312ba64061c582109943fcb54fc1f5ab",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "6bf877fb5058c9f1879e084f2aeb81aa1cc93614625d8ca2deab6fa390315d32",
+            "renderedHash": "6bf877fb5058c9f1879e084f2aeb81aa1cc93614625d8ca2deab6fa390315d32",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "a3c360382a422942f395139fd95eec6fa5dd841c9b480c9c76e130ebb9160a0e",
+            "renderedHash": "a3c360382a422942f395139fd95eec6fa5dd841c9b480c9c76e130ebb9160a0e",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "63df2cebbe85b79a5bdb5e881aefeaec533675ec3b10f1ffaff7841bddf5d04b",
+            "renderedHash": "63df2cebbe85b79a5bdb5e881aefeaec533675ec3b10f1ffaff7841bddf5d04b",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "4bdf77036a49ff3af60f0d377698ccc92e7cb657246a00263a0b4d1d9126a898",
+            "renderedHash": "4bdf77036a49ff3af60f0d377698ccc92e7cb657246a00263a0b4d1d9126a898",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "2afc9f9957055da6447344cc07dcbd0c47116ffb09f4d785efff4b569c3ac0c5",
+            "renderedHash": "2afc9f9957055da6447344cc07dcbd0c47116ffb09f4d785efff4b569c3ac0c5",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "b34de172044a0db79c85e223155ffd9f907244f1479cc3dc4e2807c233f174a5",
+            "renderedHash": "b34de172044a0db79c85e223155ffd9f907244f1479cc3dc4e2807c233f174a5",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "50b170b3c3d2f8121a3cb6ab5161ad8121ca4a846cb5d8f1b20bb8f7974a3bc3",
+            "renderedHash": "50b170b3c3d2f8121a3cb6ab5161ad8121ca4a846cb5d8f1b20bb8f7974a3bc3",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "fd2ecf81d623d7d5bf7d9c180f1785aaf4a57e15e82c006c8fd4758b1a12e036",
+            "renderedHash": "fd2ecf81d623d7d5bf7d9c180f1785aaf4a57e15e82c006c8fd4758b1a12e036",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "02ac7ff0d0f2f07c0c9299e4aee499472384e84d6b1fef6a5974e384e844cacc",
+            "renderedHash": "02ac7ff0d0f2f07c0c9299e4aee499472384e84d6b1fef6a5974e384e844cacc",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "e4da7f04e974df09fcbc059204cbcbfa44686851f35d7669687b0be93257ed2f",
+            "renderedHash": "e4da7f04e974df09fcbc059204cbcbfa44686851f35d7669687b0be93257ed2f",
+            "equal": true
+          },
+          {
+            "position": 12,
+            "sourceHash": "12f2c67ef8b7f617c655976456228faa074ded9b340a6ecd0694a0271590f125",
+            "renderedHash": "12f2c67ef8b7f617c655976456228faa074ded9b340a6ecd0694a0271590f125",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "fcafee948e595d22b113a04583aac0c6610d3b66c78a1f8a4b01a8258ce0d75d",
+        "renderedHash": "fcafee948e595d22b113a04583aac0c6610d3b66c78a1f8a4b01a8258ce0d75d",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "Model the Cost of Exceptions in Philippines Employment Support",
+        "url": "https://outsourcedemployment.com/blog/philippines-employment-support-exception-cost-model",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/blog/philippines-employment-support-exception-cost-model",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/blog-thumbnails/support-error-log.svg",
+        "http": 200,
+        "mime": "image/svg+xml",
+        "signature": "3c73766720786d6c",
+        "encodedBytes": 741,
+        "encodedHash": "d13e127a5d7ddf1cf4fcf55b38469568a49b066cf368fb35a4058f567836c2bc",
+        "width": 2400,
+        "height": 1260,
+        "format": "svg",
+        "channels": 4,
+        "decodedPixelBytes": 12096000,
+        "decodedPixelHash": "cfc347c10c6cf748fd53c7e415f8bdb8afc2053320d550921447ca2dae914164",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:29.464Z"
+      },
+      "destination": {
+        "url": "/services/workforce-reporting",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/workforce-reporting",
+        "bytes": 20150,
+        "verifiedAt": "2026-10-06T11:10:26.832Z"
+      },
+      "renderedLinks": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "/services/workforce-reporting"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/privacy-framework",
+        "https://www.nist.gov/cyberframework"
+      ]
+    },
+    {
+      "family": "research",
+      "slug": "philippines-payroll-reversal-corrected-payment-lineage-research",
+      "url": "https://outsourcedemployment.com/research/philippines-payroll-reversal-corrected-payment-lineage-research",
+      "verifiedAt": "2026-10-06T11:10:29.632Z",
+      "http": 200,
+      "title": {
+        "expected": "How Should a Reversed Payroll Payment Be Traced Before Reissue?",
+        "rendered": "How Should a Reversed Payroll Payment Be Traced Before Reissue?",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 12,
+        "renderedParagraphs": 12,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "288c664c141e6164e8882b4109c911e28de38073e820ee799de4bd70f0b2a13e",
+            "renderedHash": "288c664c141e6164e8882b4109c911e28de38073e820ee799de4bd70f0b2a13e",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "ede8c0e9086635f4a1edc9151826206e344ff6980b89662bf6b6fc418eda2d04",
+            "renderedHash": "ede8c0e9086635f4a1edc9151826206e344ff6980b89662bf6b6fc418eda2d04",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "1f906f6ae44ea0ccfb1d88c01ccefd5be25deae5313ed8bbc5c2a53d47a540df",
+            "renderedHash": "1f906f6ae44ea0ccfb1d88c01ccefd5be25deae5313ed8bbc5c2a53d47a540df",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "1252fe6019b969bc1232c84092936cdd42f170ce6583553c50adc716e7d07230",
+            "renderedHash": "1252fe6019b969bc1232c84092936cdd42f170ce6583553c50adc716e7d07230",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "874d2e1f775325521a1cd8dd1e5a1ad5cdd65edecd0a605a4f940f9fbb9f0c95",
+            "renderedHash": "874d2e1f775325521a1cd8dd1e5a1ad5cdd65edecd0a605a4f940f9fbb9f0c95",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "8351931f49f7a2e09285b1d87470bc6e42d1798a2796e1fe093c261d631beb5d",
+            "renderedHash": "8351931f49f7a2e09285b1d87470bc6e42d1798a2796e1fe093c261d631beb5d",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "dbcc44ecaaecfcc628ff0e2b346f2c658840eab3d50c715c1542ac4809386d5d",
+            "renderedHash": "dbcc44ecaaecfcc628ff0e2b346f2c658840eab3d50c715c1542ac4809386d5d",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "271e3ca3c839740b1702ffff06252b91eece3743a4099ad3ed603f3ee3151b57",
+            "renderedHash": "271e3ca3c839740b1702ffff06252b91eece3743a4099ad3ed603f3ee3151b57",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "e3faa5eed91fc9bf9711f23984048e7ef4df26ca3ef73a18a3f171a14ff7ed09",
+            "renderedHash": "e3faa5eed91fc9bf9711f23984048e7ef4df26ca3ef73a18a3f171a14ff7ed09",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "7dad0001046409fb9a47b300feb383838e5782c862a0224591c90d8f50c9b163",
+            "renderedHash": "7dad0001046409fb9a47b300feb383838e5782c862a0224591c90d8f50c9b163",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "b44f9bab6bb809ebdee513c70d97f576c94e094d9175d4334926df53e9ed9bf1",
+            "renderedHash": "b44f9bab6bb809ebdee513c70d97f576c94e094d9175d4334926df53e9ed9bf1",
+            "equal": true
+          },
+          {
+            "position": 12,
+            "sourceHash": "4537bf84903f797681b03ccd1071e019ac37492029f5c6cd8966ce5afc543b0d",
+            "renderedHash": "4537bf84903f797681b03ccd1071e019ac37492029f5c6cd8966ce5afc543b0d",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "a9cc530c4eba87ee386658592cdb1174c324cb144f5b4258308159ac2fdb400e",
+        "renderedHash": "a9cc530c4eba87ee386658592cdb1174c324cb144f5b4258308159ac2fdb400e",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "How Should a Reversed Payroll Payment Be Traced Before Reissue?",
+        "url": "https://outsourcedemployment.com/research/philippines-payroll-reversal-corrected-payment-lineage-research",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/research/philippines-payroll-reversal-corrected-payment-lineage-research",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/aug21-research-heroes/philippines-employment-payroll-input-variance-research.png",
+        "http": 200,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a",
+        "encodedBytes": 2663593,
+        "encodedHash": "0215fbe36478cecf3090bb00fb11a7f122579716c6958ed54704a3df7f634f54",
+        "width": 1536,
+        "height": 1024,
+        "format": "png",
+        "channels": 4,
+        "decodedPixelBytes": 6291456,
+        "decodedPixelHash": "7ced30144452ecb2c8ed305ce981f03bce3fd0cb611e4586f472ec0036552792",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:29.792Z"
+      },
+      "destination": {
+        "url": "/services/payroll-input-preparation",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/payroll-input-preparation",
+        "bytes": 20208,
+        "verifiedAt": "2026-10-06T11:10:27.151Z"
+      },
+      "renderedLinks": [
+        "/services/payroll-input-preparation"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20"
+      ]
+    },
+    {
+      "family": "research",
+      "slug": "philippines-onboarding-equipment-delivery-custody-research",
+      "url": "https://outsourcedemployment.com/research/philippines-onboarding-equipment-delivery-custody-research",
+      "verifiedAt": "2026-10-06T11:10:29.947Z",
+      "http": 200,
+      "title": {
+        "expected": "What Proves Custody of an Onboarding Equipment Delivery?",
+        "rendered": "What Proves Custody of an Onboarding Equipment Delivery?",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 12,
+        "renderedParagraphs": 12,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "d684b056d5fd7a25b3f2006a097e9807324a06e9c95014f4a07ac94d262c6f75",
+            "renderedHash": "d684b056d5fd7a25b3f2006a097e9807324a06e9c95014f4a07ac94d262c6f75",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "1ab0b03c5dc3302311ac96ea6664833d55b10c908ceae022055885dbfcc2f74d",
+            "renderedHash": "1ab0b03c5dc3302311ac96ea6664833d55b10c908ceae022055885dbfcc2f74d",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "6ba780b264d2f04393fc314768e623bd211e63c30b29ab1e5a8c43b2337220f6",
+            "renderedHash": "6ba780b264d2f04393fc314768e623bd211e63c30b29ab1e5a8c43b2337220f6",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "155d0645000c2dfda398539d62d895727847a0a1a1b1fd1fc8132bb6323f4d4b",
+            "renderedHash": "155d0645000c2dfda398539d62d895727847a0a1a1b1fd1fc8132bb6323f4d4b",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "b8d8af400b06818c637b8380edf36a63c5f13a89537dd6106f41f1e2813461c8",
+            "renderedHash": "b8d8af400b06818c637b8380edf36a63c5f13a89537dd6106f41f1e2813461c8",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "1c2d30ece0648a7bd938b3c9ed5b4f8cdb073965b142ed29ff822b8440f14c56",
+            "renderedHash": "1c2d30ece0648a7bd938b3c9ed5b4f8cdb073965b142ed29ff822b8440f14c56",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "c4a88feda3caaeff2cbceecae5fe92d0f2d6fb55c5f34518621d73efb9820cf7",
+            "renderedHash": "c4a88feda3caaeff2cbceecae5fe92d0f2d6fb55c5f34518621d73efb9820cf7",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "b872133299aae50efe5d31945a50a9a0a27301f7855085aa691a11cc30b3191e",
+            "renderedHash": "b872133299aae50efe5d31945a50a9a0a27301f7855085aa691a11cc30b3191e",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "169bf79ec04b0eba250866c9956c9ad57db9311747f2cfe1bfc4f66c2f3ef118",
+            "renderedHash": "169bf79ec04b0eba250866c9956c9ad57db9311747f2cfe1bfc4f66c2f3ef118",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "2e60eefab7a3c6df2dbf79275d1ac850ab5c03ee263e63ba674dc46c97c154cb",
+            "renderedHash": "2e60eefab7a3c6df2dbf79275d1ac850ab5c03ee263e63ba674dc46c97c154cb",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "3e8ddc103d4bbf72ba113a1cf163c02a170a66218c80dfd15b18f4cbffa5377b",
+            "renderedHash": "3e8ddc103d4bbf72ba113a1cf163c02a170a66218c80dfd15b18f4cbffa5377b",
+            "equal": true
+          },
+          {
+            "position": 12,
+            "sourceHash": "7165a6df33436eb9c1dccdff1da3bca690935508691fe7722794604b3d47c247",
+            "renderedHash": "7165a6df33436eb9c1dccdff1da3bca690935508691fe7722794604b3d47c247",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "3a24a35afadae732437eb62c1fd069b05b110b0dc10d17912de056a0667e13f7",
+        "renderedHash": "3a24a35afadae732437eb62c1fd069b05b110b0dc10d17912de056a0667e13f7",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "What Proves Custody of an Onboarding Equipment Delivery?",
+        "url": "https://outsourcedemployment.com/research/philippines-onboarding-equipment-delivery-custody-research",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/research/philippines-onboarding-equipment-delivery-custody-research",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/aug21-research-heroes/philippines-employment-onboarding-evidence-research.png",
+        "http": 200,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a",
+        "encodedBytes": 2087601,
+        "encodedHash": "9e1d90706f01aa9245c40275419435c6db2e568d35a7201fc7f67691654d8a08",
+        "width": 1659,
+        "height": 948,
+        "format": "png",
+        "channels": 4,
+        "decodedPixelBytes": 6290928,
+        "decodedPixelHash": "c773db7de0040da294a46be651d874457813ca09fcae4b96b5a320a349e8edd8",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:30.066Z"
+      },
+      "destination": {
+        "url": "/services/new-hire-onboarding",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/new-hire-onboarding",
+        "bytes": 20150,
+        "verifiedAt": "2026-10-06T11:10:30.201Z"
+      },
+      "renderedLinks": [
+        "/services/new-hire-onboarding"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20"
+      ]
+    },
+    {
+      "family": "research",
+      "slug": "philippines-leave-document-access-deletion-evidence-research",
+      "url": "https://outsourcedemployment.com/research/philippines-leave-document-access-deletion-evidence-research",
+      "verifiedAt": "2026-10-06T11:10:30.250Z",
+      "http": 200,
+      "title": {
+        "expected": "How Should Leave Documents Be Restricted and Disposed Of?",
+        "rendered": "How Should Leave Documents Be Restricted and Disposed Of?",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 13,
+        "renderedParagraphs": 13,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "9d645bb5d1a83504e6492f586f70a393d728204911a59e445cf22e0e20e11bca",
+            "renderedHash": "9d645bb5d1a83504e6492f586f70a393d728204911a59e445cf22e0e20e11bca",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "ce04707f023fa67e24a8c2281d60c9b89bacc80e7dda133fb71f5cbe6d2dce2f",
+            "renderedHash": "ce04707f023fa67e24a8c2281d60c9b89bacc80e7dda133fb71f5cbe6d2dce2f",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "5d9e2127d172b8037e596698f8ca6bc76ebea9a4b319c50a60d644e3a0ee9725",
+            "renderedHash": "5d9e2127d172b8037e596698f8ca6bc76ebea9a4b319c50a60d644e3a0ee9725",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "1103fae28d354617c3499999fa15f8924eaa69e502b800d6b1f3c8bbd8131ab8",
+            "renderedHash": "1103fae28d354617c3499999fa15f8924eaa69e502b800d6b1f3c8bbd8131ab8",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "17948f4747cdcfc36fc75422f1cbd9e5d70aec30b6e90913569b7c8f6feb3703",
+            "renderedHash": "17948f4747cdcfc36fc75422f1cbd9e5d70aec30b6e90913569b7c8f6feb3703",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "c11ec4eae747623d0d8ad3c07ea49b811e7c725e3189ed0703021607d99d3d21",
+            "renderedHash": "c11ec4eae747623d0d8ad3c07ea49b811e7c725e3189ed0703021607d99d3d21",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "d78abae871b19f9a2761171ac62cf49d97e38ce5bc58c09f5025e3ed72e5dd6b",
+            "renderedHash": "d78abae871b19f9a2761171ac62cf49d97e38ce5bc58c09f5025e3ed72e5dd6b",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "bf05bc1719a1b608fe1b4b24ccedca3746c7183302ba647ac7922d57c7c63409",
+            "renderedHash": "bf05bc1719a1b608fe1b4b24ccedca3746c7183302ba647ac7922d57c7c63409",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "709f49e9e1ff306eaa9a451b2447854e7f140463897491bd5754448916ff99f3",
+            "renderedHash": "709f49e9e1ff306eaa9a451b2447854e7f140463897491bd5754448916ff99f3",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "fd0609437197f26838292e41958ab4e58dbdd5b6db865dc17e5ef536b8bb3d7a",
+            "renderedHash": "fd0609437197f26838292e41958ab4e58dbdd5b6db865dc17e5ef536b8bb3d7a",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "b70c459e22e21286a4f1b6a7bcba46e301bea2186032ee4f8fff7a43ab6ad4e8",
+            "renderedHash": "b70c459e22e21286a4f1b6a7bcba46e301bea2186032ee4f8fff7a43ab6ad4e8",
+            "equal": true
+          },
+          {
+            "position": 12,
+            "sourceHash": "ec256a52f2f64d506928427e9da52c501fb2799f075ad89f0cd1cc16536ead6b",
+            "renderedHash": "ec256a52f2f64d506928427e9da52c501fb2799f075ad89f0cd1cc16536ead6b",
+            "equal": true
+          },
+          {
+            "position": 13,
+            "sourceHash": "b1a47b87454cee8aca4fac402a81d5e821eccc02fdc5538843a654aa31c147ee",
+            "renderedHash": "b1a47b87454cee8aca4fac402a81d5e821eccc02fdc5538843a654aa31c147ee",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "a186bd6ff42e45dbde57f4a806b506e72be17416410eda090fac5b79bb5cbfc0",
+        "renderedHash": "a186bd6ff42e45dbde57f4a806b506e72be17416410eda090fac5b79bb5cbfc0",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "How Should Leave Documents Be Restricted and Disposed Of?",
+        "url": "https://outsourcedemployment.com/research/philippines-leave-document-access-deletion-evidence-research",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/research/philippines-leave-document-access-deletion-evidence-research",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/aug21-research-heroes/philippines-employment-leave-chronology-research.png",
+        "http": 200,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a",
+        "encodedBytes": 2180977,
+        "encodedHash": "2d76ce2a85fccc1aca6d69a15c06684734fb4199fb531bedf45fda10b062f95c",
+        "width": 1659,
+        "height": 948,
+        "format": "png",
+        "channels": 4,
+        "decodedPixelBytes": 6290928,
+        "decodedPixelHash": "bf7ad913562adf93692728d0d22b2f346a845ec8b8a05f47f3616ecd37778b6e",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:30.339Z"
+      },
+      "destination": {
+        "url": "/services/leave-tracking-support",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/leave-tracking-support",
+        "bytes": 20207,
+        "verifiedAt": "2026-10-06T11:10:30.479Z"
+      },
+      "renderedLinks": [
+        "/services/leave-tracking-support"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20"
+      ]
+    },
+    {
+      "family": "research",
+      "slug": "philippines-recruiting-offer-approval-expiry-research",
+      "url": "https://outsourcedemployment.com/research/philippines-recruiting-offer-approval-expiry-research",
+      "verifiedAt": "2026-10-06T11:10:30.539Z",
+      "http": 200,
+      "title": {
+        "expected": "When Does an Expired Offer Approval Need Reauthorization?",
+        "rendered": "When Does an Expired Offer Approval Need Reauthorization?",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 13,
+        "renderedParagraphs": 13,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "be1a3f4c8e3e68a9a01c0f70eddaad04e0b8481c86cabaeb11b480d2b5c4867f",
+            "renderedHash": "be1a3f4c8e3e68a9a01c0f70eddaad04e0b8481c86cabaeb11b480d2b5c4867f",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "928dcd6a338a2e59015506beec446c69fa3efd3240cb3114d229abc748bf0bcd",
+            "renderedHash": "928dcd6a338a2e59015506beec446c69fa3efd3240cb3114d229abc748bf0bcd",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "e2583a306dd3121101eff9d2526d8266ee91d6d2e87050e14350923e13a4cbc2",
+            "renderedHash": "e2583a306dd3121101eff9d2526d8266ee91d6d2e87050e14350923e13a4cbc2",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "99e6306b1ffe1025c04e92637f70eb2969cc3a33b160da440c3ff312e334b7ea",
+            "renderedHash": "99e6306b1ffe1025c04e92637f70eb2969cc3a33b160da440c3ff312e334b7ea",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "2e1beed6d3bb8b10a356e40f9893a6a56c06d7d90e8d1cb6fadab4031845891d",
+            "renderedHash": "2e1beed6d3bb8b10a356e40f9893a6a56c06d7d90e8d1cb6fadab4031845891d",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "1b624dffa61c1ac0a7451047526beff53345af3f6bcbca054f90bbe35b5877e4",
+            "renderedHash": "1b624dffa61c1ac0a7451047526beff53345af3f6bcbca054f90bbe35b5877e4",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "1d3baded8ba10bc27ba399e3d98e9da4ebb4cf20ccc6d9637357f27cf95f22bc",
+            "renderedHash": "1d3baded8ba10bc27ba399e3d98e9da4ebb4cf20ccc6d9637357f27cf95f22bc",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "21c2029261acfd55e44ce8437fab0766f6cb201cb15b728284f9f4674896e4c2",
+            "renderedHash": "21c2029261acfd55e44ce8437fab0766f6cb201cb15b728284f9f4674896e4c2",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "211d4ee4f2382614efa0ae2c9eb6da8286e7a4caaa52c9f41779f13b83050bf8",
+            "renderedHash": "211d4ee4f2382614efa0ae2c9eb6da8286e7a4caaa52c9f41779f13b83050bf8",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "cd8b5eec3c36617e2a1bcf479ea742690a7d31763b5f20cc3cfbf3a0aa60b14c",
+            "renderedHash": "cd8b5eec3c36617e2a1bcf479ea742690a7d31763b5f20cc3cfbf3a0aa60b14c",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "a2f9094e09c793e6d2776bcaa3e0d1c0b14c2bca9dc68a6812b14efcd69c8a96",
+            "renderedHash": "a2f9094e09c793e6d2776bcaa3e0d1c0b14c2bca9dc68a6812b14efcd69c8a96",
+            "equal": true
+          },
+          {
+            "position": 12,
+            "sourceHash": "433bdfbf71a0e34153a75bcb24e4f620a0aecac697f3653e4757d3501aeafeac",
+            "renderedHash": "433bdfbf71a0e34153a75bcb24e4f620a0aecac697f3653e4757d3501aeafeac",
+            "equal": true
+          },
+          {
+            "position": 13,
+            "sourceHash": "ac338e9280f3358ad21775a0025799ba00a0d6ee3317f7635bc4bcb99eb19a58",
+            "renderedHash": "ac338e9280f3358ad21775a0025799ba00a0d6ee3317f7635bc4bcb99eb19a58",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "cd873dea2dd12265d39b7df40aab1e4ec684a1cd5d1e1cddb7d0f544a4240c77",
+        "renderedHash": "cd873dea2dd12265d39b7df40aab1e4ec684a1cd5d1e1cddb7d0f544a4240c77",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "When Does an Expired Offer Approval Need Reauthorization?",
+        "url": "https://outsourcedemployment.com/research/philippines-recruiting-offer-approval-expiry-research",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/research/philippines-recruiting-offer-approval-expiry-research",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/aug20-research-heroes/philippines-employment-request-intake-research.png",
+        "http": 200,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a",
+        "encodedBytes": 2030093,
+        "encodedHash": "cdc697143ffd1d95ec4214945c9304bdf55c34659ddb77ed6215bed30954ffae",
+        "width": 1536,
+        "height": 1024,
+        "format": "png",
+        "channels": 4,
+        "decodedPixelBytes": 6291456,
+        "decodedPixelHash": "d79c2691d2a2e4b5f014ed5b73234c4e50ebb379d3a5b1f3207347f4f4b0dcf7",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:30.643Z"
+      },
+      "destination": {
+        "url": "/services/candidate-sourcing-coordination",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/candidate-sourcing-coordination",
+        "bytes": 20322,
+        "verifiedAt": "2026-10-06T11:10:30.782Z"
+      },
+      "renderedLinks": [
+        "/services/candidate-sourcing-coordination"
+      ],
+      "authoritativeSources": [
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://pages.nist.gov/800-63-4/sp800-63a/proofing/",
+        "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20"
+      ]
+    },
+    {
+      "family": "research",
+      "slug": "philippines-hr-inbox-sender-identity-routing-research",
+      "url": "https://outsourcedemployment.com/research/philippines-hr-inbox-sender-identity-routing-research",
+      "verifiedAt": "2026-10-06T11:10:30.855Z",
+      "http": 200,
+      "title": {
+        "expected": "How Should HR Route a Request When Sender Identity Is Uncertain?",
+        "rendered": "How Should HR Route a Request When Sender Identity Is Uncertain?",
+        "equal": true
+      },
+      "body": {
+        "sourceParagraphs": 13,
+        "renderedParagraphs": 13,
+        "orderedPairs": [
+          {
+            "position": 1,
+            "sourceHash": "8ca3cc8dc80bddd4384f2625bda5ab0f99d047e81d255cc0e717846bc4286980",
+            "renderedHash": "8ca3cc8dc80bddd4384f2625bda5ab0f99d047e81d255cc0e717846bc4286980",
+            "equal": true
+          },
+          {
+            "position": 2,
+            "sourceHash": "dc1cb4f3ec72251de0965cc6c3833596384fa78b0297f87eac1c7ddeb9273552",
+            "renderedHash": "dc1cb4f3ec72251de0965cc6c3833596384fa78b0297f87eac1c7ddeb9273552",
+            "equal": true
+          },
+          {
+            "position": 3,
+            "sourceHash": "fe5d8286b4818974c9972f920c91c974a15b42a0c06760aabb0400a2ea3d93d6",
+            "renderedHash": "fe5d8286b4818974c9972f920c91c974a15b42a0c06760aabb0400a2ea3d93d6",
+            "equal": true
+          },
+          {
+            "position": 4,
+            "sourceHash": "a18f25175aec4dc13d91f454f55d44dd460b46c5d02cc740a0e94acd4fc8bc5d",
+            "renderedHash": "a18f25175aec4dc13d91f454f55d44dd460b46c5d02cc740a0e94acd4fc8bc5d",
+            "equal": true
+          },
+          {
+            "position": 5,
+            "sourceHash": "bb1f25b9600879601ffd14d830c089ebbe7b1ed238328997c0cbf07af5c27bde",
+            "renderedHash": "bb1f25b9600879601ffd14d830c089ebbe7b1ed238328997c0cbf07af5c27bde",
+            "equal": true
+          },
+          {
+            "position": 6,
+            "sourceHash": "ec8a36fe79b5a4557c46b51f693279c657743d84152b902f9ea09320fe91471c",
+            "renderedHash": "ec8a36fe79b5a4557c46b51f693279c657743d84152b902f9ea09320fe91471c",
+            "equal": true
+          },
+          {
+            "position": 7,
+            "sourceHash": "c9763e7a9fca3fb996e423f7d5bbab40b58cdcfa8f0de95b85d9135b077aa473",
+            "renderedHash": "c9763e7a9fca3fb996e423f7d5bbab40b58cdcfa8f0de95b85d9135b077aa473",
+            "equal": true
+          },
+          {
+            "position": 8,
+            "sourceHash": "c5ed6e92aef99bb1ff7c219886d9d4ecaa20077e2603167291b9711ea28e6174",
+            "renderedHash": "c5ed6e92aef99bb1ff7c219886d9d4ecaa20077e2603167291b9711ea28e6174",
+            "equal": true
+          },
+          {
+            "position": 9,
+            "sourceHash": "4e8d80f284cb7656316ead7e5da627ce28e96239a33d5530dede717c618f3671",
+            "renderedHash": "4e8d80f284cb7656316ead7e5da627ce28e96239a33d5530dede717c618f3671",
+            "equal": true
+          },
+          {
+            "position": 10,
+            "sourceHash": "c2a45ef027d928f5648eda12b25bdbcb54e9ef7964ee4e2a98f9cac438429b42",
+            "renderedHash": "c2a45ef027d928f5648eda12b25bdbcb54e9ef7964ee4e2a98f9cac438429b42",
+            "equal": true
+          },
+          {
+            "position": 11,
+            "sourceHash": "da3b6bc48fbef0466da195c1898b3ea0001d1e98947535a5bc04b03f86ba6032",
+            "renderedHash": "da3b6bc48fbef0466da195c1898b3ea0001d1e98947535a5bc04b03f86ba6032",
+            "equal": true
+          },
+          {
+            "position": 12,
+            "sourceHash": "6dc99e622e18b100dde3e4e227fa2f147c9d045c025dfb0625727762e7b6a4fb",
+            "renderedHash": "6dc99e622e18b100dde3e4e227fa2f147c9d045c025dfb0625727762e7b6a4fb",
+            "equal": true
+          },
+          {
+            "position": 13,
+            "sourceHash": "1f7ea437270d7379d534210ada2590964b8ca4751b73a6d1328e7fdb5b23f485",
+            "renderedHash": "1f7ea437270d7379d534210ada2590964b8ca4751b73a6d1328e7fdb5b23f485",
+            "equal": true
+          }
+        ],
+        "allPairsEqual": true,
+        "sourceHash": "a721d687caec5659281a113a54d550eed0b7254cbbd9ead1b44fa9d4b58cca80",
+        "renderedHash": "a721d687caec5659281a113a54d550eed0b7254cbbd9ead1b44fa9d4b58cca80",
+        "hashEqual": true
+      },
+      "publication": {
+        "expected": "2026-10-06",
+        "visibleDateTime": "2026-10-06",
+        "visibleText": "Published October 6, 2026",
+        "schemaDatePublished": "2026-10-06",
+        "equal": true
+      },
+      "schema": {
+        "type": "Article",
+        "headline": "How Should HR Route a Request When Sender Identity Is Uncertain?",
+        "url": "https://outsourcedemployment.com/research/philippines-hr-inbox-sender-identity-routing-research",
+        "headlineEqual": true,
+        "urlEqual": true
+      },
+      "canonical": {
+        "rendered": "https://outsourcedemployment.com/research/philippines-hr-inbox-sender-identity-routing-research",
+        "equal": true
+      },
+      "index": true,
+      "sitemap": true,
+      "image": {
+        "url": "/aug23-research-heroes/philippines-employment-access-review-evidence-research.png",
+        "http": 200,
+        "mime": "image/png",
+        "signature": "89504e470d0a1a0a",
+        "encodedBytes": 1915735,
+        "encodedHash": "7ce0ba5275c0f0c994dd933027f011a992c300009ec64e56b6f5bd77ac34c6b1",
+        "width": 1693,
+        "height": 929,
+        "format": "png",
+        "channels": 4,
+        "decodedPixelBytes": 6291188,
+        "decodedPixelHash": "de3657c9eda4f9e5cffbcf5a3ebaba00af0a5a8e9f0b9a342d929d201ce86682",
+        "fullDecode": true,
+        "verifiedAt": "2026-10-06T11:10:31.106Z"
+      },
+      "destination": {
+        "url": "/services/employee-records-management",
+        "http": 200,
+        "finalUrl": "https://outsourcedemployment.com/services/employee-records-management",
+        "bytes": 20246,
+        "verifiedAt": "2026-10-06T11:10:27.469Z"
+      },
+      "renderedLinks": [
+        "/services/employee-records-management"
+      ],
+      "authoritativeSources": [
+        "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+        "https://pages.nist.gov/800-63-4/sp800-63a/proofing/",
+        "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html"
+      ]
+    }
+  ],
+  "authoritativeSources": [
+    {
+      "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+      "http": 200,
+      "finalUrl": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+      "bytes": 56745,
+      "contentHash": "d9f00c3e74239247ad7896bf20ae76e4835b2ffed975f143296b9591b767d20f",
+      "evidenceMarker": "Data Privacy Act of 2012",
+      "evidenceFound": true,
+      "verifiedAt": "2026-10-06T11:10:32.368Z"
+    },
+    {
+      "url": "https://www.nist.gov/privacy-framework",
+      "http": 200,
+      "finalUrl": "https://www.nist.gov/privacy-framework",
+      "bytes": 96095,
+      "contentHash": "6ecf3b5ab9a90856ea75593d4d58d4cfde18d50eeccadefcadb6d82e2cf7d2ff",
+      "evidenceMarker": "Privacy Framework",
+      "evidenceFound": true,
+      "verifiedAt": "2026-10-06T11:10:32.485Z"
+    },
+    {
+      "url": "https://www.nist.gov/cyberframework",
+      "http": 200,
+      "finalUrl": "https://www.nist.gov/cyberframework",
+      "bytes": 89722,
+      "contentHash": "7ac343ddafa16db570bd51e7ebd6c2c6aec361997f90ed122aee4f4bac600b41",
+      "evidenceMarker": "Cybersecurity Framework",
+      "evidenceFound": true,
+      "verifiedAt": "2026-10-06T11:10:32.529Z"
+    },
+    {
+      "url": "https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html",
+      "http": 200,
+      "finalUrl": "https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html",
+      "bytes": 300317,
+      "contentHash": "2fef435737784be00f536af28f711b02e68dbc677215513e37bc47ab1c4ad428",
+      "evidenceMarker": "Labor Code",
+      "evidenceFound": true,
+      "verifiedAt": "2026-10-06T11:10:33.242Z"
+    },
+    {
+      "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+      "http": 200,
+      "finalUrl": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+      "bytes": 81750,
+      "contentHash": "cf9193276418d6d848f7618494788c13184d3c7e314092a7d9780476c485ec5b",
+      "evidenceMarker": "Cybersecurity Framework",
+      "evidenceFound": true,
+      "verifiedAt": "2026-10-06T11:10:33.291Z"
+    },
+    {
+      "url": "https://pages.nist.gov/800-63-4/sp800-63a/proofing/",
+      "http": 200,
+      "finalUrl": "https://pages.nist.gov/800-63-4/sp800-63a/proofing/",
+      "bytes": 41741,
+      "contentHash": "a5b053968cb8b3415ab820a291012778774e9b524fc152cc6369aafe84e50298",
+      "evidenceMarker": "Identity Proofing",
+      "evidenceFound": true,
+      "verifiedAt": "2026-10-06T11:10:33.418Z"
+    },
+    {
+      "url": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+      "http": 200,
+      "finalUrl": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+      "bytes": 65165,
+      "contentHash": "c7a8b83165c26c2d18c9716a8dfe59d3b0f7ec395753ea304ab1f539fad5e793",
+      "evidenceMarker": "phishing",
+      "evidenceFound": true,
+      "verifiedAt": "2026-10-06T11:10:33.581Z"
+    }
+  ],
+  "errors": [
+    "philippines-employment-support-cross-market-holiday-coverage: image"
+  ]
+}
