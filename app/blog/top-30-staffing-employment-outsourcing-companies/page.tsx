@@ -308,7 +308,7 @@ export default function ComparisonArticle() {
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
-      { '@type': 'Article', '@id': `${articleUrl}#article`, headline: title, description, datePublished: '2026-07-28', dateModified: '2026-07-29', mainEntityOfPage: articleUrl, publisher: { '@type': 'Organization', name: "Outsourced Employment", url: 'https://outsourcedemployment.com' } },
+      { '@type': 'Article', '@id': `${articleUrl}#article`, headline: title, description, datePublished: '2026-07-28', dateModified: '2026-07-29', mainEntityOfPage: articleUrl, author: { '@type': 'Organization', name: "Outsourced Employment", url: 'https://outsourcedemployment.com' }, publisher: { '@type': 'Organization', name: "Outsourced Employment", url: 'https://outsourcedemployment.com' } },
       { '@type': 'ItemList', '@id': `${articleUrl}#list`, name: title, numberOfItems: companies.length, itemListElement: companies.map((company, index) => ({ '@type': 'ListItem', position: index + 1, name: company.name, url: company.url, description: `${company.niche} ${company.benefit}` })) },
       { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://outsourcedemployment.com' }, { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://outsourcedemployment.com/blog' }, { '@type': 'ListItem', position: 3, name: title, item: articleUrl }] },
       { '@type': 'FAQPage', mainEntity: faqs.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })) },
