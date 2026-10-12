@@ -1,0 +1,142 @@
+{
+  "domain": "OutsourcedEmployment.com",
+  "repository": "coolifystealthagents/outsourcedemployment",
+  "branch": "main",
+  "baseSha": "eadc551317e589f4cb19519c0a0c8ea76b533e0d",
+  "publicationDate": "2026-10-12",
+  "blog": [
+    {
+      "title": "Build a Probation Milestone Evidence Pack",
+      "slug": "probation-milestone-evidence-pack",
+      "sourcePath": "app/blog/oct12-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/probation-milestone-evidence-pack.svg",
+      "route": "/blog/probation-milestone-evidence-pack"
+    },
+    {
+      "title": "Control a Job Description Scope Change",
+      "slug": "job-description-scope-change-register",
+      "sourcePath": "app/blog/oct12-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/job-description-scope-change-register.svg",
+      "route": "/blog/job-description-scope-change-register"
+    },
+    {
+      "title": "Verify an Employee Emergency Contact Correction",
+      "slug": "emergency-contact-correction-workflow",
+      "sourcePath": "app/blog/oct12-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/emergency-contact-correction-workflow.svg",
+      "route": "/blog/emergency-contact-correction-workflow"
+    },
+    {
+      "title": "Run a Training Completion Exception Queue",
+      "slug": "training-completion-exception-queue",
+      "sourcePath": "app/blog/oct12-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/training-completion-exception-queue.svg",
+      "route": "/blog/training-completion-exception-queue"
+    },
+    {
+      "title": "Create a Manager Transition Ownership Map",
+      "slug": "manager-transition-ownership-map",
+      "sourcePath": "app/blog/oct12-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/manager-transition-ownership-map.svg",
+      "route": "/blog/manager-transition-ownership-map"
+    },
+    {
+      "title": "Prepare a Return-to-Work Record Handoff",
+      "slug": "return-to-work-record-handoff",
+      "sourcePath": "app/blog/oct12-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/return-to-work-record-handoff.svg",
+      "route": "/blog/return-to-work-record-handoff"
+    },
+    {
+      "title": "Document an Employee Equipment Custody Transfer",
+      "slug": "equipment-custody-transfer-log",
+      "sourcePath": "app/blog/oct12-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/equipment-custody-transfer-log.svg",
+      "route": "/blog/equipment-custody-transfer-log"
+    },
+    {
+      "title": "Control a Cross-Time-Zone Schedule Change",
+      "slug": "timezone-schedule-change-control",
+      "sourcePath": "app/blog/oct12-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/timezone-schedule-change-control.svg",
+      "route": "/blog/timezone-schedule-change-control"
+    },
+    {
+      "title": "Check Benefits Dependent Documents Without Deciding Eligibility",
+      "slug": "benefits-dependent-document-check",
+      "sourcePath": "app/blog/oct12-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/benefits-dependent-document-check.svg",
+      "route": "/blog/benefits-dependent-document-check"
+    },
+    {
+      "title": "Verify a Payroll Bank Detail Change Request",
+      "slug": "payroll-bank-detail-change-verification",
+      "sourcePath": "app/blog/oct12-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-bank-detail-change-verification.svg",
+      "route": "/blog/payroll-bank-detail-change-verification"
+    },
+    {
+      "title": "Assemble a Final Pay Review Packet",
+      "slug": "final-pay-document-assembly",
+      "sourcePath": "app/blog/oct12-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/final-pay-document-assembly.svg",
+      "route": "/blog/final-pay-document-assembly"
+    },
+    {
+      "title": "Maintain an Employee Record Retention Hold Register",
+      "slug": "employee-record-retention-hold-register",
+      "sourcePath": "app/blog/oct12-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/employee-record-retention-hold-register.svg",
+      "route": "/blog/employee-record-retention-hold-register"
+    }
+  ],
+  "research": [
+    {
+      "title": "How Long Do Onboarding Prerequisites Remain Unresolved?",
+      "slug": "onboarding-prerequisite-latency-cohort-research",
+      "sourcePath": "app/research/oct12-research-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/onboarding-prerequisite-latency-cohort-research.svg",
+      "route": "/research/onboarding-prerequisite-latency-cohort-research"
+    },
+    {
+      "title": "Do Reviewers Classify Employment Record Discrepancies Consistently?",
+      "slug": "employment-record-discrepancy-concordance-research",
+      "sourcePath": "app/research/oct12-research-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/employment-record-discrepancy-concordance-research.svg",
+      "route": "/research/employment-record-discrepancy-concordance-research"
+    },
+    {
+      "title": "Does an Approved Payroll Change Reach Every Required Destination?",
+      "slug": "payroll-change-propagation-trace-research",
+      "sourcePath": "app/research/oct12-research-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/payroll-change-propagation-trace-research.svg",
+      "route": "/research/payroll-change-propagation-trace-research"
+    },
+    {
+      "title": "Can Benefits Inquiries Be Routed Without Exposing Excess Data?",
+      "slug": "benefits-inquiry-routing-agreement-research",
+      "sourcePath": "app/research/oct12-research-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/benefits-inquiry-routing-agreement-research.svg",
+      "route": "/research/benefits-inquiry-routing-agreement-research"
+    },
+    {
+      "title": "When Does an Outsourced Employment Support Role Drift Beyond Its Approved Scope?",
+      "slug": "role-scope-drift-longitudinal-audit-research",
+      "sourcePath": "app/research/oct12-research-batch.ts",
+      "thumbnailPath": "public/oct12-heroes/role-scope-drift-longitudinal-audit-research.svg",
+      "route": "/research/role-scope-drift-longitudinal-audit-research"
+    }
+  ],
+  "registryPaths": [
+    "app/data.ts"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexPaths": [
+    "app/blog/page.tsx",
+    "app/research/page.tsx"
+  ],
+  "sitemapPath": "app/sitemap.xml/route.ts"
+}
