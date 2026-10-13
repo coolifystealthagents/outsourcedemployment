@@ -1,0 +1,143 @@
+{
+  "domain": "OutsourcedEmployment.com",
+  "canonicalDomain": "https://outsourcedemployment.com",
+  "repository": "coolifystealthagents/outsourcedemployment",
+  "branch": "main",
+  "baseSha": "9d4f16537fb15961e28f4b0dac59d69c4f05ccd8",
+  "publicationDate": "2026-10-13",
+  "blog": [
+    {
+      "title": "Verify New Hire Tax Form Receipt",
+      "slug": "new-hire-tax-form-receipt-verification",
+      "sourcePath": "app/blog/oct13-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/new-hire-tax-form-receipt-verification.svg",
+      "route": "/blog/new-hire-tax-form-receipt-verification"
+    },
+    {
+      "title": "Route Employment Verification Requests",
+      "slug": "employment-verification-request-routing",
+      "sourcePath": "app/blog/oct13-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/employment-verification-request-routing.svg",
+      "route": "/blog/employment-verification-request-routing"
+    },
+    {
+      "title": "Control Candidate Background Check Handoffs",
+      "slug": "candidate-background-check-handoff-control",
+      "sourcePath": "app/blog/oct13-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/candidate-background-check-handoff-control.svg",
+      "route": "/blog/candidate-background-check-handoff-control"
+    },
+    {
+      "title": "Reconcile Employee Name Change Records",
+      "slug": "employee-name-change-record-reconciliation",
+      "sourcePath": "app/blog/oct13-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/employee-name-change-record-reconciliation.svg",
+      "route": "/blog/employee-name-change-record-reconciliation"
+    },
+    {
+      "title": "Document Remote Work Location Changes",
+      "slug": "remote-work-location-change-documentation",
+      "sourcePath": "app/blog/oct13-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/remote-work-location-change-documentation.svg",
+      "route": "/blog/remote-work-location-change-documentation"
+    },
+    {
+      "title": "Close Dormant Contractor Access",
+      "slug": "dormant-contractor-access-closure",
+      "sourcePath": "app/blog/oct13-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/dormant-contractor-access-closure.svg",
+      "route": "/blog/dormant-contractor-access-closure"
+    },
+    {
+      "title": "Prepare Benefits Enrollment Correction Packets",
+      "slug": "benefits-enrollment-correction-packet",
+      "sourcePath": "app/blog/oct13-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/benefits-enrollment-correction-packet.svg",
+      "route": "/blog/benefits-enrollment-correction-packet"
+    },
+    {
+      "title": "Track Mandatory Training Renewal Notices",
+      "slug": "mandatory-training-renewal-notice-tracking",
+      "sourcePath": "app/blog/oct13-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/mandatory-training-renewal-notice-tracking.svg",
+      "route": "/blog/mandatory-training-renewal-notice-tracking"
+    },
+    {
+      "title": "Verify Overtime Approval Evidence",
+      "slug": "overtime-approval-evidence-verification",
+      "sourcePath": "app/blog/oct13-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/overtime-approval-evidence-verification.svg",
+      "route": "/blog/overtime-approval-evidence-verification"
+    },
+    {
+      "title": "Handoff Parental Leave Schedule Updates",
+      "slug": "parental-leave-schedule-update-handoff",
+      "sourcePath": "app/blog/oct13-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/parental-leave-schedule-update-handoff.svg",
+      "route": "/blog/parental-leave-schedule-update-handoff"
+    },
+    {
+      "title": "Control Employee File Export Requests",
+      "slug": "employee-file-export-request-control",
+      "sourcePath": "app/blog/oct13-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/employee-file-export-request-control.svg",
+      "route": "/blog/employee-file-export-request-control"
+    },
+    {
+      "title": "Reconcile Offboarding Asset Exceptions",
+      "slug": "offboarding-asset-exception-reconciliation",
+      "sourcePath": "app/blog/oct13-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/offboarding-asset-exception-reconciliation.svg",
+      "route": "/blog/offboarding-asset-exception-reconciliation"
+    }
+  ],
+  "research": [
+    {
+      "title": "Measure Employment Verification Turnaround Denominators",
+      "slug": "employment-verification-turnaround-denominator-study",
+      "sourcePath": "app/research/oct13-research-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/employment-verification-turnaround-denominator-study.svg",
+      "route": "/research/employment-verification-turnaround-denominator-study"
+    },
+    {
+      "title": "Study Record Correction Rework Rates",
+      "slug": "employee-record-correction-rework-study",
+      "sourcePath": "app/research/oct13-research-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/employee-record-correction-rework-study.svg",
+      "route": "/research/employee-record-correction-rework-study"
+    },
+    {
+      "title": "Analyze Manager Approval Queue Aging",
+      "slug": "manager-approval-queue-aging-analysis",
+      "sourcePath": "app/research/oct13-research-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/manager-approval-queue-aging-analysis.svg",
+      "route": "/research/manager-approval-queue-aging-analysis"
+    },
+    {
+      "title": "Measure Onboarding Access Reviewer Agreement",
+      "slug": "onboarding-access-reviewer-agreement-study",
+      "sourcePath": "app/research/oct13-research-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/onboarding-access-reviewer-agreement-study.svg",
+      "route": "/research/onboarding-access-reviewer-agreement-study"
+    },
+    {
+      "title": "Review Employee Data Minimization Exceptions",
+      "slug": "employee-data-minimization-exception-review",
+      "sourcePath": "app/research/oct13-research-batch.ts",
+      "thumbnailPath": "public/oct13-heroes/employee-data-minimization-exception-review.svg",
+      "route": "/research/employee-data-minimization-exception-review"
+    }
+  ],
+  "registryPaths": [
+    "app/data.ts"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexPaths": [
+    "app/blog/page.tsx",
+    "app/research/page.tsx"
+  ],
+  "sitemapPath": "app/sitemap.xml/route.ts"
+}
