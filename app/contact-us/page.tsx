@@ -1,74 +1,21 @@
-import type { Metadata } from "next";
-import { Footer, Header } from "../components";
-import StandardContactForm from "./StandardContactForm";
-import "./contact.css";
-
-export const metadata: Metadata = {
-  title: "Contact Outsourced Employment | Build Your Workforce Support Plan",
-  description: "Book a focused consultation about outsourced employment support, role design, onboarding coordination, workforce administration, and controlled handoffs.",
-  alternates: { canonical: "https://outsourcedemployment.com/contact-us" },
-  robots: { index: true, follow: true },
-  openGraph: {
-    title: "Contact Outsourced Employment",
-    description: "Plan a well-scoped outsourced employment support role with clear ownership, access, and review steps.",
-    url: "https://outsourcedemployment.com/contact-us",
-    type: "website",
-  },
-};
-
-const supportAreas = [
-  ["Role scoping", "Turn recurring employment operations into a clear task list, schedule, and owner map."],
-  ["Onboarding coordination", "Prepare checklists, account requests, document trackers, and first-week milestones."],
-  ["Workforce administration", "Organize repeatable records, scheduling, reporting, and follow-up workflows."],
-  ["Controlled handoffs", "Define approvals, escalation paths, access limits, and quality review before work begins."],
-];
-
-export default function ContactUsPage() {
-  return (
-    <><Header/><main className="contact-page">
-      <section className="contact-hero">
-        <div className="contact-shell contact-hero-grid">
-          <div className="contact-copy">
-            <p className="contact-kicker">Outsourced employment planning</p>
-            <h1>Build a support role your team can trust.</h1>
-            <p className="contact-lead">Tell us what needs to be handled, which systems are involved, and where your managers retain authority. We’ll use those details to shape a focused workforce-support conversation.</p>
-            <div className="contact-proof" aria-label="Consultation highlights">
-              <span><b>Clear</b> role scope</span><span><b>Practical</b> onboarding plan</span><span><b>Named</b> approvals</span><span><b>Measured</b> review cadence</span>
-            </div>
-          </div>
-          <StandardContactForm endpoint="/api/contact" encoding="form" />
-        </div>
-      </section>
-
-      <section className="contact-band"><div className="contact-shell band-grid">
-        <div><strong>01</strong><span>Share the workload</span></div><div><strong>02</strong><span>Define boundaries</span></div><div><strong>03</strong><span>Review the plan</span></div><div><strong>04</strong><span>Choose next steps</span></div>
-      </div></section>
-
-      <section className="contact-section"><div className="contact-shell">
-        <p className="section-label">What to bring to your consultation</p>
-        <div className="section-heading"><h2>A useful call starts with the work—not a generic job title.</h2><p>Bring examples of recurring tasks, the systems involved, the hours that matter, and the decisions that must stay with your team.</p></div>
-        <div className="support-grid">{supportAreas.map(([title, text], index) => <article key={title}><span>0{index + 1}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
-      </div></section>
-
-      <section className="contact-section contact-muted"><div className="contact-shell evidence-grid">
-        <div><p className="section-label">A plan you can inspect</p><h2>What the conversation should clarify</h2><p className="contact-body">The aim is a practical brief your team can evaluate. No inquiry creates an employment or service relationship, and sensitive employment decisions remain with your authorized leaders and qualified advisers.</p></div>
-        <div className="check-card">
-          <h3>Your planning checklist</h3>
-          <ul><li>Recurring tasks and expected outputs</li><li>Systems, permissions, and data sensitivity</li><li>Coverage hours and response expectations</li><li>Approval limits and escalation owners</li><li>Quality checks and weekly review rhythm</li><li>Onboarding, documentation, and access removal</li></ul>
-        </div>
-      </div></section>
-
-      <section className="contact-section"><div className="contact-shell image-grid">
-        <div className="contact-image"><img src="/remote-team-planning.jpg" alt="Remote workforce team planning roles and onboarding together" width="1200" height="800" /></div>
-        <div><p className="section-label">Why the details matter</p><h2>Make ownership visible before the handoff.</h2><p className="contact-body">Strong outsourced employment support begins with explicit responsibilities. A specialist can prepare records, coordinate workflows, and surface exceptions while your designated manager keeps approvals, policy decisions, compensation authority, and sensitive employee matters.</p><div className="mini-note"><b>Good first step</b><span>Choose one repeatable workflow and bring two real examples to the call.</span></div></div>
-      </div></section>
-
-      <section className="about-stealth"><div className="contact-shell about-grid">
-        <div><p className="powered">Powered by <a href="https://stealthagents.com/" target="_blank" rel="noopener noreferrer">StealthAgents</a></p><h2>About Stealth Agents</h2></div>
-        <p>Stealth Agents works with over 35+ different industries. We&apos;re featured on Forbes as the top rated virtual assistant company.</p>
-      </div></section>
-
-      <section className="contact-final"><div className="contact-shell"><p className="section-label">Ready to move forward?</p><h2>Bring the workload. Leave with clearer next steps.</h2><p>Use the form above to book a free consultation and start building a controlled workforce-support plan.</p><a href="#contactPageForm">Book a Free Consultation</a></div></section>
-    </main><Footer/></>
-  );
-}
+import type { Metadata } from 'next';
+import { Footer, Header, JsonLd } from '../components';
+import StandardContactForm from './StandardContactForm';
+import './contact.css';
+const canonical='https://outsourcedemployment.com/contact-us';
+export const metadata:Metadata={title:'Contact Outsourced Employment | Staffing Consultation',description:'Book a consultation to scope outsourced employment administration, role ownership, candidate matching, and a controlled workforce-support launch.',alternates:{canonical:canonical},robots:{index:true,follow:true},openGraph:{title:'Contact Outsourced Employment',description:'Scope outsourced employment administration with clear ownership and controls.',url:canonical,type:'website'}};
+const steps=[['Workflow discovery','Map recurring workforce administration, deadlines, systems, current owners, and the exceptions that need attention.'],['Role design','Define responsibilities, access, schedule, outputs, review points, and escalation rules without moving employer authority.'],['Candidate matching','Review candidates against the approved workflow, tools, communication needs, data boundaries, and coverage hours.'],['Controlled launch','Start with representative work, inspect the first outputs, and expand scope only after the handoff is reliable.']];
+const prep=[['Recurring work','Bring the hiring, onboarding, records, schedule, payroll-input, benefits, review, training, or offboarding tasks that repeat.'],['Current ownership','Name who prepares, reviews, approves, communicates decisions, and handles sensitive exceptions today.'],['Systems and access','List the HR, payroll, document, scheduling, communication, and reporting tools involved.'],['Service standard','Share deadlines, coverage hours, expected outputs, privacy controls, and escalation timing.']];
+const paths=[['/services/candidate-sourcing-coordination','Candidate sourcing coordination','Organize approved searches, screening records, and interview handoffs.'],['/services/employment-document-administration','Employment document administration','Maintain controlled document requests, status tracking, and reviewer queues.'],['/services/new-hire-onboarding','New-hire onboarding','Coordinate checklists, account requests, training schedules, and first-week milestones.'],['/services/payroll-input-preparation','Payroll input preparation','Assemble approved time and change inputs while authorized payroll owners retain submission authority.'],['/services/offboarding-administration','Offboarding administration','Coordinate approved checklists, access-removal requests, records, and property tracking.']];
+const faqs=[['What employment work can be delegated?','Administrative preparation and coordination can include sourcing support, document tracking, onboarding, records maintenance, schedules, leave tracking, payroll inputs, training coordination, reporting, and offboarding checklists.'],['Who remains the employer and decision-maker?','Your organization and its authorized leaders retain hiring, classification, compensation, discipline, termination, policy, legal, compliance, and employee-relations decisions. The exact employer-of-record arrangement must be confirmed in the governing agreement.'],['Can support staff access employee records?','Only when the role requires it and your authorized team approves. Use named accounts, least-privilege access, secure systems, documented retention, and prompt access removal.'],['Can a coordinator run payroll?','A coordinator can prepare approved inputs and exception lists. Payroll authorization, tax treatment, fund release, filings, and final approval stay with qualified and authorized personnel.'],['How are candidates matched?','Matching uses the role brief, systems, schedule, workflow examples, communication needs, privacy expectations, and escalation model rather than a generic HR title.'],['How does the launch start?','Begin with a limited workflow and representative examples. A named manager reviews outputs and exceptions before volume, scope, or access expands.']];
+export default function ContactUsPage(){const schema={'@context':'https://schema.org','@graph':[{'@type':'ContactPage',name:'Contact Outsourced Employment',url:canonical,description:metadata.description},{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:'https://outsourcedemployment.com'},{'@type':'ListItem',position:2,name:'Contact Us',item:canonical}]},{'@type':'FAQPage',mainEntity:faqs.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))}]};return <><Header/><main className="contact-page"><JsonLd data={schema}/>
+<section className="rollout-hero"><div className="contact-shell"><p className="section-label">Contact Us</p><h1>Get In Touch</h1><p>Build workforce-administration capacity around clear employer authority, privacy controls, and accountable review.</p><a href="#contactPageForm">Book a staffing consultation</a></div></section>
+<section className="contact-section contact-muted"><div className="contact-shell rollout-intro"><div><p className="section-label">Employment support consultation</p><h2>Turn recurring people-operations work into a controlled support role.</h2><p className="contact-body">Tell us where sourcing, onboarding, records, scheduling, payroll inputs, training, or offboarding is consuming manager time. We will help define delegated preparation and the decisions your leaders retain.</p><h3>What to Expect</h3><ul className="rollout-list"><li>Workflow, systems, volume, deadlines, and ownership review</li><li>Role scope with access limits, outputs, and escalation rules</li><li>Candidate matching based on the approved operating context</li><li>A controlled start with a named client reviewer</li></ul><p className="rollout-email">Prefer email? <a href="mailto:hello@outsourcedemployment.com">hello@outsourcedemployment.com</a></p></div><StandardContactForm endpoint="/api/contact" encoding="form"/></div></section>
+<section className="contact-section"><div className="contact-shell rollout-split"><img src="/remote-team-planning.jpg" width="1200" height="800" alt="Remote workforce team planning employment administration handoffs"/><div><p className="section-label">Powered by Stealth Agents</p><h2>Employment operations expertise. Stealth Agents support.</h2><p className="contact-body">Stealth Agents provides dedicated virtual assistant staffing with recruiting and ongoing support organized around each client’s approved role, systems, schedule, and review model.</p><p><strong>Outsourced Employment is a subsidiary of Stealth Agents.</strong></p><a className="rollout-button" href="#contactPageForm">Book a consultation</a></div></div></section>
+<section className="contact-section rollout-booking"><div className="contact-shell rollout-booking-grid"><div><p className="section-label">Direct scheduling</p><h2>Or Skip the Wait: Book a Call Now</h2><p className="contact-body">Choose a time to discuss the workforce workflow, access boundaries, candidate profile, and management review your team needs.</p></div><iframe title="Book an outsourced employment consultation" src="https://go.oncehub.com/StealthAgentsTeam?brdr=1pxd8d8d8&amp;dt=&amp;em=1&amp;Si=1" loading="lazy" referrerPolicy="strict-origin-when-cross-origin"/></div></section>
+<section className="contact-section"><div className="contact-shell"><p className="section-label">After you reach out</p><h2>A clear path from workflow to controlled launch.</h2><div className="rollout-cards">{steps.map(([t,b],i)=><article key={t}><span>0{i+1}</span><h3>{t}</h3><p>{b}</p></article>)}</div></div></section>
+<section className="contact-section contact-muted"><div className="contact-shell"><p className="section-label">Prepare for a useful call</p><h2>Bring the operating details that make the role specific.</h2><div className="rollout-cards">{prep.map(([t,b])=><article key={t}><h3>{t}</h3><p>{b}</p></article>)}</div></div></section>
+<section className="contact-section rollout-boundaries"><div className="contact-shell rollout-split"><div><p className="section-label">Responsibility and boundaries</p><h2>Delegate administration, not employer authority.</h2><p>Support staff can prepare records, maintain trackers, coordinate approved steps, and surface exceptions inside documented workflows.</p></div><div className="rollout-boundary-card"><h3>Your authorized or qualified team retains</h3><ul className="rollout-list"><li>Hiring, classification, compensation, discipline, and termination decisions</li><li>Employment law, tax, benefits, compliance, and regulatory judgment</li><li>Payroll approval, funds release, filings, and final sign-off</li><li>Accommodation, investigation, grievance, and sensitive employee relations</li><li>Policy, contracts, executive decisions, and access exceptions</li></ul></div></div></section>
+<section className="contact-section"><div className="contact-shell"><p className="section-label">Common starting points</p><h2>Start with work that is recurring and reviewable.</h2><div className="rollout-paths">{paths.map(([href,t,b])=><a href={href} key={href}><h3>{t}</h3><p>{b}</p><span>Explore this service →</span></a>)}</div><a className="rollout-services" href="/services">View the full services collection →</a></div></section>
+<section className="contact-section contact-muted"><div className="contact-shell"><p className="section-label">Frequently asked questions</p><h2>Questions about outsourced employment support.</h2><div className="rollout-faq">{faqs.map(([q,a])=><details key={q}><summary>{q}</summary><p>{a}</p></details>)}</div></div></section>
+</main><Footer/></>}
