@@ -1,2 +1,37 @@
+import { notFound, redirect } from 'next/navigation';
+import type { Metadata } from 'next';
+import { Footer, Header } from '../../../components';
+import { allBlogPosts } from '../../../data';
+import { EditorialIndex } from '../../../editorial/EditorialIndex';
+import styles from '../../../editorial/editorial.module.css';
 import { FeaturedComparison } from '../../FeaturedComparison';
-import {notFound,redirect} from 'next/navigation';import {Header,Footer} from '../../../components';import {allBlogPosts} from '../../../data';const fmt=(d?:string)=>d?new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(new Date(`${d}T00:00:00Z`)):'';export function generateStaticParams(){const n=Math.max(1,Math.ceil(allBlogPosts.length/20));return Array.from({length:n},(_,i)=>({page:String(i+1)}))}export default async function BlogPage({params}:{params:Promise<{page:string}>}){const {page}=await params;const n=Number(page),total=Math.max(1,Math.ceil(allBlogPosts.length/20));if(page==='1')redirect('/blog');if(!Number.isInteger(n)||n<1||n>total)notFound();const posts=allBlogPosts.slice((n-1)*20,n*20);return <><Header/><main className="section"><div className="container"><p className="eyebrow">Philippines staffing blog</p><h1>Blog page {n}</h1><div className="cards">{posts.map(p=><a className="card" href={`/blog/${p.slug}`} key={p.slug}><h2>{p.title}</h2><p>{p.excerpt}</p>{'publishedDate' in p&&p.publishedDate?<span><time dateTime={p.publishedDate}>Published {fmt(p.publishedDate)}</time> · {p.minutes} min read</span>:null}</a>)}</div><nav className="pagination" aria-label="Blog pages">{Array.from({length:total},(_,i)=><a aria-current={i+1===n?'page':undefined} href={i===0?'/blog':`/blog/page/${i+1}`} key={i}>{i+1}</a>)}</nav></div>{n===2&&<FeaturedComparison />}</main><Footer/></>}
+
+export function generateStaticParams() {
+  const pages = Math.max(1, Math.ceil(allBlogPosts.length / 20));
+  return Array.from({ length: pages }, (_, index) => ({ page: String(index + 1) }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ page: string }> }): Promise<Metadata> {
+  const { page } = await params;
+  return {
+    title: `Staffing guides, page ${page}`,
+    description: 'Practical Philippines staffing guides with publication details, reading time, and topic-specific visuals.',
+    alternates: { canonical: `https://outsourcedemployment.com/blog/page/${page}` },
+  };
+}
+
+export default async function BlogPage({ params }: { params: Promise<{ page: string }> }) {
+  const { page } = await params;
+  const current = Number(page);
+  const total = Math.max(1, Math.ceil(allBlogPosts.length / 20));
+  if (page === '1') redirect('/blog');
+  if (!Number.isInteger(current) || current < 1 || current > total) notFound();
+  const posts = allBlogPosts.slice((current - 1) * 20, current * 20).map((post: any) => ({ ...post }));
+  return <>
+    <Header />
+    <EditorialIndex kind="blog" items={posts} title={`Staffing guides, page ${current}`} intro="Continue through practical Philippines staffing guides with publication details, reading time, and a topic-relevant visual for every article." />
+    {current === 2 && <FeaturedComparison />}
+    <div className={styles.paginationWrap}><nav className="pagination" aria-label="Blog pages">{Array.from({ length: total }, (_, index) => <a aria-current={index + 1 === current ? 'page' : undefined} href={index === 0 ? '/blog' : `/blog/page/${index + 1}`} key={index}>{index + 1}</a>)}</nav></div>
+    <Footer />
+  </>;
+}

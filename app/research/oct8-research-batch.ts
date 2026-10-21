@@ -129,7 +129,7 @@ export const october8ResearchBatch=[
       "Sources checked October 8, 2026: Philippine Supreme Court E-Library, Data Privacy Act of 2012 | https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html || Philippine Supreme Court E-Library, Labor Code of the Philippines | https://lawphil.net/statutes/presdecs/pd1974/pd_442_1974.html || NIST Cybersecurity Framework 2.0 | https://www.nist.gov/cyberframework || NIST Privacy Framework | https://www.nist.gov/privacy-framework"
     ],
     "handoff": {
-      "href": "/services/offboarding-coordination",
+      "href": "/services/offboarding-administration",
       "label": "Review the related employment-support service",
       "body": "Use this research to define evidence, administrative actions, stop rules, owner decisions, and verification before releasing a Philippines-based employment-support lane."
     }

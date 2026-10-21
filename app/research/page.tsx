@@ -1,9 +1,16 @@
-import {Header,Footer} from '../components';
-import {researchPosts,site} from '../data';
+import { Footer, Header } from '../components';
+import { researchPosts, site } from '../data';
+import { EditorialIndex } from '../editorial/EditorialIndex';
 
-export const metadata={title:`Research | ${site.brand}`,description:'Research notes for Philippines-based staffing decisions.'};
+export const metadata = { title: `Research | ${site.brand}`, description: 'Research notes for Philippines-based staffing decisions.', alternates: { canonical: 'https://outsourcedemployment.com/research' } };
 
-export default function Research(){
-  const posts=[...researchPosts].sort((a,b)=>(b.publishedDate||'0000-00-00').localeCompare(a.publishedDate||'0000-00-00')||a.slug.localeCompare(b.slug));
-  return <><Header/><main className="section"><div className="container"><p className="eyebrow">Philippines staffing research</p><h1>Research for better role decisions.</h1><p className="lead">Sourced research about Philippines-based staffing and operations, with practical boundaries for owners and managers.</p>{posts.length?<div className="cards">{posts.map(p=><a className="card" href={`/research/${p.slug}`} key={p.slug}><h2>{p.title}</h2><p>{p.excerpt}</p>{p.publishedDate&&<time dateTime={p.publishedDate}>Published {new Date(`${p.publishedDate}T00:00:00Z`).toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'})}</time>}</a>)}</div>:<div className="support-strip"><h2>Research library in preparation</h2><p>Return for Philippines-focused research notes as they are published.</p></div>}</div></main><Footer/></>
+export default function Research() {
+  const posts = [...researchPosts]
+    .sort((a, b) => (b.publishedDate || '0000-00-00').localeCompare(a.publishedDate || '0000-00-00') || a.slug.localeCompare(b.slug))
+    .map((post: any) => ({ ...post }));
+  return <>
+    <Header />
+    <EditorialIndex kind="research" items={posts} title="Research for better role decisions" intro="Review source-aware research about Philippines-based staffing and operations. Each note identifies its publication date, reading time, and evidence context before you apply it." />
+    <Footer />
+  </>;
 }

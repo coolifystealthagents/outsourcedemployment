@@ -50,10 +50,10 @@ export async function POST(request: NextRequest) {
   const business = text(form, 'company', 300) || text(form, 'companyName', 300);
   const companySize = text(form, 'companySize', 100);
   const positions = text(form, 'positions') || text(form, 'role');
-  const referral = text(form, 'source', 300) || text(form, 'referral', 300);
+  const referral = text(form, 'referral', 300) || text(form, 'source', 300);
   const referralSpecify = text(form, 'referralSpecify', 300);
   const messageText = text(form, 'message');
-  if (!phoneLocal || !business || !companySize || !positions || !referral || !messageText || (referral === 'Other' && !referralSpecify)) return errorResponse(request, 422);
+  if (!phone || !business || !companySize || !positions || !referral || !messageText || (referral === 'Other' && !referralSpecify)) return errorResponse(request, 422);
   const message = [messageText, `Positions: ${positions}`, `Company size: ${companySize}`, text(form, 'website') ? `Website: ${text(form, 'website')}` : '', referralSpecify ? `Referral detail: ${referralSpecify}` : ''].filter(Boolean).join('\n');
   const payload = { full_name: name, email, phone, company_name: business, message, how_they_heard: referral, client_event_id: crypto.randomUUID(), attribution: { source_page: pageUrl, landing_page: pageUrl, referrer: request.headers.get('referer') || '', page_journey: ['Contact form'] } };
   const token = process.env.LEAD_AUTH_TOKEN;

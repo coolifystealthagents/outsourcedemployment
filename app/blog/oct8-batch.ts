@@ -421,7 +421,7 @@ export const october8BlogBatch=[
     "excerpt": "Separate business-record preservation, personal-material handling, access removal, device return, and owner decisions.",
     "minutes": 11,
     "image": "/blog-thumbnails/sop-template.svg",
-    "cta": "/services/offboarding-coordination",
+    "cta": "/services/offboarding-administration",
     "sources": [
       {
         "name": "Philippine Supreme Court E-Library — Data Privacy Act of 2012",

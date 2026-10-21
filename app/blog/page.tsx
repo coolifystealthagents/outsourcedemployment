@@ -1,4 +1,17 @@
-import {Header,Footer} from '../components';import {allBlogPosts,site} from '../data';
-export const metadata={title:`Blog | ${site.brand}`,description:'Practical Philippines staffing guides.'};
-const fmt=(d?:string)=>d?new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(new Date(`${d}T00:00:00Z`)):'';
-export default function Blog(){const posts=allBlogPosts.slice(0,20);const pages=Math.max(1,Math.ceil(allBlogPosts.length/20));return <><Header/><main className="section"><div className="container"><p className="eyebrow">Philippines staffing blog</p><h1>Practical role and handoff guides.</h1><p className="lead">Read concise guidance for scoping and managing Filipino support roles. Existing article addresses remain available.</p><div className="cards">{posts.map(p=><a className="card" href={`/blog/${p.slug}`} key={p.slug}><h2>{p.title}</h2><p>{p.excerpt}</p><span>{'publishedDate' in p&&p.publishedDate?<><time dateTime={p.publishedDate}>Published {fmt(p.publishedDate)}</time> · </>:null}{p.minutes} min read</span></a>)}</div><nav className="pagination" aria-label="Blog pages">{Array.from({length:pages},(_,i)=><a aria-current={i===0?'page':undefined} href={i===0?'/blog':`/blog/page/${i+1}`} key={i}>{i+1}</a>)}</nav></div></main><Footer/></>}
+import { Footer, Header } from '../components';
+import { allBlogPosts, site } from '../data';
+import { EditorialIndex } from '../editorial/EditorialIndex';
+import styles from '../editorial/editorial.module.css';
+
+export const metadata = { title: `Blog | ${site.brand}`, description: 'Practical Philippines staffing guides.', alternates: { canonical: 'https://outsourcedemployment.com/blog' } };
+
+export default function Blog() {
+  const posts = allBlogPosts.slice(0, 20).map((post: any) => ({ ...post }));
+  const pages = Math.max(1, Math.ceil(allBlogPosts.length / 20));
+  return <>
+    <Header />
+    <EditorialIndex kind="blog" items={posts} title="Practical role and handoff guides" intro="Read substantial guidance for scoping, handing off, and managing Philippines-based support roles. Each article includes its reading time, publication information, and topic-specific visual." />
+    <div className={styles.paginationWrap}><nav className="pagination" aria-label="Blog pages">{Array.from({ length: pages }, (_, index) => <a aria-current={index === 0 ? 'page' : undefined} href={index === 0 ? '/blog' : `/blog/page/${index + 1}`} key={index}>{index + 1}</a>)}</nav></div>
+    <Footer />
+  </>;
+}

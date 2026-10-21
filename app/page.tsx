@@ -1,5 +1,8 @@
 import * as data from './data';
+import type { Metadata } from 'next';
 import { Header, Footer, JsonLd } from './components';
+
+export const metadata: Metadata = { alternates: { canonical: 'https://outsourcedemployment.com/' } };
 
 const services = data.services.slice(0, 4);
 const posts = data.blogPosts.slice(0, 3);
