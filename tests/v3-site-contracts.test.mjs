@@ -12,6 +12,7 @@ const booking = read('app/booking-components.tsx');
 const contact = read('app/contact-us/page.tsx');
 const services = read('app/services/[slug]/page.tsx');
 const nextConfig = read('next.config.mjs');
+const middleware = read('middleware.ts');
 const sitemap = read('app/sitemap.xml/route.ts');
 
 test('global header and footer expose required parent attribution and canonical navigation', () => {
@@ -56,6 +57,9 @@ test('canonical contact path and security policy are configured', () => {
   assert.match(nextConfig, /source:\s*['"]\/contact['"]/);
   assert.match(nextConfig, /destination:\s*['"]\/contact-us['"]/);
   for (const header of ['Strict-Transport-Security', 'Content-Security-Policy', 'X-Content-Type-Options', 'Referrer-Policy', 'Permissions-Policy']) assert.match(nextConfig, new RegExp(header));
+  assert.match(middleware, /x-forwarded-proto/);
+  assert.match(middleware, /cf-visitor/);
+  assert.match(middleware, /cloudflareProto/);
   assert.match(sitemap, /contact-us/);
   assert.doesNotMatch(sitemap, /['"]\/contact['"]/);
 });
