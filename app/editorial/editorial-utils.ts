@@ -90,6 +90,19 @@ export function buildEditorialSections(body: readonly string[] | undefined, kind
         'Review completed work and exceptions on a regular schedule, then record corrections where they can be reused.',
         'Expand the role only after the first lane is accurate, traceable, and supported by a clear owner.',
       ];
+  const headingBodies = clean.filter((item) => item.trim().startsWith('## '));
+  if (headingBodies.length >= 2) {
+    const sections: EditorialSection[] = [];
+    for (const item of clean) {
+      const text = item.trim();
+      if (text.startsWith('## ')) {
+        sections.push({ id: slugifyHeading(text.slice(3)), title: text.slice(3), paragraphs: [] });
+      } else if (sections.length) {
+        sections[sections.length - 1].paragraphs.push(text);
+      }
+    }
+    return sections.filter((section) => section.paragraphs.length > 0);
+  }
   const paragraphs = clean.length ? clean : fallback;
   const count = Math.min(4, Math.max(3, Math.ceil(paragraphs.length / 6)));
   const size = Math.ceil(paragraphs.length / count);

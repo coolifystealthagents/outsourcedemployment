@@ -8,7 +8,7 @@ export type TocEntry = { id: string; label: string; level: 2 | 3 };
 function TocLinks({ entries, activeId }: { entries: TocEntry[]; activeId: string }) {
   return <ol className={styles.tocList}>
     {entries.map((entry) => <li className={entry.level === 3 ? styles.tocNested : undefined} key={entry.id}>
-      <a href={`#${entry.id}`} aria-current={activeId === entry.id ? 'location' : undefined}>{entry.label}</a>
+      <a href={`#${entry.id}`} onClick={(event) => { const d = event.currentTarget.closest('details'); if (d) d.removeAttribute('open'); }} aria-current={activeId === entry.id ? 'location' : undefined}>{entry.label}</a>
     </li>)}
   </ol>;
 }
@@ -36,7 +36,7 @@ export function EditorialToc({ entries, mobile = false }: { entries: TocEntry[];
     };
   }, [entries]);
 
-  if (mobile) return <details className={styles.mobileToc} open>
+  if (mobile) return <details className={styles.mobileToc}>
     <summary>Table of contents</summary>
     <nav aria-label="Article table of contents"><TocLinks entries={entries} activeId={activeId} /></nav>
   </details>;

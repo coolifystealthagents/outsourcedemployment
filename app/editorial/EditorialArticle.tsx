@@ -83,6 +83,7 @@ export function EditorialArticle(props: EditorialArticleProps) {
             <p className={styles.kicker}>{typeLabel}</p>
             <h1>{titleText}</h1>
             <p className={styles.dek}>{excerptText}</p>
+            {publishedDate && <p className={styles.publishLine}>Published <time dateTime={publishedDate}>{dateLabel(publishedDate)}</time></p>}
             <dl className={styles.byline} aria-label="Article details">
               <div><dt>Publisher</dt><dd>{siteName}</dd></div>
               {publishedDate && <div><dt>Published</dt><dd><time dateTime={publishedDate}>{dateLabel(publishedDate)}</time></dd></div>}
@@ -91,7 +92,7 @@ export function EditorialArticle(props: EditorialArticleProps) {
             </dl>
           </div>
           <figure className={styles.heroMedia}>
-            <img src={hero} alt={`${typeLabel} illustration for ${titleText}`} width="1200" height="675" />
+            <img src={hero} alt={`${typeLabel} illustration for ${titleText}`} width="1200" height="630" />
           </figure>
         </header>
 
@@ -103,8 +104,8 @@ export function EditorialArticle(props: EditorialArticleProps) {
               <ul>{takeaways.map((item, index) => <li key={`${index}-${item.slice(0, 20)}`}>{sanitizeVisibleProse(item)}</li>)}</ul>
             </aside>
 
-            {sections.map((section) => <section id={section.id} className={styles.articleSection} key={section.id}>
-              <h2>{section.title}</h2>
+            {sections.map((section) => <section className={styles.articleSection} key={section.id}>
+              <h2 id={section.id}>{section.title}</h2>
               {section.paragraphs.map((paragraph, index) => <div key={`${section.id}-${index}`}>
                 {section.subheading?.at === index && <h3 id={section.subheading.id}>{section.subheading.title}</h3>}
                 <p>{sanitizeVisibleProse(paragraph)}</p>
