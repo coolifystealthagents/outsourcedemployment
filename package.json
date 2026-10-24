@@ -9,7 +9,8 @@
     "lint": "tsc --noEmit",
     "validate:research-schema-identity": "node tests/research-schema-identity.test.mjs",
     "validate:article-organization-identity": "node tests/article-organization-identity.test.mjs",
-    "validate:employee-data-audit-handoff": "node tests/employee-data-audit-handoff.test.mjs"
+    "validate:employee-data-audit-handoff": "node tests/employee-data-audit-handoff.test.mjs",
+    "validate:onboarding-document-handoff": "node tests/onboarding-document-handoff.test.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.6",

@@ -157,14 +157,16 @@ export const october22ResearchBatch = [
     ],
   },
   {
-    slug: 'onboarding-document-completeness-sampling', title: 'Sampling onboarding files for completeness', excerpt: 'A field-level check of onboarding documents before the first pay cycle, with missingness and expiry categories.', publishedDate: '2026-10-22', modifiedDate: '2026-10-22', image: '/oct22/onboarding-document-completeness-sampling.png', sources: researchSources,
+    slug: 'onboarding-document-completeness-sampling', title: 'Sampling onboarding files for completeness', excerpt: 'A field-level check of onboarding documents before the first pay cycle, with missingness and expiry categories.', publishedDate: '2026-10-22', modifiedDate: '2026-10-24', image: '/oct22/onboarding-document-completeness-sampling.png', sources: researchSources,
     body: [
       '## Define the standard', 'List the documents required before the first pay cycle and before system access. Record the acceptable format and the verification step for each.',
       '## Sample the cohort', 'Use all new hires in a defined period if the cohort is small, or a stratified sample by role. Include at least one file with an expired document and one with a name mismatch.',
       '## Score and classify', 'Score each file as complete, missing, expiring, or unverified. Record the reason and the owner. Do not treat a document that arrived but fails verification as complete.',
       '## Report', 'Report the cohort, the file count, the field completeness, and the exceptions. Add the time from start date to complete file where the data supports it.',
       '## Limitations', 'The method measures file completeness, not the legality of the arrangement. It also depends on the approved system being the only source of truth.',
+      'A Philippines-based coordinator can prepare the list and route gaps. The HR owner decides employment terms, policy answers, access, and start approval.',
     ],
+    handoff: { href: '/services/new-hire-onboarding', label: 'Plan new-hire onboarding', body: 'Use this service to track approved documents, account requests, and first-week blockers in one clear list. Your HR owner still decides employment terms, policy answers, access, and start approval.' },
   },
   {
     slug: 'leave-request-latency-analysis', title: 'Analyzing leave request latency and coverage risk', excerpt: 'A time-based method for the gap between request, approval, and coverage confirmation.', publishedDate: '2026-10-22', modifiedDate: '2026-10-22', image: '/oct22/leave-request-latency-analysis.png', sources: researchSources,
