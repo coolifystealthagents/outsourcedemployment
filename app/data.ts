@@ -141,19 +141,21 @@ import { october22BlogBatch, october22ResearchBatch } from './oct22-batch';
 import { october25BlogBatch, october25ResearchBatch } from './oct25-batch';
 import { october26BlogBatch } from './oct26-batch';
 import { october27BlogBatch } from './oct27-batch';
+import { november05BlogBatch } from './nov05-batch';
 import { november04BlogBatch } from './nov04-batch';
 import { november03BlogBatch } from './nov03-batch';
 import { november02BlogBatch } from './nov02-batch';
 import { october28BlogBatch } from './oct28-batch';
 import { october26ResearchBatch } from './oct26-research';
 import { october27ResearchBatch } from './oct27-research';
+import { november05ResearchBatch } from './nov05-research';
 import { november04ResearchBatch } from './nov04-research';
 import { november03ResearchBatch } from './nov03-research';
 import { november02ResearchBatch } from './nov02-research';
 import { october28ResearchBatch } from './oct28-research';
 
 export const allBlogPosts = [
-  ...november04BlogBatch,...november03BlogBatch,...november02BlogBatch,...october28BlogBatch,...october27BlogBatch,...october26BlogBatch,...october25BlogBatch,...october22BlogBatch,...october13BlogBatch, ...october12BlogBatch, ...october8BlogBatch, ...october5BlogDrafts.map(x=>({...x,publishedDate:'2026-10-06' as const})), ...october5BlogDraftsPart2.map(x=>({...x,publishedDate:'2026-10-06' as const})), ...october5BlogDraftsPart3.map(x=>({...x,publishedDate:'2026-10-06' as const})), ...october2BlogBatch, ...september28BlogBatch, ...september25BlogBatch, ...september24BlogBatch, ...september23BlogBatch, ...september22BlogBatch, ...september18BlogBatch, ...september14BlogBatch, ...september10BlogBatch, ...september9BlogBatch, ...september8BlogBatch, ...september7BlogBatch, ...september4BlogBatch, ...september3BlogBatch, ...september2BlogBatch, ...september1BlogBatch, ...august31BlogBatch, ...august23BlogBatch, ...august21BlogBatch, ...august20BlogRepairBatch, ...august19Repair3Batch, ...august18Repair5Batch, ...august17BlogBatch, ...august14BlogBatch, ...august13BlogBatch, ...august11BlogBatch, ...dailyBlogBatch.slice(22), ...blogPosts, ...dailyBlogBatch.slice(0, 22)];
+  ...november05BlogBatch,...november04BlogBatch,...november03BlogBatch,...november02BlogBatch,...october28BlogBatch,...october27BlogBatch,...october26BlogBatch,...october25BlogBatch,...october22BlogBatch,...october13BlogBatch, ...october12BlogBatch, ...october8BlogBatch, ...october5BlogDrafts.map(x=>({...x,publishedDate:'2026-10-06' as const})), ...october5BlogDraftsPart2.map(x=>({...x,publishedDate:'2026-10-06' as const})), ...october5BlogDraftsPart3.map(x=>({...x,publishedDate:'2026-10-06' as const})), ...october2BlogBatch, ...september28BlogBatch, ...september25BlogBatch, ...september24BlogBatch, ...september23BlogBatch, ...september22BlogBatch, ...september18BlogBatch, ...september14BlogBatch, ...september10BlogBatch, ...september9BlogBatch, ...september8BlogBatch, ...september7BlogBatch, ...september4BlogBatch, ...september3BlogBatch, ...september2BlogBatch, ...september1BlogBatch, ...august31BlogBatch, ...august23BlogBatch, ...august21BlogBatch, ...august20BlogRepairBatch, ...august19Repair3Batch, ...august18Repair5Batch, ...august17BlogBatch, ...august14BlogBatch, ...august13BlogBatch, ...august11BlogBatch, ...dailyBlogBatch.slice(22), ...blogPosts, ...dailyBlogBatch.slice(0, 22)];
 
 export type GuideBasics = {
   overview: readonly string[];
@@ -700,4 +702,4 @@ const august10ResearchSlugs = new Set([
 ]);
 
 export const researchPosts = [
-  ...november04ResearchBatch,...november03ResearchBatch,...november02ResearchBatch,...october28ResearchBatch,...october27ResearchBatch,...october26ResearchBatch,...october25ResearchBatch,...october22ResearchBatch,...october13ResearchBatch, ...october12ResearchBatch, ...october8ResearchBatch, ...october2ResearchBatch, ...september28ResearchBatch, ...september25ResearchBatch, ...september24ResearchBatch, ...september23ResearchBatch, ...september22ResearchBatch, ...september18ResearchBatch, ...september14ResearchBatch, ...september10ResearchBatch, ...september9ResearchBatch, ...september8ResearchBatch, ...september7ResearchBatch, ...september4ResearchBatch, ...september3ResearchBatch, ...september2ResearchBatch, ...september1ResearchBatch, ...august31ResearchBatch, ...august23ResearchBatch, ...august21ResearchBatch, ...august20ResearchBatch, ...august19ResearchBatch.slice(0,10), ...august17ResearchBatch, ...august14ResearchBatch, ...august13ResearchBatch, ...researchPostsRaw.map(post => august10ResearchSlugs.has(post.slug) ? {...post, publishedDate: '2026-08-10'} : post)];
+  ...november05ResearchBatch,...november04ResearchBatch,...november03ResearchBatch,...november02ResearchBatch,...october28ResearchBatch,...october27ResearchBatch,...october26ResearchBatch,...october25ResearchBatch,...october22ResearchBatch,...october13ResearchBatch, ...october12ResearchBatch, ...october8ResearchBatch, ...october2ResearchBatch, ...september28ResearchBatch, ...september25ResearchBatch, ...september24ResearchBatch, ...september23ResearchBatch, ...september22ResearchBatch, ...september18ResearchBatch, ...september14ResearchBatch, ...september10ResearchBatch, ...september9ResearchBatch, ...september8ResearchBatch, ...september7ResearchBatch, ...september4ResearchBatch, ...september3ResearchBatch, ...september2ResearchBatch, ...september1ResearchBatch, ...august31ResearchBatch, ...august23ResearchBatch, ...august21ResearchBatch, ...august20ResearchBatch, ...august19ResearchBatch.slice(0,10), ...august17ResearchBatch, ...august14ResearchBatch, ...august13ResearchBatch, ...researchPostsRaw.map(post => august10ResearchSlugs.has(post.slug) ? {...post, publishedDate: '2026-08-10'} : post)];

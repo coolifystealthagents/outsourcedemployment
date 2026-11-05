@@ -86,8 +86,6 @@ export function EditorialArticle(props: EditorialArticleProps) {
             {publishedDate && <p className={styles.publishLine}>Published <time dateTime={publishedDate}>{dateLabel(publishedDate)}</time></p>}
             <dl className={styles.byline} aria-label="Article details">
               <div><dt>Publisher</dt><dd>{siteName}</dd></div>
-              {publishedDate && <div><dt>Published</dt><dd><time dateTime={publishedDate}>{dateLabel(publishedDate)}</time></dd></div>}
-              {modifiedDate && modifiedDate !== publishedDate && <div><dt>Updated</dt><dd><time dateTime={modifiedDate}>{dateLabel(modifiedDate)}</time></dd></div>}
               <div><dt>Reading time</dt><dd>{readingMinutes} min read</dd></div>
             </dl>
           </div>

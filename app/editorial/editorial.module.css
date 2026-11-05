@@ -11,7 +11,7 @@
 .byline dt{color:#65717a;font-size:.7rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
 .byline dd{margin:0;font-size:.9rem;font-weight:700}
 .heroMedia{min-width:0;margin:0;overflow:hidden;border:1px solid #14283d;border-radius:2px;background:#e7ecfc;box-shadow:14px 14px 0 #d8ed72}
-.heroMedia img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover}
+.heroMedia img{width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover}
 .layout{width:min(1180px,calc(100% - 48px));margin-inline:auto;padding:clamp(3rem,7vw,6.5rem) 0;display:grid;grid-template-columns:minmax(0,72ch) minmax(260px,330px);gap:clamp(2.5rem,7vw,6rem);align-items:start;justify-content:center}
 .content{min-width:0;max-width:72ch;font-size:1.06rem;line-height:1.8}
 .takeaways{margin:0 0 4rem;padding:1.65rem 1.8rem;border-left:5px solid #2458e6;background:#e7ecfc}
@@ -19,8 +19,8 @@
 .takeaways h2{margin:0 0 1rem;font-size:1.7rem}
 .takeaways ul{margin:0;padding-left:1.35rem}
 .takeaways li+li{margin-top:.7rem}
-.articleSection{margin:0 0 4.75rem;scroll-margin-top:112px}
-.articleSection h2,.sources h2{margin:0 0 1.35rem;font-size:clamp(2rem,4vw,2.75rem);line-height:1.08}
+.articleSection{margin:0 0 3.4rem;scroll-margin-top:112px}
+.articleSection h2,.sources h2{margin:1.8em 0 .65em;font-size:clamp(2rem,4vw,2.75rem);line-height:1.08}
 .articleSection h3{margin:3.2rem 0 1rem;font-family:'Newsreader',Georgia,serif;font-size:1.65rem;line-height:1.2;scroll-margin-top:112px}
 .articleSection p{margin:0 0 1.45rem;color:#35495a}
 .articleSection ul,.articleSection ol{margin:1rem 0 1.75rem;padding-left:1.4rem}
@@ -102,13 +102,13 @@
 }
 .publishLine{margin:.4rem 0 0;font-size:.9rem;font-weight:700;color:#183eb0}
 @media (max-width:940px){
-  .mobileToc{display:block;position:fixed;top:86px;left:12px;right:12px;z-index:60;margin:0;padding:0;background:#fff;border:1px solid #14283d;box-shadow:0 12px 26px rgba(10,25,45,.18)}
+  .mobileToc{display:block;position:sticky;top:86px;z-index:60;margin:0 0 2rem;padding:0;background:#fff;border:1px solid #14283d;box-shadow:0 8px 20px rgba(10,25,45,.12)}
   .mobileToc:not([open]){height:52px;overflow:hidden}
   .mobileToc summary{display:flex;align-items:center;justify-content:space-between;min-height:52px;padding:0 18px;list-style:none;cursor:pointer;font-weight:800}
   .mobileToc summary::-webkit-details-marker{display:none}
   .mobileToc summary::after{content:"+";font-size:20px;line-height:1}
   .mobileToc[open] summary::after{content:"-"}
   .mobileToc:not([open]) nav{display:none}
-  .mobileToc[open] nav{position:absolute;top:100%;left:-1px;right:-1px;max-height:42vh;overflow:auto;padding:10px 16px 14px;background:#fff;border:1px solid #14283d}
+  .mobileToc[open] nav{max-height:42vh;overflow:auto;padding:10px 16px 14px;background:#fff;border-top:1px solid #d8d0c1}
   .articleSection :is(h2,h3){scroll-margin-top:150px}
 }
