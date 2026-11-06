@@ -109,6 +109,8 @@
   .mobileToc summary::after{content:"+";font-size:20px;line-height:1}
   .mobileToc[open] summary::after{content:"-"}
   .mobileToc:not([open]) nav{display:none}
-  .mobileToc[open] nav{max-height:42vh;overflow:auto;padding:10px 16px 14px;background:#fff;border-top:1px solid #d8d0c1}
+  .mobileToc[open]{position:relative;top:auto;border:0;background:transparent;box-shadow:none}
+  .mobileToc[open] summary{position:sticky;top:86px;z-index:61;background:#fff;border:1px solid #14283d;box-shadow:0 8px 20px rgba(10,25,45,.12)}
+  .mobileToc[open] nav{max-height:42vh;overflow:auto;margin-top:.5rem;padding:10px 16px 14px;background:#fff;border:1px solid #14283d}
   .articleSection :is(h2,h3){scroll-margin-top:150px}
 }
