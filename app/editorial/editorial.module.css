@@ -75,7 +75,7 @@
 .indexImage img{width:100%;height:100%;object-fit:cover}
 .indexBody{display:flex;flex:1;flex-direction:column;padding:1.35rem}
 .indexMeta{display:flex;justify-content:space-between;gap:.75rem;color:#65717a;font-size:.74rem;font-weight:700}
-.indexBody h2{margin:1.2rem 0 .7rem;font-family:'Newsreader',Georgia,serif;font-size:1.65rem;line-height:1.08}
+.indexBody h2{margin:1.2rem 0 .7rem;font-family:'Newsreader',Georgia,serif;font-size:1.375rem;line-height:1.3}
 .indexBody p{color:#5f6a73;line-height:1.6}
 .indexRead{margin-top:auto;padding-top:1rem;color:#183eb0;font-weight:800;font-size:.84rem}
 .paginationWrap{width:min(1180px,calc(100% - 48px));margin:2.5rem auto 0}
