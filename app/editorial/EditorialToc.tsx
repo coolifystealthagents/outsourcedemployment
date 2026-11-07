@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import styles from './editorial.module.css';
 
 export type TocEntry = { id: string; label: string; level: 2 | 3 };
@@ -15,6 +15,17 @@ function TocLinks({ entries, activeId }: { entries: TocEntry[]; activeId: string
 
 export function EditorialToc({ entries, mobile = false }: { entries: TocEntry[]; mobile?: boolean }) {
   const [activeId, setActiveId] = useState(entries[0]?.id ?? '');
+  const [mobileEl, setMobileEl] = useState<HTMLDetailsElement | null>(null);
+  const mobileOpenedAt = useRef(0);
+
+  useEffect(() => {
+    if (!mobileEl) return;
+    const collapseOnScroll = () => {
+      if (mobileEl.open && window.scrollY > mobileOpenedAt.current + 100) mobileEl.open = false;
+    };
+    window.addEventListener('scroll', collapseOnScroll, { passive: true });
+    return () => window.removeEventListener('scroll', collapseOnScroll);
+  }, [mobileEl]);
 
   useEffect(() => {
     const headings = entries.map(({ id }) => document.getElementById(id)).filter((node): node is HTMLElement => Boolean(node));
@@ -36,8 +47,8 @@ export function EditorialToc({ entries, mobile = false }: { entries: TocEntry[];
     };
   }, [entries]);
 
-  if (mobile) return <details className={styles.mobileToc}>
-    <summary>Table of contents</summary>
+  if (mobile) return <details ref={setMobileEl} className={styles.mobileToc}>
+    <summary onClick={() => { mobileOpenedAt.current = window.scrollY; }}>Table of contents</summary>
     <nav aria-label="Article table of contents"><TocLinks entries={entries} activeId={activeId} /></nav>
   </details>;
 
