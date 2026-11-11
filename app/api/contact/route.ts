@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
   const contentType = request.headers.get('content-type') || '';
   const length = Number(request.headers.get('content-length') || 0);
   const origin = request.headers.get('origin');
-  if ((origin && origin !== request.nextUrl.origin) || !Number.isFinite(length) || length > MAX_BODY_BYTES || (!contentType.includes('application/x-www-form-urlencoded') && !contentType.includes('multipart/form-data'))) return errorResponse(request, 400);
+  if ((origin && origin !== 'https://outsourcedemployment.com' && origin !== 'https://www.outsourcedemployment.com') || !Number.isFinite(length) || length > MAX_BODY_BYTES || (!contentType.includes('application/x-www-form-urlencoded') && !contentType.includes('multipart/form-data'))) return errorResponse(request, 400);
   if (limited(`ip:${ip(request)}`, 10)) return errorResponse(request, 429);
   let form: FormData;
   try { form = await request.formData(); } catch { return errorResponse(request, 400); }
@@ -66,5 +66,5 @@ export async function POST(request: NextRequest) {
   } catch { return errorResponse(request, 502); }
   void sendLeadFallbackToMattermost({ name, email, phone, business, message, companySize, positions, referral, pageUrl, userAgent: request.headers.get('user-agent') || '' });
   if (request.headers.get('accept')?.includes('application/json')) return NextResponse.json({ ok: true });
-  return NextResponse.redirect(new URL('/thank-you?lead=accepted', request.url), 303);
+  return NextResponse.redirect(new URL('/thank-you?lead=accepted', 'https://outsourcedemployment.com'), 303);
 }

@@ -64,7 +64,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
       const response = await fetch(endpoint, request);
       const receipt = await response.json().catch(() => null) as { ok?: boolean } | null;
       if (!response.ok || receipt?.ok !== true) throw new Error("Lead endpoint rejected the request");
-      try { (window as TrackerWindow).acrTracker?.trackLead?.(payload); } catch {}
+      try { /* ACR captures the native submit event once. */ } catch {}
       window.location.assign("/thank-you");
     } catch {
       setError("We could not submit your request. Please try again.");
@@ -75,7 +75,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
   return (
     <div className="sa-form-card">
       <h2>Tell us about the workforce support you need</h2>
-      <form onSubmit={submit} action={endpoint} method="post" id="contactPageForm">
+      <form data-acr-managed="react" onSubmit={submit} action={endpoint} method="post" id="contactPageForm">
         <input className="sa-hp" name="website_url" tabIndex={-1} autoComplete="off" aria-hidden="true" />
         <div className="sa-grid">
           <label>First Name *<input name="firstName" required autoComplete="given-name" /></label>
