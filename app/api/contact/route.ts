@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { sendLeadFallbackToMattermost } from '../../lib/lead-fallback-mattermost';
 
 const MAX_BODY_BYTES = 64_000;
 const MAX_FIELD_LENGTH = 4_000;
@@ -55,16 +54,7 @@ export async function POST(request: NextRequest) {
   const messageText = text(form, 'message');
   if (!phone || !business || !companySize || !positions || !referral || !messageText || (referral === 'Other' && !referralSpecify)) return errorResponse(request, 422);
   const message = [messageText, `Positions: ${positions}`, `Company size: ${companySize}`, text(form, 'website') ? `Website: ${text(form, 'website')}` : '', referralSpecify ? `Referral detail: ${referralSpecify}` : ''].filter(Boolean).join('\n');
-  const payload = { full_name: name, email, phone, company_name: business, message, how_they_heard: referral, client_event_id: crypto.randomUUID(), attribution: { source_page: pageUrl, landing_page: pageUrl, referrer: request.headers.get('referer') || '', page_journey: ['Contact form'] } };
-  const token = process.env.LEAD_AUTH_TOKEN;
-  const endpoint = process.env.LEAD_INGEST_URL || 'https://leads.stealthagents.com/api/leads';
-  if (!token) return errorResponse(request, 503);
-  try {
-    const upstream = await fetch(endpoint, { method: 'POST', headers: { 'content-type': 'application/json', 'x-lead-token': token }, body: JSON.stringify(payload), cache: 'no-store', signal: AbortSignal.timeout(12_000) });
-    const result = await upstream.json().catch(() => null) as { ok?: boolean } | null;
-    if (!upstream.ok || result?.ok !== true) return errorResponse(request, 502);
-  } catch { return errorResponse(request, 502); }
-  void sendLeadFallbackToMattermost({ name, email, phone, business, message, companySize, positions, referral, pageUrl, userAgent: request.headers.get('user-agent') || '' });
+  // Validation only. The form emits one complete ACR lead event after this succeeds.
   if (request.headers.get('accept')?.includes('application/json')) return NextResponse.json({ ok: true });
   return NextResponse.redirect(new URL('/thank-you?lead=accepted', 'https://outsourcedemployment.com'), 303);
 }

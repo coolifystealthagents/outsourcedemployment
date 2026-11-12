@@ -1,0 +1,55 @@
+{
+  "theme": "employment",
+  "shortBrand": "Outsourced Employment",
+  "ctaText": "Build a dedicated Philippines-based support role around the work your team needs to move. From candidate coordination to employee records, we help make the everyday details dependable.",
+  "blog": {
+    "title": "Practical ideas for a stronger working team.",
+    "intro": "Explore practical guides for Outsourced Employment workflows, role planning, and day-to-day coordination.",
+    "image": "/refresh-20261112/blog.webp",
+    "alt": "Three colleagues engaged in teamwork around a laptop in a modern office setting.",
+    "caption": "People. With purpose.",
+    "ribbon": "More capacity for the people behind your business",
+    "search": "Search by topic or workflow",
+    "guideTitle": "Turn a useful idea into a practical next step.",
+    "guides": [
+      {
+        "title": "Start with your context",
+        "text": "Compare the workflow in the article with the systems, responsibilities, and review process your team uses."
+      },
+      {
+        "title": "Read the source",
+        "text": "Research links provide the original context. Check dates, scope, and applicability before relying on a conclusion."
+      },
+      {
+        "title": "Make the handoff specific",
+        "text": "Use your notes to define an input, an output, and the person who will review the work."
+      }
+    ],
+    "cta": "Your next great working relationship starts here."
+  },
+  "research": {
+    "title": "A closer look at how good teams work.",
+    "intro": "Source-led briefs to help you examine operating practices, understand boundaries, and ask more useful questions.",
+    "image": "/refresh-20261112/research.webp",
+    "alt": "Confident woman interviewing candidate in a modern office. ...",
+    "caption": "People. With purpose.",
+    "ribbon": "More capacity for the people behind your business",
+    "search": "Search by topic or workflow",
+    "guideTitle": "Turn a useful idea into a practical next step.",
+    "guides": [
+      {
+        "title": "Start with your context",
+        "text": "Compare the workflow in the article with the systems, responsibilities, and review process your team uses."
+      },
+      {
+        "title": "Read the source",
+        "text": "Research links provide the original context. Check dates, scope, and applicability before relying on a conclusion."
+      },
+      {
+        "title": "Make the handoff specific",
+        "text": "Use your notes to define an input, an output, and the person who will review the work."
+      }
+    ],
+    "cta": "Your next great working relationship starts here."
+  }
+}

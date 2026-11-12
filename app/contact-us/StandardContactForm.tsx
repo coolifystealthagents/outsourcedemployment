@@ -1,6 +1,8 @@
 "use client";
+import {submitAcrLead} from '../acr-submit';
 
-import { useEffect, useState, type FormEvent } from "react";
+
+import { useEffect, useRef, useState, type FormEvent } from "react";
 
 type Props = { endpoint?: string; encoding?: "json" | "form" };
 type TrackerWindow = Window & { acrTracker?: { trackLead?: (payload: Record<string, unknown>) => void } };
@@ -16,6 +18,7 @@ const countryCodes = [
 ];
 
 export default function StandardContactForm({ endpoint = "/api/submit-lead", encoding = "json" }: Props) {
+  const submissionLock=useRef(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
   const [countryCode, setCountryCode] = useState("+1");
@@ -55,7 +58,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
       referralSpecify: String(data.get("referralSpecify") || ""), message: String(data.get("message") || ""),
       source: "contact-form", formId: "contactPageForm",
     };
-    setSubmitting(true);
+    if(submissionLock.current)return;submissionLock.current=true;setSubmitting(true);
     setError("");
     try {
       const request: RequestInit = encoding === "form"
@@ -64,18 +67,18 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
       const response = await fetch(endpoint, request);
       const receipt = await response.json().catch(() => null) as { ok?: boolean } | null;
       if (!response.ok || receipt?.ok !== true) throw new Error("Lead endpoint rejected the request");
-      try { /* ACR captures the native submit event once. */ } catch {}
+      submitAcrLead(payload,'contact-form');
       window.location.assign("/thank-you");
     } catch {
       setError("We could not submit your request. Please try again.");
-      setSubmitting(false);
+      submissionLock.current=false;setSubmitting(false);
     }
   }
 
   return (
     <div className="sa-form-card">
       <h2>Tell us about the workforce support you need</h2>
-      <form data-acr-managed="react" onSubmit={submit} action={endpoint} method="post" id="contactPageForm">
+      <form data-acr-lead-mode="manual" data-acr-managed="react" onSubmit={submit} action={endpoint} method="post" id="contactPageForm">
         <input className="sa-hp" name="website_url" tabIndex={-1} autoComplete="off" aria-hidden="true" />
         <div className="sa-grid">
           <label>First Name *<input name="firstName" required autoComplete="given-name" /></label>
