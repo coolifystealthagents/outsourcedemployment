@@ -25,19 +25,19 @@ export const november23ResearchBatch = [
   "body": [
    "## Question and scope",
    "This review asks how often the record includes the element named in the title. The unit is one record for one employee. The evidence is the log, the document, and the review note. The result describes one employer and one period.",
-   "Include records created during the review window for the process in scope. Exclude records that cannot be matched to an employee. Record the source and the date. If the employer changes its procedure, split the sample.",
+   "Use records opened in the review window for the employment step under study. Leave out records that cannot be tied to an employee. Note the source and the date. If the employer changes its procedure, split the period.",
    "## Definitions and evidence",
-   "Define the element before reviewing any record. A value without a date, an owner, or a source is not complete. Record a missing element separately from an element that is present but weak. The entry should be dated and signed by the reviewer.",
-   "Measure the number of records, the share with the element, and the share with a dated source. Report the counts by team and by month. The reviewer should keep the raw list. The entry should be dated and signed by the reviewer.",
+   "Fix the field definition before opening the first file. A value lacking a date, a reviewer, or a source is incomplete. Mark a missing field apart from one that is present but vague. Apply the same rule to every employee case.",
+   "Count the records, the share carrying the field, and the share with a dated source. Show totals by team and by month. Keep the raw list beside the report. A rate without its base is easy to misread.",
    "## Sampling and collection",
-   "Draw the sample from the system export, not from the records the manager remembers. Record the export date and the filter. Include more than one role and one month. The entry should be dated and signed by the reviewer.",
-   "Collect the record and the supporting note for each case. If one is missing, record that gap as a finding. The study should not rely on the manager's memory. The entry should be dated and signed by the reviewer.",
+   "Take the cases from the HR system export, not the files a manager recalls. Note the export date and the filter. Include more than one role and one start month. Keep the selection note with the result.",
+   "Gather the record and the note behind it for each case. When one is absent, treat that gap as a finding. Do not rebuild the case from the manager's recollection. Keep the original file with the review.",
    "## Findings and reporting",
-   "Present the distribution before naming a cause. A cluster with one manager may point to a template, while a cluster in one month may point to a busy period. Read a few records behind the largest group. The entry should be dated and signed by the reviewer.",
-   "Report the exceptions and one action with an owner. A report without an action is a description, not a control. The entry should be dated and signed by the reviewer. The source note should stay with the record.",
+   "Show the counts by manager and month before offering an explanation. A cluster under one manager may mean the template was never shared. Open a few source records behind the largest group. Record what the files actually show.",
+   "List the exceptions and choose one action with a named owner. A report that ends without an owner is only a description. Record the date the action starts. Keep the reading and the decision in one note.",
    "## Limits and next action",
-   "The review measures the record, not the employee experience. A complete entry can still hide a problem, and a missing one does not prove one. The sample is local and should not be generalized. The entry should be dated and signed by the reviewer.",
-   "Choose one repair, name the owner, and test it on the next set of records. Keep the definitions stable so the next review can compare like with like. The entry should be dated and signed by the reviewer. The source note should stay with the record."
+   "The result describes the file, not the employee's experience or the fairness of the decision. A complete entry can still hide a problem, and a missing one does not prove one. Treat the sample as local.",
+   "Pick one correction, name the owner, and test it on the next set of records. Keep the definitions stable so the next review can compare like with like. Record the result in the same file."
   ]
  },
  {
@@ -66,19 +66,19 @@ export const november23ResearchBatch = [
   "body": [
    "## Question and scope",
    "This review asks how often the record includes the element named in the title. The unit is one record for one employee. The evidence is the log, the document, and the review note. The result describes one employer and one period.",
-   "Include records created during the review window for the process in scope. Exclude records that cannot be matched to an employee. Record the source and the date. If the employer changes its procedure, split the sample.",
+   "Use records opened in the review window for the employment step under study. Leave out records that cannot be tied to an employee. Note the source and the date. If the employer changes its procedure, split the period.",
    "## Definitions and evidence",
-   "Define the element before reviewing any record. A value without a date, an owner, or a source is not complete. Record a missing element separately from an element that is present but weak. The entry should be dated and signed by the reviewer.",
-   "Measure the number of records, the share with the element, and the share with a dated source. Report the counts by team and by month. The reviewer should keep the raw list. The entry should be dated and signed by the reviewer.",
+   "Fix the field definition before opening the first file. A value lacking a date, a reviewer, or a source is incomplete. Mark a missing field apart from one that is present but vague. Apply the same rule to every employee case.",
+   "Count the records, the share carrying the field, and the share with a dated source. Show totals by team and by month. Keep the raw list beside the report. A rate without its base is easy to misread.",
    "## Sampling and collection",
-   "Draw the sample from the system export, not from the records the manager remembers. Record the export date and the filter. Include more than one role and one month. The entry should be dated and signed by the reviewer.",
-   "Collect the record and the supporting note for each case. If one is missing, record that gap as a finding. The study should not rely on the manager's memory. The entry should be dated and signed by the reviewer.",
+   "Take the cases from the HR system export, not the files a manager recalls. Note the export date and the filter. Include more than one role and one start month. Keep the selection note with the result.",
+   "Gather the record and the note behind it for each case. When one is absent, treat that gap as a finding. Do not rebuild the case from the manager's recollection. Keep the original file with the review.",
    "## Findings and reporting",
-   "Present the distribution before naming a cause. A cluster with one manager may point to a template, while a cluster in one month may point to a busy period. Read a few records behind the largest group. The entry should be dated and signed by the reviewer.",
-   "Report the exceptions and one action with an owner. A report without an action is a description, not a control. The entry should be dated and signed by the reviewer. The source note should stay with the record.",
+   "Show the counts by manager and month before offering an explanation. A cluster under one manager may mean the template was never shared. Open a few source records behind the largest group. Record what the files actually show.",
+   "List the exceptions and choose one action with a named owner. A report that ends without an owner is only a description. Record the date the action starts. Keep the reading and the decision in one note.",
    "## Limits and next action",
-   "The review measures the record, not the employee experience. A complete entry can still hide a problem, and a missing one does not prove one. The sample is local and should not be generalized. The entry should be dated and signed by the reviewer.",
-   "Choose one repair, name the owner, and test it on the next set of records. Keep the definitions stable so the next review can compare like with like. The entry should be dated and signed by the reviewer. The source note should stay with the record."
+   "The result describes the file, not the employee's experience or the fairness of the decision. A complete entry can still hide a problem, and a missing one does not prove one. Treat the sample as local.",
+   "Pick one correction, name the owner, and test it on the next set of records. Keep the definitions stable so the next review can compare like with like. Record the result in the same file."
   ]
  },
  {
@@ -107,19 +107,19 @@ export const november23ResearchBatch = [
   "body": [
    "## Question and scope",
    "This review asks how often the record includes the element named in the title. The unit is one record for one employee. The evidence is the log, the document, and the review note. The result describes one employer and one period.",
-   "Include records created during the review window for the process in scope. Exclude records that cannot be matched to an employee. Record the source and the date. If the employer changes its procedure, split the sample.",
+   "Use records opened in the review window for the employment step under study. Leave out records that cannot be tied to an employee. Note the source and the date. If the employer changes its procedure, split the period.",
    "## Definitions and evidence",
-   "Define the element before reviewing any record. A value without a date, an owner, or a source is not complete. Record a missing element separately from an element that is present but weak. The entry should be dated and signed by the reviewer.",
-   "Measure the number of records, the share with the element, and the share with a dated source. Report the counts by team and by month. The reviewer should keep the raw list. The entry should be dated and signed by the reviewer.",
+   "Fix the field definition before opening the first file. A value lacking a date, a reviewer, or a source is incomplete. Mark a missing field apart from one that is present but vague. Apply the same rule to every employee case.",
+   "Count the records, the share carrying the field, and the share with a dated source. Show totals by team and by month. Keep the raw list beside the report. A rate without its base is easy to misread.",
    "## Sampling and collection",
-   "Draw the sample from the system export, not from the records the manager remembers. Record the export date and the filter. Include more than one role and one month. The entry should be dated and signed by the reviewer.",
-   "Collect the record and the supporting note for each case. If one is missing, record that gap as a finding. The study should not rely on the manager's memory. The entry should be dated and signed by the reviewer.",
+   "Take the cases from the HR system export, not the files a manager recalls. Note the export date and the filter. Include more than one role and one start month. Keep the selection note with the result.",
+   "Gather the record and the note behind it for each case. When one is absent, treat that gap as a finding. Do not rebuild the case from the manager's recollection. Keep the original file with the review.",
    "## Findings and reporting",
-   "Present the distribution before naming a cause. A cluster with one manager may point to a template, while a cluster in one month may point to a busy period. Read a few records behind the largest group. The entry should be dated and signed by the reviewer.",
-   "Report the exceptions and one action with an owner. A report without an action is a description, not a control. The entry should be dated and signed by the reviewer. The source note should stay with the record.",
+   "Show the counts by manager and month before offering an explanation. A cluster under one manager may mean the template was never shared. Open a few source records behind the largest group. Record what the files actually show.",
+   "List the exceptions and choose one action with a named owner. A report that ends without an owner is only a description. Record the date the action starts. Keep the reading and the decision in one note.",
    "## Limits and next action",
-   "The review measures the record, not the employee experience. A complete entry can still hide a problem, and a missing one does not prove one. The sample is local and should not be generalized. The entry should be dated and signed by the reviewer.",
-   "Choose one repair, name the owner, and test it on the next set of records. Keep the definitions stable so the next review can compare like with like. The entry should be dated and signed by the reviewer. The source note should stay with the record."
+   "The result describes the file, not the employee's experience or the fairness of the decision. A complete entry can still hide a problem, and a missing one does not prove one. Treat the sample as local.",
+   "Pick one correction, name the owner, and test it on the next set of records. Keep the definitions stable so the next review can compare like with like. Record the result in the same file."
   ]
  },
  {
@@ -148,19 +148,19 @@ export const november23ResearchBatch = [
   "body": [
    "## Question and scope",
    "This review asks how often the record includes the element named in the title. The unit is one record for one employee. The evidence is the log, the document, and the review note. The result describes one employer and one period.",
-   "Include records created during the review window for the process in scope. Exclude records that cannot be matched to an employee. Record the source and the date. If the employer changes its procedure, split the sample.",
+   "Use records opened in the review window for the employment step under study. Leave out records that cannot be tied to an employee. Note the source and the date. If the employer changes its procedure, split the period.",
    "## Definitions and evidence",
-   "Define the element before reviewing any record. A value without a date, an owner, or a source is not complete. Record a missing element separately from an element that is present but weak. The entry should be dated and signed by the reviewer.",
-   "Measure the number of records, the share with the element, and the share with a dated source. Report the counts by team and by month. The reviewer should keep the raw list. The entry should be dated and signed by the reviewer.",
+   "Fix the field definition before opening the first file. A value lacking a date, a reviewer, or a source is incomplete. Mark a missing field apart from one that is present but vague. Apply the same rule to every employee case.",
+   "Count the records, the share carrying the field, and the share with a dated source. Show totals by team and by month. Keep the raw list beside the report. A rate without its base is easy to misread.",
    "## Sampling and collection",
-   "Draw the sample from the system export, not from the records the manager remembers. Record the export date and the filter. Include more than one role and one month. The entry should be dated and signed by the reviewer.",
-   "Collect the record and the supporting note for each case. If one is missing, record that gap as a finding. The study should not rely on the manager's memory. The entry should be dated and signed by the reviewer.",
+   "Take the cases from the HR system export, not the files a manager recalls. Note the export date and the filter. Include more than one role and one start month. Keep the selection note with the result.",
+   "Gather the record and the note behind it for each case. When one is absent, treat that gap as a finding. Do not rebuild the case from the manager's recollection. Keep the original file with the review.",
    "## Findings and reporting",
-   "Present the distribution before naming a cause. A cluster with one manager may point to a template, while a cluster in one month may point to a busy period. Read a few records behind the largest group. The entry should be dated and signed by the reviewer.",
-   "Report the exceptions and one action with an owner. A report without an action is a description, not a control. The entry should be dated and signed by the reviewer. The source note should stay with the record.",
+   "Show the counts by manager and month before offering an explanation. A cluster under one manager may mean the template was never shared. Open a few source records behind the largest group. Record what the files actually show.",
+   "List the exceptions and choose one action with a named owner. A report that ends without an owner is only a description. Record the date the action starts. Keep the reading and the decision in one note.",
    "## Limits and next action",
-   "The review measures the record, not the employee experience. A complete entry can still hide a problem, and a missing one does not prove one. The sample is local and should not be generalized. The entry should be dated and signed by the reviewer.",
-   "Choose one repair, name the owner, and test it on the next set of records. Keep the definitions stable so the next review can compare like with like. The entry should be dated and signed by the reviewer. The source note should stay with the record."
+   "The result describes the file, not the employee's experience or the fairness of the decision. A complete entry can still hide a problem, and a missing one does not prove one. Treat the sample as local.",
+   "Pick one correction, name the owner, and test it on the next set of records. Keep the definitions stable so the next review can compare like with like. Record the result in the same file."
   ]
  },
  {
@@ -189,19 +189,19 @@ export const november23ResearchBatch = [
   "body": [
    "## Question and scope",
    "This review asks how often the record includes the element named in the title. The unit is one record for one employee. The evidence is the log, the document, and the review note. The result describes one employer and one period.",
-   "Include records created during the review window for the process in scope. Exclude records that cannot be matched to an employee. Record the source and the date. If the employer changes its procedure, split the sample.",
+   "Use records opened in the review window for the employment step under study. Leave out records that cannot be tied to an employee. Note the source and the date. If the employer changes its procedure, split the period.",
    "## Definitions and evidence",
-   "Define the element before reviewing any record. A value without a date, an owner, or a source is not complete. Record a missing element separately from an element that is present but weak. The entry should be dated and signed by the reviewer.",
-   "Measure the number of records, the share with the element, and the share with a dated source. Report the counts by team and by month. The reviewer should keep the raw list. The entry should be dated and signed by the reviewer.",
+   "Fix the field definition before opening the first file. A value lacking a date, a reviewer, or a source is incomplete. Mark a missing field apart from one that is present but vague. Apply the same rule to every employee case.",
+   "Count the records, the share carrying the field, and the share with a dated source. Show totals by team and by month. Keep the raw list beside the report. A rate without its base is easy to misread.",
    "## Sampling and collection",
-   "Draw the sample from the system export, not from the records the manager remembers. Record the export date and the filter. Include more than one role and one month. The entry should be dated and signed by the reviewer.",
-   "Collect the record and the supporting note for each case. If one is missing, record that gap as a finding. The study should not rely on the manager's memory. The entry should be dated and signed by the reviewer.",
+   "Take the cases from the HR system export, not the files a manager recalls. Note the export date and the filter. Include more than one role and one start month. Keep the selection note with the result.",
+   "Gather the record and the note behind it for each case. When one is absent, treat that gap as a finding. Do not rebuild the case from the manager's recollection. Keep the original file with the review.",
    "## Findings and reporting",
-   "Present the distribution before naming a cause. A cluster with one manager may point to a template, while a cluster in one month may point to a busy period. Read a few records behind the largest group. The entry should be dated and signed by the reviewer.",
-   "Report the exceptions and one action with an owner. A report without an action is a description, not a control. The entry should be dated and signed by the reviewer. The source note should stay with the record.",
+   "Show the counts by manager and month before offering an explanation. A cluster under one manager may mean the template was never shared. Open a few source records behind the largest group. Record what the files actually show.",
+   "List the exceptions and choose one action with a named owner. A report that ends without an owner is only a description. Record the date the action starts. Keep the reading and the decision in one note.",
    "## Limits and next action",
-   "The review measures the record, not the employee experience. A complete entry can still hide a problem, and a missing one does not prove one. The sample is local and should not be generalized. The entry should be dated and signed by the reviewer.",
-   "Choose one repair, name the owner, and test it on the next set of records. Keep the definitions stable so the next review can compare like with like. The entry should be dated and signed by the reviewer. The source note should stay with the record."
+   "The result describes the file, not the employee's experience or the fairness of the decision. A complete entry can still hide a problem, and a missing one does not prove one. Treat the sample as local.",
+   "Pick one correction, name the owner, and test it on the next set of records. Keep the definitions stable so the next review can compare like with like. Record the result in the same file."
   ]
  }
 ];
